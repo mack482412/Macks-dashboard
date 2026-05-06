@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Crypto Bot Dashboard</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #111827;
+      color: #f9fafb;
+      padding: 30px;
+    }
+    h1 { color: #22c55e; }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 15px;
+      margin-bottom: 25px;
+    }
+    .card {
+      background: #1f2937;
+      padding: 18px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,.25);
+    }
+    .label {
+      color: #9ca3af;
+      font-size: 14px;
+    }
+    .value {
+      font-size: 26px;
+      font-weight: bold;
+      margin-top: 8px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #1f2937;
+      border-radius: 12px;
+      overflow: hidden;
+    }
+    th, td {
+      padding: 12px;
+      border-bottom: 1px solid #374151;
+      text-align: left;
+    }
+    th {
+      background: #374151;
+    }
+    .win { color: #22c55e; }
+    .loss { color: #ef4444; }
+    .neutral { color: #e5e7eb; }
+    button {
+      background: #22c55e;
+      border: none;
+      padding: 10px 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Crypto Paper Bot Dashboard</h1>
+
+  <button onclick="loadDashboard()">Refresh Dashboard</button>
+
+  <div class="cards">
+    <div class="card">
+      <div class="label">Current Portfolio Value</div>
+      <div class="value" id="portfolioValue">$0.00</div>
+    </div>
+
+    <div class="card">
+      <div class="label">Cash</div>
+      <div class="value" id="cash">$0.00</div>
+    </div>
+
+    <div class="card">
+      <div class="label">Total Trades</div>
+      <div class="value" id="totalTrades">0</div>
+    </div>
+
+    <div class="card">
+      <div class="label">Win Rate</div>
+      <div class="value" id="winRate">0%</div>
+    </div>
+
+    <div class="card">
+      <div class="label">Realized PnL</div>
+      <div class="value" id="realizedPnl">$0.00</div>
+    </div>
+  </div>
+
+  <h2>Open Positions</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Pair</th>
+        <th>Entry Price</th>
+        <th>Quantity</th>
+        <th>Notional</th>
+        <th>AI Confidence</th>
+      </tr>
+    </thead>
+    <tbody id="positionsTable"></tbody>
+  </table>
+
+  <h2>Recent Trades</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Time</th>
+        <th>Pair</th>
+        <th>Action</th>
+        <th>Reason</th>
+        <th>Price</th>
+        <th>Notional</th>
+        <th>PnL</th>
+      </tr>
+    </thead>
+    <tbody id="tradesTable"></tbody>
+  </table>
+
+<script>
+async function loadJSON(file) {
+  const response = await fetch(file + "?cacheBust=" + Date.now());
+  if (!response.ok) throw new Error("Could not load " + file);
+  return await response.json();
+}
+
+function money(value) {
+  if (value === undefined || value === null || isNaN(value)) return "$0.00";
+  return "$" + Number(value).toFixed(2);
+}
+
+function pct(value) {
+  if (value === undefined || value === null || isNaN(value)) return "0%";
+  return Number(value).toFixed(1) + "%";
+}
+
+async function loadDashboard() {
+  try {
+    const portfolio = await loadJSON("paper_portfolio.json");
+    const trades = await loadJSON("trade_log.json");
+
+    const cash = Number(portfolio.cash || 0);
+    const positions = portfolio.positions || {};
+
+    let openPositionValue = 0;
+    Object.values(positions).forEach(pos => {
+      openPositionValue += Number(pos.notional || 0);
+    });
+
+    const portfolioValue = cash + openPositionValue;
+
+    const sells = trades.filter(t => t.action === "SELL");
+    const wins = sells.filter(t => Number(t.pnl || 0) > 0);
+    const realizedPnl = sells.reduce((sum, t) => sum + Number(t.pnl || 0), 0);
+    const winRate = sells.length ? (wins.length / sells.length) * 100 : 0;
+
+    document.getElementById("portfolioValue").textContent = money(portfolioValue);
+    document.getElementById("cash").textContent = money(cash);
+    document.getElementById("totalTrades").textContent = trades.length;
+    document.getElementById("winRate").textContent = pct(winRate);
+
+    const pnlEl = document.getElementById("realizedPnl");
+    pnlEl.textContent = money(realizedPnl);
+    pnlEl.className = realizedPnl >= 0 ? "value win" : "value loss";
+
+    const positionsTable = document.getElementById("positionsTable");
+    positionsTable.innerHTML = "";
+
+    const positionEntries = Object.entries(positions);
+
+    if (positionEntries.length === 0) {
+      positionsTable.innerHTML = `<tr><td colspan="5">No open positions</td></tr>`;
+    } else {
+      positionEntries.forEach(([pair, pos]) => {
+        positionsTable.innerHTML += `
+          <tr>
+            <td>${pair}</td>
+            <td>${money(pos.entry_price)}</td>
+            <td>${Number(pos.quantity || 0).toFixed(8)}</td>
+            <td>${money(pos.notional)}</td>
+            <td>${pos.ai_confidence ?? "-"}</td>
+          </tr>
+        `;
+      });
+    }
+
+    const tradesTable = document.getElementById("tradesTable");
+    tradesTable.innerHTML = "";
+
+    const recentTrades = trades.slice(-25).reverse();
+
+    if (recentTrades.length === 0) {
+      tradesTable.innerHTML = `<tr><td colspan="7">No trades yet</td></tr>`;
+    } else {
+      recentTrades.forEach(trade => {
+        const pnl = trade.pnl;
+        const pnlClass = pnl === undefined ? "neutral" : Number(pnl) >= 0 ? "win" : "loss";
+        const time = trade.time ? trade.time.replace("T", " ").slice(0, 19) : "-";
+
+        tradesTable.innerHTML += `
+          <tr>
+            <td>${time}</td>
+            <td>${trade.pair || "-"}</td>
+            <td>${trade.action || "-"}</td>
+            <td>${trade.reason || "-"}</td>
+            <td>${money(trade.price)}</td>
+            <td>${money(trade.notional)}</td>
+            <td class="${pnlClass}">${pnl === undefined ? "-" : money(pnl)}</td>
+          </tr>
+        `;
+      });
+    }
+
+  } catch (err) {
+    alert("Dashboard could not load JSON files. Make sure dashboard.html is in the same folder as paper_portfolio.json and trade_log.json.");
+    console.error(err);
+  }
+}
+
+loadDashboard();
+</script>
+
+</body>
+</html>
