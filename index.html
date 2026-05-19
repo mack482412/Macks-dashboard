@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mack's Crypto Bot Dashboard</title>
+  <style>
+    body { font-family: Arial; background:#0f172a; color:white; padding:30px; }
+    h1 { color:#22c55e; }
+    .grid { display:grid; grid-template-columns:repeat(5,1fr); gap:20px; }
+    .card { background:#1e293b; padding:20px; border-radius:14px; }
+    .big { font-size:32px; font-weight:bold; }
+    table { width:100%; border-collapse:collapse; margin-top:20px; background:#1e293b; }
+    th, td { padding:12px; border-bottom:1px solid #334155; text-align:left; }
+    th { background:#334155; }
+    .green { color:#22c55e; }
+    .red { color:#ef4444; }
+    button { padding:12px 20px; border:0; border-radius:10px; background:#22c55e; font-weight:bold; cursor:pointer; }
+  </style>
+</head>
+<body>
+  <h1>Crypto Paper Bot Dashboard</h1>
+  <button onclick="loadDashboard()">Refresh Dashboard</button>
+
+  <div class="grid">
+    <div class="card"><div>Portfolio Value</div><div id="value" class="big">$0.00</div></div>
+    <div class="card"><div>Cash</div><div id="cash" class="big">$0.00</div></div>
+    <div class="card"><div>Total Trades</div><div id="trades" class="big">0</div></div>
+    <div class="card"><div>Win Rate</div><div id="winrate" class="big">0%</div></div>
+    <div class="card"><div>Realized PnL</div><div id="pnl" class="big">$0.00</div></div>
+  </div>
+
+  <h2>Open Positions</h2>
+  <table>
+    <thead>
+      <tr><th>Pair</th><th>Entry</th><th>Quantity</th><th>Notional</th><th>AI Confidence</th></tr>
+    </thead>
+    <tbody id="positions"></tbody>
+  </table>
+
+  <h2>Recent Trades</h2>
+  <table>
+    <thead>
+      <tr><th>Time</th><th>Pair</th><th>Action</th><th>Reason</th><th>Price</th><th>Notional</th><th>PnL</th></tr>
+    </thead>
+    <tbody id="tradeRows"></tbody>
+  </table>
+
+<script>
+async function loadDashboard() {
+  const portfolio = await fetch("paper_portfolio.json?cache=" + Date.now()).then(r => r.json());
+  const trades = await fetch("trade_log.json?cache=" + Date.now()).then(r => r.json());
+
+  let cash = portfolio.cash || 0;
+  let positions = portfolio.positions || {};
+  let realizedPnl = trades.filter(t => t.action === "SELL").reduce((sum, t) => sum + (t.pnl || 0), 0);
+  let sells = trades.filter(t => t.action === "SELL");
+  let wins = sells.filter(t => (t.pnl || 0) > 0).length;
+  let winRate = sells.length ? (wins / sells.length * 100) : 0;
+
+  document.getElementById("cash").textContent = "$" + cash.toFixed(2);
+  document.getElementById("value").textContent = "$" + cash.toFixed(2);
+  document.getElementById("trades").textContent = trades.length;
+  document.getElementById("winrate").textContent = winRate.toFixed(1) + "%";
+
+  const pnlEl = document.getElementById("pnl");
+  pnlEl.textContent = "$" + realizedPnl.toFixed(2);
+  pnlEl.className = "big " + (realizedPnl >= 0 ? "green" : "red");
+
+  const posBody = document.getElementById("positions");
+  posBody.innerHTML = "";
+
+  const positionEntries = Object.entries(positions);
+  if (!positionEntries.length) {
+    posBody.innerHTML = "<tr><td colspan='5'>No open positions</td></tr>";
+  } else {
+    positionEntries.forEach(([pair, p]) => {
+      posBody.innerHTML += `
+        <tr>
+          <td>${pair}</td>
+          <td>$${Number(p.entry_price || 0).toFixed(4)}</td>
+          <td>${Number(p.quantity || 0).toFixed(6)}</td>
+          <td>$${Number(p.notional || 0).toFixed(2)}</td>
+          <td>${p.ai_confidence ?? "-"}</td>
+        </tr>`;
+    });
+  }
+
+  const tradeBody = document.getElementById("tradeRows");
+  tradeBody.innerHTML = "";
+
+  trades.slice(-25).reverse().forEach(t => {
+    let pnl = t.pnl ?? "";
+    let pnlClass = pnl === "" ? "" : (pnl >= 0 ? "green" : "red");
+
+    tradeBody.innerHTML += `
+      <tr>
+        <td>${new Date(t.time).toLocaleString()}</td>
+        <td>${t.pair}</td>
+        <td>${t.action}</td>
+        <td>${t.reason || ""}</td>
+        <td>$${Number(t.price || 0).toFixed(4)}</td>
+        <td>$${Number(t.notional || 0).toFixed(2)}</td>
+        <td class="${pnlClass}">${pnl === "" ? "" : "$" + Number(pnl).toFixed(2)}</td>
+      </tr>`;
+  });
+}
+
+loadDashboard();
+setInterval(loadDashboard, 60000);
+</script>
+</body>
+</html>
