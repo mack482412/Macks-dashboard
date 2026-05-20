@@ -57,7 +57,13 @@ async function loadDashboard() {
   let winRate = sells.length ? (wins / sells.length * 100) : 0;
 
   document.getElementById("cash").textContent = "$" + cash.toFixed(2);
-  document.getElementById("value").textContent = "$" + cash.toFixed(2);
+  let openPositionValue = Object.values(positions).reduce((sum, p) => {
+  return sum + Number(p.notional || 0);
+}, 0);
+
+let totalPortfolioValue = cash + openPositionValue;
+
+document.getElementById("value").textContent = "$" + totalPortfolioValue.toFixed(2);
   document.getElementById("trades").textContent = trades.length;
   document.getElementById("winrate").textContent = winRate.toFixed(1) + "%";
 
