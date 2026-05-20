@@ -156,6 +156,15 @@ async function fetchJson(path, fallback) {
 async function loadDashboard() {
 
     const portfolio = await fetchJson("./paper_portfolio.json", {});
+    const positionsForValue = portfolio.positions || {};
+
+const openPositionValue = Object.values(positionsForValue).reduce(
+    (sum, pos) => sum + Number(pos.market_value || pos.notional || 0),
+    0
+);
+
+const totalPortfolioValue =
+    Number(portfolio.cash || 0) + openPositionValue;
     const trades = await fetchJson("./trade_log.json", []);
 
     document.getElementById("value").innerText =
