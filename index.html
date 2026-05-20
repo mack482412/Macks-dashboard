@@ -31,7 +31,7 @@
   <h2>Open Positions</h2>
   <table>
     <thead>
-      <tr><th>Pair</th><th>Entry</th><th>Quantity</th><th>Notional</th><th>AI Confidence</th></tr>
+      <tr><th>Pair</th><th>Entry</th><th>Quantity</th><th>Notional</th><th>AI Confidence</th><th>P/L</th></tr>
     </thead>
     <tbody id="positions"></tbody>
   </table>
@@ -86,6 +86,19 @@ document.getElementById("value").textContent = "$" + totalPortfolioValue.toFixed
           <td>${Number(p.quantity || 0).toFixed(6)}</td>
           <td>$${Number(p.notional || 0).toFixed(2)}</td>
           <td>${p.ai_confidence ?? "-"}</td>
+          let currentValue = Number(p.notional || 0);
+let pnl = 0;
+let pnlClass = pnl >= 0 ? "green" : "red";
+
+posBody.innerHTML += `
+  <tr>
+    <td>${pair}</td>
+    <td>$${Number(p.entry_price || 0).toFixed(4)}</td>
+    <td>${Number(p.quantity || 0).toFixed(6)}</td>
+    <td>$${Number(p.notional || 0).toFixed(2)}</td>
+    <td>${p.ai_confidence ?? "-"}</td>
+    <td class="${pnlClass}">$${pnl.toFixed(2)}</td>
+  </tr>`;
         </tr>`;
     });
   }
