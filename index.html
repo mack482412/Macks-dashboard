@@ -1,252 +1,246 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Crypto Paper Bot Dashboard</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crypto Paper Bot Dashboard</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <style>
-        body {
-            background: #081028;
-            color: white;
-            font-family: Arial;
-            padding: 20px;
-        }
+  <style>
+    body {
+      background: #081028;
+      color: white;
+      font-family: Arial, sans-serif;
+      padding: 28px;
+      margin: 0;
+    }
 
-        h1 {
-            color: #22c55e;
-        }
+    h1 {
+      color: #22c55e;
+      font-size: 44px;
+    }
 
-        .cards {
-            display: flex;
-            gap: 20px;
-            flex-wrap: wrap;
-            margin-bottom: 30px;
-        }
+    button {
+      background: #22c55e;
+      border: none;
+      padding: 16px 30px;
+      border-radius: 12px;
+      font-size: 18px;
+      font-weight: bold;
+      cursor: pointer;
+      margin-bottom: 28px;
+    }
 
-        .card {
-            background: #1a2742;
-            padding: 20px;
-            border-radius: 12px;
-            min-width: 220px;
-        }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 22px;
+      margin-bottom: 36px;
+    }
 
-        .big {
-            font-size: 32px;
-            font-weight: bold;
-        }
+    .card {
+      background: #1a2742;
+      padding: 24px;
+      border-radius: 14px;
+    }
 
-        .green {
-            color: #22c55e;
-        }
+    .big {
+      font-size: 38px;
+      font-weight: bold;
+      margin-top: 8px;
+    }
 
-        .red {
-            color: #ef4444;
-        }
+    .green { color: #22c55e; }
+    .red { color: #ef4444; }
+    .muted { color: #94a3b8; }
 
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-bottom: 40px;
-            background: #16213a;
-        }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #16213a;
+      margin-bottom: 38px;
+    }
 
-        th, td {
-            padding: 12px;
-            border-bottom: 1px solid #2d3b5c;
-            text-align: left;
-        }
+    th, td {
+      padding: 14px;
+      border-bottom: 1px solid #2d3b5c;
+      text-align: left;
+    }
 
-        th {
-            background: #334155;
-        }
-
-        button {
-            background: #22c55e;
-            border: none;
-            padding: 12px 30px;
-            border-radius: 10px;
-            font-size: 18px;
-            font-weight: bold;
-            cursor: pointer;
-            margin-bottom: 20px;
-        }
-    </style>
+    th {
+      background: #334155;
+    }
+  </style>
 </head>
 
 <body>
+  <h1>Crypto Paper Bot Dashboard</h1>
 
-<h1>Crypto Paper Bot Dashboard</h1>
+  <button onclick="loadDashboard()">Refresh Dashboard</button>
 
-<button onclick="loadDashboard()">Refresh Dashboard</button>
-
-<div class="cards">
+  <div class="cards">
     <div class="card">
-        <div>Portfolio Value</div>
-        <div id="value" class="big">$0</div>
+      <div>Portfolio Value</div>
+      <div id="value" class="big">$0.00</div>
     </div>
 
     <div class="card">
-        <div>Cash</div>
-        <div id="cash" class="big">$0</div>
+      <div>Cash</div>
+      <div id="cash" class="big">$0.00</div>
     </div>
 
     <div class="card">
-        <div>Total Trades</div>
-        <div id="trades" class="big">0</div>
+      <div>Total Trades</div>
+      <div id="trades" class="big">0</div>
     </div>
 
     <div class="card">
-        <div>Win Rate</div>
-        <div id="winrate" class="big">0%</div>
+      <div>Win Rate</div>
+      <div id="winrate" class="big">0.0%</div>
     </div>
 
     <div class="card">
-        <div>Realized PnL</div>
-        <div id="pnl" class="big">$0</div>
+      <div>Realized PnL</div>
+      <div id="pnl" class="big">$0.00</div>
     </div>
-</div>
+  </div>
 
-<h2>Open Positions</h2>
-
-<table>
+  <h2>Open Positions</h2>
+  <table>
     <thead>
-        <tr>
-            <th>Pair</th>
-            <th>Entry</th>
-            <th>Current</th>
-            <th>Quantity</th>
-            <th>Notional</th>
-            <th>AI Confidence</th>
-            <th>P/L</th>
-        </tr>
+      <tr>
+        <th>Pair</th>
+        <th>Entry</th>
+        <th>Current</th>
+        <th>Quantity</th>
+        <th>Notional</th>
+        <th>AI Confidence</th>
+        <th>P/L</th>
+      </tr>
     </thead>
     <tbody id="positions"></tbody>
-</table>
+  </table>
 
-<h2>Recent Trades</h2>
-
-<table>
+  <h2>Recent Trades</h2>
+  <table>
     <thead>
-        <tr>
-            <th>Time</th>
-            <th>Pair</th>
-            <th>Action</th>
-            <th>Price</th>
-            <th>PnL</th>
-        </tr>
+      <tr>
+        <th>Time</th>
+        <th>Pair</th>
+        <th>Action</th>
+        <th>Price</th>
+        <th>Notional</th>
+        <th>PnL</th>
+      </tr>
     </thead>
     <tbody id="tradeRows"></tbody>
-</table>
+  </table>
 
-<script>
-function money(v) {
-    return "$" + Number(v || 0).toFixed(2);
-}
-
-async function fetchJson(path, fallback) {
-    try {
-        const res = await fetch(path + "?t=" + Date.now());
-        return await res.json();
-    } catch {
-        return fallback;
+  <script>
+    function money(v) {
+      return "$" + Number(v || 0).toFixed(2);
     }
-}
 
-async function loadDashboard() {
+    async function fetchJson(path, fallback) {
+      try {
+        const res = await fetch(path + "?t=" + Date.now());
+        if (!res.ok) return fallback;
+        return await res.json();
+      } catch {
+        return fallback;
+      }
+    }
 
-    const portfolio = await fetchJson("./paper_portfolio.json", {});
-    const positionsForValue = portfolio.positions || {};
+    function formatTime(t) {
+      if (!t) return "";
+      const d = new Date(t);
+      return isNaN(d.getTime()) ? t : d.toLocaleString();
+    }
 
-const openPositionValue = Object.values(positionsForValue).reduce(
-    (sum, pos) => sum + Number(pos.market_value || pos.notional || 0),
-    0
-);
+    async function loadDashboard() {
+      const portfolio = await fetchJson("./paper_portfolio.json", {});
+      const trades = await fetchJson("./trade_log.json", []);
 
-const totalPortfolioValue =
-    Number(portfolio.cash || 0) + openPositionValue;
-    const trades = await fetchJson("./trade_log.json", []);
+      const positions = portfolio.positions || {};
 
-    document.getElementById("value").innerText =
-        money(portfolio.total_value || 0);
+      const openPositionValue = Object.values(positions).reduce(
+        (sum, pos) => sum + Number(pos.market_value || pos.notional || 0),
+        0
+      );
 
-    document.getElementById("cash").innerText =
+      const totalPortfolioValue =
+        Number(portfolio.cash || 0) + openPositionValue;
+
+      document.getElementById("value").innerText =
+        money(totalPortfolioValue);
+
+      document.getElementById("cash").innerText =
         money(portfolio.cash || 0);
 
-    document.getElementById("trades").innerText =
+      document.getElementById("trades").innerText =
         trades.length;
 
-    const wins = trades.filter(t => (t.pnl || 0) > 0).length;
+      const sells = trades.filter(t => t.action === "SELL");
+      const wins = sells.filter(t => Number(t.pnl || 0) > 0).length;
+      const winrate = sells.length ? ((wins / sells.length) * 100).toFixed(1) : "0.0";
 
-    const winrate =
-        trades.length
-            ? ((wins / trades.length) * 100).toFixed(1)
-            : "0.0";
-
-    document.getElementById("winrate").innerText =
+      document.getElementById("winrate").innerText =
         winrate + "%";
 
-    const totalPnl =
-        trades.reduce((sum, t) => sum + (t.pnl || 0), 0);
+      const totalPnl = sells.reduce((sum, t) => sum + Number(t.pnl || 0), 0);
+      const pnlEl = document.getElementById("pnl");
 
-    const pnlEl = document.getElementById("pnl");
+      pnlEl.innerText = money(totalPnl);
+      pnlEl.className = "big " + (totalPnl >= 0 ? "green" : "red");
 
-    pnlEl.innerText = money(totalPnl);
+      const posBody = document.getElementById("positions");
+      posBody.innerHTML = "";
 
-    pnlEl.className =
-        "big " + (totalPnl >= 0 ? "green" : "red");
+      const entries = Object.entries(positions);
 
-    const tbody = document.getElementById("positions");
+      if (!entries.length) {
+        posBody.innerHTML = "<tr><td colspan='7'>No open positions</td></tr>";
+      } else {
+        entries.forEach(([pair, pos]) => {
+          const pnl = Number(pos.unrealized_pnl || 0);
+          const pnlPct = Number(pos.pnl_pct || 0);
 
-    tbody.innerHTML = "";
-
-    const positions = portfolio.positions || {};
-
-    Object.entries(positions).forEach(([pair, pos]) => {
-
-        const tr = document.createElement("tr");
-
-        const pnl = pos.unrealized_pnl || 0;
-
-        tr.innerHTML = `
+          const row = document.createElement("tr");
+          row.innerHTML = `
             <td>${pair}</td>
             <td>${money(pos.entry_price)}</td>
-            <td>${money(pos.current_price)}</td>
+            <td>${money(pos.current_price || pos.entry_price)}</td>
             <td>${Number(pos.quantity || 0).toFixed(6)}</td>
-            <td>${money(pos.market_value)}</td>
-            <td>${pos.ai_confidence || 0}</td>
-            <td class="${pnl >= 0 ? 'green' : 'red'}">
-                ${money(pnl)}
+            <td>${money(pos.market_value || pos.notional)}</td>
+            <td>${pos.ai_confidence ?? 0}</td>
+            <td class="${pnl >= 0 ? "green" : "red"}">
+              ${money(pnl)} (${pnlPct.toFixed(2)}%)
             </td>
+          `;
+          posBody.appendChild(row);
+        });
+      }
+
+      const tradeBody = document.getElementById("tradeRows");
+      tradeBody.innerHTML = "";
+
+      trades.slice().reverse().slice(0, 25).forEach(trade => {
+        const pnl = Number(trade.pnl || 0);
+
+        const row = document.createElement("tr");
+        row.innerHTML = `
+          <td>${formatTime(trade.time)}</td>
+          <td>${trade.pair || ""}</td>
+          <td class="${trade.action === "BUY" ? "green" : "red"}">${trade.action || ""}</td>
+          <td>${money(trade.price)}</td>
+          <td>${money(trade.notional)}</td>
+          <td class="${pnl >= 0 ? "green" : "red"}">${money(pnl)}</td>
         `;
+        tradeBody.appendChild(row);
+      });
+    }
 
-        tbody.appendChild(tr);
-    });
-
-    const tradeBody = document.getElementById("tradeRows");
-
-    tradeBody.innerHTML = "";
-
-    trades.slice().reverse().slice(0, 25).forEach(trade => {
-
-        const tr = document.createElement("tr");
-
-        tr.innerHTML = `
-            <td>${trade.time || ""}</td>
-            <td>${trade.pair || ""}</td>
-            <td>${trade.action || ""}</td>
-            <td>${money(trade.price)}</td>
-            <td>${money(trade.pnl || 0)}</td>
-        `;
-
-        tradeBody.appendChild(tr);
-    });
-}
-
-loadDashboard();
-
-setInterval(loadDashboard, 30000);
-</script>
-
+    loadDashboard();
+    setInterval(loadDashboard, 30000);
+  </script>
 </body>
 </html>
