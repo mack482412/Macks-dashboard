@@ -1,45 +1,4 @@
 {
-  "cash": 29.123617469815066,
-  "positions": {
-    "BTC-USD": {
-      "quantity": 6.486915955387144e-05,
-      "entry_price": 77078.23,
-      "entry_time": "2026-05-20T05:18:33.596692",
-      "entry_signal": "STRONG_BUY",
-      "notional": 5.0,
-      "peak_pnl": 0.00475555808689343,
-      "ai_confidence": 0.0,
-      "ai_reason": "AI review failed: Object of type bool is not JSON serializable"
-    },
-    "AVAX-USD": {
-      "quantity": 0.5452562704471101,
-      "entry_price": 9.17,
-      "entry_time": "2026-05-20T05:18:33.596718",
-      "entry_signal": "STRONG_BUY",
-      "notional": 5.0,
-      "peak_pnl": 0.010905125408942062,
-      "ai_confidence": 0.0,
-      "ai_reason": "AI review failed: Object of type bool is not JSON serializable"
-    },
-    "DOT-USD": {
-      "quantity": 4.042037186742117,
-      "entry_price": 1.237,
-      "entry_time": "2026-05-20T05:18:33.596737",
-      "entry_signal": "STRONG_BUY",
-      "notional": 5.0,
-      "peak_pnl": 0.016168148746968036,
-      "ai_confidence": 0.0,
-      "ai_reason": "AI review failed: Object of type bool is not JSON serializable"
-    },
-    "ASTER-USD": {
-      "quantity": 7.621951219512195,
-      "entry_price": 0.656,
-      "entry_time": "2026-05-20T05:18:33.596753",
-      "entry_signal": "STRONG_BUY",
-      "notional": 5.0,
-      "peak_pnl": 0.038109756097560954,
-      "ai_confidence": 0.0,
-      "ai_reason": "AI review failed: Object of type bool is not JSON serializable"
-    }
-  }
+  "cash": 49.123617469815066,
+  "positions": {}
 }
