@@ -214,5 +214,59 @@
     "pair": "WLFI-USD",
     "previous_signal": "STRONG_BUY",
     "current_signal": "BUY"
+  },
+  {
+    "time": "2026-05-20T06:00:39.262311",
+    "pair": "ETH-USD",
+    "previous_signal": "STRONG_BUY",
+    "current_signal": "BUY"
+  },
+  {
+    "time": "2026-05-20T06:00:39.262327",
+    "pair": "BNB-USD",
+    "previous_signal": "STRONG_BUY",
+    "current_signal": "BUY"
+  },
+  {
+    "time": "2026-05-20T06:00:39.262334",
+    "pair": "BCH-USD",
+    "previous_signal": "NEUTRAL",
+    "current_signal": "BUY"
+  },
+  {
+    "time": "2026-05-20T06:00:39.262339",
+    "pair": "TON-USD",
+    "previous_signal": "SELL",
+    "current_signal": "BUY"
+  },
+  {
+    "time": "2026-05-20T06:00:39.262344",
+    "pair": "SHIB-USD",
+    "previous_signal": "BUY",
+    "current_signal": "STRONG_BUY"
+  },
+  {
+    "time": "2026-05-20T06:00:39.262348",
+    "pair": "CRO-USD",
+    "previous_signal": "NEUTRAL",
+    "current_signal": "STRONG_BUY"
+  },
+  {
+    "time": "2026-05-20T06:00:39.262352",
+    "pair": "NEAR-USD",
+    "previous_signal": "BUY",
+    "current_signal": "STRONG_BUY"
+  },
+  {
+    "time": "2026-05-20T06:00:39.262357",
+    "pair": "ONDO-USD",
+    "previous_signal": "STRONG_BUY",
+    "current_signal": "BUY"
+  },
+  {
+    "time": "2026-05-20T06:00:39.262360",
+    "pair": "DOT-USD",
+    "previous_signal": "BUY",
+    "current_signal": "STRONG_BUY"
   }
 ]

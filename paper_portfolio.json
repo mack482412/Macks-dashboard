@@ -7,7 +7,7 @@
       "entry_time": "2026-05-20T05:18:33.596692",
       "entry_signal": "STRONG_BUY",
       "notional": 5.0,
-      "peak_pnl": 0.0012188915080173501,
+      "peak_pnl": 0.00475555808689343,
       "ai_confidence": 0.0,
       "ai_reason": "AI review failed: Object of type bool is not JSON serializable"
     },
@@ -27,7 +27,7 @@
       "entry_time": "2026-05-20T05:18:33.596737",
       "entry_signal": "STRONG_BUY",
       "notional": 5.0,
-      "peak_pnl": 0.008084074373483574,
+      "peak_pnl": 0.016168148746968036,
       "ai_confidence": 0.0,
       "ai_reason": "AI review failed: Object of type bool is not JSON serializable"
     },
