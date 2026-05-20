@@ -31,7 +31,8 @@
   <h2>Open Positions</h2>
   <table>
     <thead>
-      <tr><th>Pair</th><th>Entry</th><th>Quantity</th><th>Notional</th><th>AI Confidence</th><th>P/L</th></tr>
+      <tr><th>Pair</th><th>Entry</th><th>Quantity</th><th>Notional</th><th>AI Confidence</th><th>P/L</th></tr><th>
+        P/L</th>
     </thead>
     <tbody id="positions"></tbody>
   </table>
@@ -86,6 +87,10 @@ document.getElementById("value").textContent = "$" + totalPortfolioValue.toFixed
           <td>${Number(p.quantity || 0).toFixed(6)}</td>
           <td>$${Number(p.notional || 0).toFixed(2)}</td>
           <td>${p.ai_confidence ?? "-"}</td>
+          <td class="${Number(p.unrealized_pnl || 0) >= 0 ? 'green' : 'red'}">
+  $${Number(p.unrealized_pnl || 0).toFixed(2)}
+  (${Number(p.pnl_pct || 0).toFixed(2)}%)
+</td>
           let currentValue = Number(p.notional || 0);
 let pnl = 0;
 let pnlClass = pnl >= 0 ? "green" : "red";
