@@ -1,9 +1,16 @@
 {
-  "last_run_time": "2026-05-20T06:00:39.263330",
+  "last_run_time": "2026-05-20T06:10:47.188698",
   "status": "running",
   "btc_trend": "BULLISH",
+  "atr_pct": null,
   "btc_reason": "BTC above EMA50",
-  "strong_buys_found": 10,
-  "buy_signals_found": 24,
-  "signals_scanned": 28
+  "strong_buys_found": 3,
+  "buy_signals_found": 23,
+  "signals_scanned": 28,
+  "daily_realized_pnl": 0,
+  "daily_trade_count": 4,
+  "daily_loss_limit": 2.0,
+  "max_trades_per_day": 12,
+  "trading_paused_loss_limit": false,
+  "trading_paused_trade_limit": false
 }

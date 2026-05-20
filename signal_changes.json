@@ -268,5 +268,53 @@
     "pair": "DOT-USD",
     "previous_signal": "BUY",
     "current_signal": "STRONG_BUY"
+  },
+  {
+    "time": "2026-05-20T06:10:47.187568",
+    "pair": "BTC-USD",
+    "previous_signal": "STRONG_BUY",
+    "current_signal": "BUY"
+  },
+  {
+    "time": "2026-05-20T06:10:47.187591",
+    "pair": "HBAR-USD",
+    "previous_signal": "STRONG_BUY",
+    "current_signal": "BUY"
+  },
+  {
+    "time": "2026-05-20T06:10:47.187596",
+    "pair": "SHIB-USD",
+    "previous_signal": "STRONG_BUY",
+    "current_signal": "BUY"
+  },
+  {
+    "time": "2026-05-20T06:10:47.187599",
+    "pair": "CRO-USD",
+    "previous_signal": "STRONG_BUY",
+    "current_signal": "BUY"
+  },
+  {
+    "time": "2026-05-20T06:10:47.187603",
+    "pair": "TAO-USD",
+    "previous_signal": "STRONG_BUY",
+    "current_signal": "BUY"
+  },
+  {
+    "time": "2026-05-20T06:10:47.187607",
+    "pair": "PAXG-USD",
+    "previous_signal": "NEUTRAL",
+    "current_signal": "SELL"
+  },
+  {
+    "time": "2026-05-20T06:10:47.187625",
+    "pair": "DOT-USD",
+    "previous_signal": "STRONG_BUY",
+    "current_signal": "BUY"
+  },
+  {
+    "time": "2026-05-20T06:10:47.187629",
+    "pair": "ASTER-USD",
+    "previous_signal": "STRONG_BUY",
+    "current_signal": "BUY"
   }
 ]
