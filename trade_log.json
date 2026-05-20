@@ -394,5 +394,53 @@
     "quantity": 0.008942144326209425,
     "notional": 4.856478583564339,
     "pnl": -0.14352141643566085
+  },
+  {
+    "time": "2026-05-20T05:18:33.596699",
+    "pair": "BTC-USD",
+    "action": "BUY",
+    "reason": "STRONG_BUY",
+    "price": 77078.23,
+    "quantity": 6.486915955387144e-05,
+    "notional": 5.0,
+    "ai_confidence": 0.0,
+    "ai_reason": "AI review failed: Object of type bool is not JSON serializable",
+    "btc_trend": "BULLISH"
+  },
+  {
+    "time": "2026-05-20T05:18:33.596722",
+    "pair": "AVAX-USD",
+    "action": "BUY",
+    "reason": "STRONG_BUY",
+    "price": 9.17,
+    "quantity": 0.5452562704471101,
+    "notional": 5.0,
+    "ai_confidence": 0.0,
+    "ai_reason": "AI review failed: Object of type bool is not JSON serializable",
+    "btc_trend": "BULLISH"
+  },
+  {
+    "time": "2026-05-20T05:18:33.596740",
+    "pair": "DOT-USD",
+    "action": "BUY",
+    "reason": "STRONG_BUY",
+    "price": 1.237,
+    "quantity": 4.042037186742117,
+    "notional": 5.0,
+    "ai_confidence": 0.0,
+    "ai_reason": "AI review failed: Object of type bool is not JSON serializable",
+    "btc_trend": "BULLISH"
+  },
+  {
+    "time": "2026-05-20T05:18:33.596757",
+    "pair": "ASTER-USD",
+    "action": "BUY",
+    "reason": "STRONG_BUY",
+    "price": 0.656,
+    "quantity": 7.621951219512195,
+    "notional": 5.0,
+    "ai_confidence": 0.0,
+    "ai_reason": "AI review failed: Object of type bool is not JSON serializable",
+    "btc_trend": "BULLISH"
   }
 ]
