@@ -1,135 +1,171 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Mack's Crypto Bot Dashboard</title>
-  <style>
-    body { font-family: Arial; background:#0f172a; color:white; padding:30px; }
-    h1 { color:#22c55e; }
-    .grid { display:grid; grid-template-columns:repeat(5,1fr); gap:20px; }
-    .card { background:#1e293b; padding:20px; border-radius:14px; }
-    .big { font-size:32px; font-weight:bold; }
-    table { width:100%; border-collapse:collapse; margin-top:20px; background:#1e293b; }
-    th, td { padding:12px; border-bottom:1px solid #334155; text-align:left; }
-    th { background:#334155; }
-    .green { color:#22c55e; }
-    .red { color:#ef4444; }
-    button { padding:12px 20px; border:0; border-radius:10px; background:#22c55e; font-weight:bold; cursor:pointer; }
-  </style>
-</head>
-<body>
-  <h1>Crypto Paper Bot Dashboard</h1>
-  <button onclick="loadDashboard()">Refresh Dashboard</button>
+      return hrs + " hours ago";
+    }
 
-  <div class="grid">
-    <div class="card"><div>Portfolio Value</div><div id="value" class="big">$0.00</div></div>
-    <div class="card"><div>Cash</div><div id="cash" class="big">$0.00</div></div>
-    <div class="card"><div>Total Trades</div><div id="trades" class="big">0</div></div>
-    <div class="card"><div>Win Rate</div><div id="winrate" class="big">0%</div></div>
-    <div class="card"><div>Realized PnL</div><div id="pnl" class="big">$0.00</div></div>
-  </div>
+    async function loadDashboard() {
 
-  <h2>Open Positions</h2>
-  <table>
-    <thead>
-      <tr><th>Pair</th><th>Entry</th><th>Quantity</th><th>Notional</th><th>AI Confidence</th><th>P/L</th></tr><th>
-        P/L</th>
-    </thead>
-    <tbody id="positions"></tbody>
-  </table>
+      const portfolio = await fetchJson("./paper_portfolio.json", {});
+      const trades = await fetchJson("./trade_log.json", []);
+      const runStatus = await fetchJson("./run_status.json", {});
+      const signalChanges = await fetchJson("./signal_changes.json", []);
 
-  <h2>Recent Trades</h2>
-  <table>
-    <thead>
-      <tr><th>Time</th><th>Pair</th><th>Action</th><th>Reason</th><th>Price</th><th>Notional</th><th>PnL</th></tr>
-    </thead>
-    <tbody id="tradeRows"></tbody>
-  </table>
+      document.getElementById("value").innerText =
+        money(portfolio.total_value || 0);
 
-<script>
-async function loadDashboard() {
-  const portfolio = await fetch("paper_portfolio.json?cache=" + Date.now()).then(r => r.json());
-  const trades = await fetch("trade_log.json?cache=" + Date.now()).then(r => r.json());
+      document.getElementById("cash").innerText =
+        money(portfolio.cash || 0);
 
-  let cash = portfolio.cash || 0;
-  let positions = portfolio.positions || {};
-  let realizedPnl = trades.filter(t => t.action === "SELL").reduce((sum, t) => sum + (t.pnl || 0), 0);
-  let sells = trades.filter(t => t.action === "SELL");
-  let wins = sells.filter(t => (t.pnl || 0) > 0).length;
-  let winRate = sells.length ? (wins / sells.length * 100) : 0;
+      document.getElementById("trades").innerText =
+        trades.length;
 
-  document.getElementById("cash").textContent = "$" + cash.toFixed(2);
-  let openPositionValue = Object.values(positions).reduce((sum, p) => {
-  return sum + Number(p.notional || 0);
-}, 0);
+      const wins = trades.filter(t => (t.pnl || 0) > 0).length;
+      const winrate = trades.length
+        ? ((wins / trades.length) * 100).toFixed(1)
+        : "0.0";
 
-let totalPortfolioValue = cash + openPositionValue;
+      document.getElementById("winrate").innerText =
+        winrate + "%";
 
-document.getElementById("value").textContent = "$" + totalPortfolioValue.toFixed(2);
-  document.getElementById("trades").textContent = trades.length;
-  document.getElementById("winrate").textContent = winRate.toFixed(1) + "%";
+      const totalPnl = trades.reduce(
+        (sum, t) => sum + (t.pnl || 0),
+        0
+      );
 
-  const pnlEl = document.getElementById("pnl");
-  pnlEl.textContent = "$" + realizedPnl.toFixed(2);
-  pnlEl.className = "big " + (realizedPnl >= 0 ? "green" : "red");
+      const pnlEl = document.getElementById("pnl");
 
-  const posBody = document.getElementById("positions");
-  posBody.innerHTML = "";
+      pnlEl.innerText = money(totalPnl);
 
-  const positionEntries = Object.entries(positions);
-  if (!positionEntries.length) {
-    posBody.innerHTML = "<tr><td colspan='5'>No open positions</td></tr>";
-  } else {
-    positionEntries.forEach(([pair, p]) => {
-      posBody.innerHTML += `
-        <tr>
+      pnlEl.className =
+        "big " + (totalPnl >= 0 ? "green" : "red");
+
+      const lastRun = runStatus.last_run || null;
+
+      document.getElementById("lastRun").innerText =
+        minutesAgo(lastRun);
+
+      document.getElementById("lastRunRaw").innerText =
+        formatTime(lastRun);
+
+      const botRunning =
+        lastRun &&
+        ((Date.now() - new Date(lastRun).getTime()) < 1000 * 60 * 25);
+
+      const botStatus = document.getElementById("botStatus");
+
+      botStatus.innerText =
+        botRunning ? "RUNNING" : "OFFLINE";
+
+      botStatus.className =
+        "big " + (botRunning ? "green" : "red");
+
+      const btcTrend = runStatus.btc_trend || {};
+
+      const bullish = btcTrend.bullish;
+
+      const trendEl = document.getElementById("btcTrend");
+
+      trendEl.innerText =
+        bullish ? "BULLISH" : "BEARISH";
+
+      trendEl.className =
+        "big " + (bullish ? "green" : "red");
+
+      document.getElementById("btcReason").innerText =
+        btcTrend.reason || "";
+
+      const risk = portfolio.daily_risk || {};
+
+      document.getElementById("dailyRisk").innerText =
+        pct(risk.risk_pct || 0);
+
+      document.getElementById("dailyRiskDetails").innerText =
+        "Open Risk: " + money(risk.open_risk || 0);
+
+      const tbody = document.getElementById("positions");
+      tbody.innerHTML = "";
+
+      const positions = portfolio.positions || {};
+
+      Object.entries(positions).forEach(([pair, pos]) => {
+
+        const tr = document.createElement("tr");
+
+        const pnl = pos.unrealized_pnl || 0;
+
+        tr.innerHTML = `
           <td>${pair}</td>
-          <td>$${Number(p.entry_price || 0).toFixed(4)}</td>
-          <td>${Number(p.quantity || 0).toFixed(6)}</td>
-          <td>$${Number(p.notional || 0).toFixed(2)}</td>
-          <td>${p.ai_confidence ?? "-"}</td>
-          <td class="${Number(p.unrealized_pnl || 0) >= 0 ? 'green' : 'red'}">
-  $${Number(p.unrealized_pnl || 0).toFixed(2)}
-  (${Number(p.pnl_pct || 0).toFixed(2)}%)
-</td>
-          let currentValue = Number(p.notional || 0);
-let pnl = 0;
-let pnlClass = pnl >= 0 ? "green" : "red";
+          <td>${money(pos.entry_price)}</td>
+          <td>${money(pos.current_price)}</td>
+          <td>${Number(pos.quantity || 0).toFixed(6)}</td>
+          <td>${money(pos.market_value)}</td>
+          <td>${pos.ai_confidence || 0}</td>
+          <td class="${pnl >= 0 ? 'green' : 'red'}">
+            ${money(pnl)} (${pct(pos.pnl_pct || 0)})
+          </td>
+        `;
 
-posBody.innerHTML += `
-  <tr>
-    <td>${pair}</td>
-    <td>$${Number(p.entry_price || 0).toFixed(4)}</td>
-    <td>${Number(p.quantity || 0).toFixed(6)}</td>
-    <td>$${Number(p.notional || 0).toFixed(2)}</td>
-    <td>${p.ai_confidence ?? "-"}</td>
-    <td class="${pnlClass}">$${pnl.toFixed(2)}</td>
-  </tr>`;
-        </tr>`;
-    });
-  }
+        tbody.appendChild(tr);
+      });
 
-  const tradeBody = document.getElementById("tradeRows");
-  tradeBody.innerHTML = "";
+      const tradeBody = document.getElementById("tradeRows");
+      tradeBody.innerHTML = "";
 
-  trades.slice(-25).reverse().forEach(t => {
-    let pnl = t.pnl ?? "";
-    let pnlClass = pnl === "" ? "" : (pnl >= 0 ? "green" : "red");
+      trades.slice().reverse().slice(0, 25).forEach(trade => {
 
-    tradeBody.innerHTML += `
-      <tr>
-        <td>${new Date(t.time).toLocaleString()}</td>
-        <td>${t.pair}</td>
-        <td>${t.action}</td>
-        <td>${t.reason || ""}</td>
-        <td>$${Number(t.price || 0).toFixed(4)}</td>
-        <td>$${Number(t.notional || 0).toFixed(2)}</td>
-        <td class="${pnlClass}">${pnl === "" ? "" : "$" + Number(pnl).toFixed(2)}</td>
-      </tr>`;
-  });
-}
+        const tr = document.createElement("tr");
 
-loadDashboard();
-setInterval(loadDashboard, 60000);
-</script>
+        const pnl = trade.pnl || 0;
+
+        tr.innerHTML = `
+          <td>${formatTime(trade.time)}</td>
+          <td>${trade.pair}</td>
+          <td class="${trade.action === 'BUY' ? 'green' : 'red'}">
+            ${trade.action}
+          </td>
+          <td>${trade.reason || ""}</td>
+          <td>${money(trade.price)}</td>
+          <td>${money(trade.notional)}</td>
+          <td class="${pnl >= 0 ? 'green' : 'red'}">
+            ${money(pnl)}
+          </td>
+        `;
+
+        tradeBody.appendChild(tr);
+      });
+
+      const signalBody =
+        document.getElementById("signalChanges");
+
+      signalBody.innerHTML = "";
+
+      signalChanges
+        .slice()
+        .reverse()
+        .slice(0, 30)
+        .forEach(change => {
+
+          const tr = document.createElement("tr");
+
+          tr.innerHTML = `
+            <td>${formatTime(change.time)}</td>
+            <td>${change.pair}</td>
+            <td>${change.old_signal}</td>
+            <td class="${
+              change.new_signal.includes('BUY')
+                ? 'green'
+                : 'red'
+            }">
+              ${change.new_signal}
+            </td>
+          `;
+
+          signalBody.appendChild(tr);
+        });
+    }
+
+    loadDashboard();
+
+    setInterval(loadDashboard, 30000);
+  </script>
+
 </body>
 </html>
