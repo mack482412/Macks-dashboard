@@ -142,5 +142,77 @@
     "pair": "WLFI-USD",
     "previous_signal": "BUY",
     "current_signal": "STRONG_BUY"
+  },
+  {
+    "time": "2026-05-20T05:48:39.561796",
+    "pair": "ETH-USD",
+    "previous_signal": "BUY",
+    "current_signal": "STRONG_BUY"
+  },
+  {
+    "time": "2026-05-20T05:48:39.561813",
+    "pair": "BNB-USD",
+    "previous_signal": "BUY",
+    "current_signal": "STRONG_BUY"
+  },
+  {
+    "time": "2026-05-20T05:48:39.561819",
+    "pair": "USD1-USD",
+    "previous_signal": "BUY",
+    "current_signal": "STRONG_BUY"
+  },
+  {
+    "time": "2026-05-20T05:48:39.561823",
+    "pair": "ADA-USD",
+    "previous_signal": "NEUTRAL",
+    "current_signal": "BUY"
+  },
+  {
+    "time": "2026-05-20T05:48:39.561827",
+    "pair": "LINK-USD",
+    "previous_signal": "NEUTRAL",
+    "current_signal": "BUY"
+  },
+  {
+    "time": "2026-05-20T05:48:39.561833",
+    "pair": "HBAR-USD",
+    "previous_signal": "BUY",
+    "current_signal": "STRONG_BUY"
+  },
+  {
+    "time": "2026-05-20T05:48:39.561836",
+    "pair": "SHIB-USD",
+    "previous_signal": "STRONG_BUY",
+    "current_signal": "BUY"
+  },
+  {
+    "time": "2026-05-20T05:48:39.561840",
+    "pair": "TAO-USD",
+    "previous_signal": "BUY",
+    "current_signal": "STRONG_BUY"
+  },
+  {
+    "time": "2026-05-20T05:48:39.561844",
+    "pair": "UNI-USD",
+    "previous_signal": "STRONG_BUY",
+    "current_signal": "BUY"
+  },
+  {
+    "time": "2026-05-20T05:48:39.561848",
+    "pair": "ONDO-USD",
+    "previous_signal": "BUY",
+    "current_signal": "STRONG_BUY"
+  },
+  {
+    "time": "2026-05-20T05:48:39.561881",
+    "pair": "DOT-USD",
+    "previous_signal": "STRONG_BUY",
+    "current_signal": "BUY"
+  },
+  {
+    "time": "2026-05-20T05:48:39.561885",
+    "pair": "WLFI-USD",
+    "previous_signal": "STRONG_BUY",
+    "current_signal": "BUY"
   }
 ]
