@@ -1,23 +1,5 @@
 [
   {
-    "time": "2026-05-20T06:10:47.187603",
-    "pair": "TAO-USD",
-    "previous_signal": "STRONG_BUY",
-    "current_signal": "BUY"
-  },
-  {
-    "time": "2026-05-20T06:10:47.187607",
-    "pair": "PAXG-USD",
-    "previous_signal": "NEUTRAL",
-    "current_signal": "SELL"
-  },
-  {
-    "time": "2026-05-20T06:10:47.187625",
-    "pair": "DOT-USD",
-    "previous_signal": "STRONG_BUY",
-    "current_signal": "BUY"
-  },
-  {
     "time": "2026-05-20T06:10:47.187629",
     "pair": "ASTER-USD",
     "previous_signal": "STRONG_BUY",
@@ -596,6 +578,24 @@
   {
     "time": "2026-05-26T22:07:01.974964",
     "pair": "INJ-USD",
+    "old_signal": "SHORT",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-05-26T22:22:09.844887",
+    "pair": "AAVE-USD",
+    "old_signal": "HOLD",
+    "new_signal": "SHORT"
+  },
+  {
+    "time": "2026-05-26T22:22:09.844896",
+    "pair": "FIL-USD",
+    "old_signal": "HOLD",
+    "new_signal": "SHORT"
+  },
+  {
+    "time": "2026-05-26T22:22:09.844900",
+    "pair": "OP-USD",
     "old_signal": "SHORT",
     "new_signal": "HOLD"
   }
