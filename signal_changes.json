@@ -1,23 +1,5 @@
 [
   {
-    "time": "2026-05-20T05:48:39.561813",
-    "pair": "BNB-USD",
-    "previous_signal": "BUY",
-    "current_signal": "STRONG_BUY"
-  },
-  {
-    "time": "2026-05-20T05:48:39.561819",
-    "pair": "USD1-USD",
-    "previous_signal": "BUY",
-    "current_signal": "STRONG_BUY"
-  },
-  {
-    "time": "2026-05-20T05:48:39.561823",
-    "pair": "ADA-USD",
-    "previous_signal": "NEUTRAL",
-    "current_signal": "BUY"
-  },
-  {
     "time": "2026-05-20T05:48:39.561827",
     "pair": "LINK-USD",
     "previous_signal": "NEUTRAL",
@@ -597,6 +579,24 @@
     "time": "2026-05-26T20:36:12.143843",
     "pair": "OP-USD",
     "old_signal": "SHORT",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-05-26T20:51:20.851106",
+    "pair": "GRT-USD",
+    "old_signal": "HOLD",
+    "new_signal": "SHORT"
+  },
+  {
+    "time": "2026-05-26T20:51:20.851125",
+    "pair": "INJ-USD",
+    "old_signal": "SHORT",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-05-26T20:51:20.851131",
+    "pair": "SEI-USD",
+    "old_signal": "BUY",
     "new_signal": "HOLD"
   }
 ]
