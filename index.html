@@ -14,10 +14,8 @@
       margin: 0;
     }
 
-    h1 {
-      color: #22c55e;
-      font-size: 44px;
-    }
+    h1 { color: #22c55e; font-size: 44px; }
+    h2 { margin-top: 42px; }
 
     button {
       background: #22c55e;
@@ -44,13 +42,20 @@
     }
 
     .big {
-      font-size: 38px;
+      font-size: 36px;
       font-weight: bold;
+      margin-top: 8px;
+    }
+
+    .small {
+      font-size: 14px;
+      color: #94a3b8;
       margin-top: 8px;
     }
 
     .green { color: #22c55e; }
     .red { color: #ef4444; }
+    .yellow { color: #facc15; }
     .muted { color: #94a3b8; }
 
     table {
@@ -61,13 +66,44 @@
     }
 
     th, td {
-      padding: 14px;
+      padding: 12px;
       border-bottom: 1px solid #2d3b5c;
       text-align: left;
+      vertical-align: top;
     }
 
-    th {
-      background: #334155;
+    th { background: #334155; }
+
+    .bar-wrap {
+      background: #0f172a;
+      border-radius: 8px;
+      overflow: hidden;
+      height: 18px;
+      min-width: 120px;
+    }
+
+    .bar {
+      height: 18px;
+      background: #22c55e;
+    }
+
+    .chart {
+      display: flex;
+      align-items: end;
+      gap: 4px;
+      height: 180px;
+      background: #16213a;
+      padding: 20px;
+      border-radius: 14px;
+      margin-bottom: 38px;
+      overflow-x: auto;
+    }
+
+    .chart-bar {
+      width: 14px;
+      min-width: 14px;
+      background: #22c55e;
+      border-radius: 4px 4px 0 0;
     }
   </style>
 </head>
@@ -102,22 +138,162 @@
       <div>Realized PnL</div>
       <div id="pnl" class="big">$0.00</div>
     </div>
+
+    <div class="card">
+      <div>Bot Last Run</div>
+      <div id="lastRun" class="big">—</div>
+      <div id="botMode" class="small"></div>
+    </div>
   </div>
 
-  <h2>Open Positions</h2>
+  <h2>1. Equity Curve</h2>
+  <div id="equityCurve" class="chart"></div>
+
+  <h2>2. Long vs Short Performance</h2>
+  <div class="cards">
+    <div class="card">
+      <div>Long PnL</div>
+      <div id="longPnl" class="big">$0.00</div>
+    </div>
+    <div class="card">
+      <div>Short PnL</div>
+      <div id="shortPnl" class="big">$0.00</div>
+    </div>
+    <div class="card">
+      <div>Long Win Rate</div>
+      <div id="longWinRate" class="big">0.0%</div>
+    </div>
+    <div class="card">
+      <div>Short Win Rate</div>
+      <div id="shortWinRate" class="big">0.0%</div>
+    </div>
+  </div>
+
+  <h2>3. Open Positions</h2>
   <table>
     <thead>
       <tr>
         <th>Pair</th>
+        <th>Side</th>
         <th>Entry</th>
         <th>Current</th>
         <th>Quantity</th>
         <th>Notional</th>
-        <th>AI Confidence</th>
+        <th>Score</th>
         <th>P/L</th>
       </tr>
     </thead>
     <tbody id="positions"></tbody>
+  </table>
+
+  <h2>4. Win Rate by Coin</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Pair</th>
+        <th>Closed Trades</th>
+        <th>Wins</th>
+        <th>Losses</th>
+        <th>Win Rate</th>
+        <th>Total PnL</th>
+      </tr>
+    </thead>
+    <tbody id="coinStats"></tbody>
+  </table>
+
+  <h2>5. Average Win / Average Loss</h2>
+  <div class="cards">
+    <div class="card">
+      <div>Average Win</div>
+      <div id="avgWin" class="big">$0.00</div>
+    </div>
+    <div class="card">
+      <div>Average Loss</div>
+      <div id="avgLoss" class="big">$0.00</div>
+    </div>
+    <div class="card">
+      <div>Profit Factor</div>
+      <div id="profitFactor" class="big">0.00</div>
+    </div>
+  </div>
+
+  <h2>6. Best Coins / Worst Coins</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Rank</th>
+        <th>Pair</th>
+        <th>Total PnL</th>
+        <th>Win Rate</th>
+        <th>Closed Trades</th>
+      </tr>
+    </thead>
+    <tbody id="bestWorst"></tbody>
+  </table>
+
+  <h2>7. Top Current Signals</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Pair</th>
+        <th>Signal</th>
+        <th>Score</th>
+        <th>Long Score</th>
+        <th>Short Score</th>
+        <th>Price</th>
+        <th>ATR %</th>
+        <th>Reason</th>
+      </tr>
+    </thead>
+    <tbody id="topSignals"></tbody>
+  </table>
+
+  <h2>8. Recent Signal Changes</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Time</th>
+        <th>Pair</th>
+        <th>Old Signal</th>
+        <th>New Signal</th>
+      </tr>
+    </thead>
+    <tbody id="signalChanges"></tbody>
+  </table>
+
+  <h2>9. Risk Dashboard</h2>
+  <div class="cards">
+    <div class="card">
+      <div>Daily Realized PnL</div>
+      <div id="dailyPnl" class="big">$0.00</div>
+    </div>
+    <div class="card">
+      <div>Trades Today</div>
+      <div id="dailyTrades" class="big">0</div>
+    </div>
+    <div class="card">
+      <div>Open Exposure</div>
+      <div id="openExposure" class="big">$0.00</div>
+    </div>
+    <div class="card">
+      <div>BTC Regime</div>
+      <div id="btcRegime" class="big">—</div>
+      <div id="btcReason" class="small"></div>
+    </div>
+  </div>
+
+  <h2>10. Blacklist Candidates</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Pair</th>
+        <th>Losses</th>
+        <th>Wins</th>
+        <th>Total PnL</th>
+        <th>Why</th>
+      </tr>
+    </thead>
+    <tbody id="blacklist"></tbody>
   </table>
 
   <h2>Recent Trades</h2>
@@ -126,10 +302,12 @@
       <tr>
         <th>Time</th>
         <th>Pair</th>
+        <th>Side</th>
         <th>Action</th>
         <th>Price</th>
         <th>Notional</th>
         <th>PnL</th>
+        <th>Reason</th>
       </tr>
     </thead>
     <tbody id="tradeRows"></tbody>
@@ -138,6 +316,20 @@
   <script>
     function money(v) {
       return "$" + Number(v || 0).toFixed(2);
+    }
+
+    function pct(v) {
+      return Number(v || 0).toFixed(1) + "%";
+    }
+
+    function cls(v) {
+      return Number(v || 0) >= 0 ? "green" : "red";
+    }
+
+    function formatTime(t) {
+      if (!t) return "";
+      const d = new Date(t);
+      return isNaN(d.getTime()) ? t : d.toLocaleString();
     }
 
     async function fetchJson(path, fallback) {
@@ -150,18 +342,49 @@
       }
     }
 
-    function formatTime(t) {
-      if (!t) return "";
-      const d = new Date(t);
-      return isNaN(d.getTime()) ? t : d.toLocaleString();
+    function closedTrades(trades) {
+      return trades.filter(t => ["SELL", "COVER"].includes(t.action));
+    }
+
+    function buildCoinStats(trades) {
+      const stats = {};
+
+      closedTrades(trades).forEach(t => {
+        const pair = t.pair || "UNKNOWN";
+        const pnl = Number(t.pnl || 0);
+
+        if (!stats[pair]) {
+          stats[pair] = { pair, trades: 0, wins: 0, losses: 0, pnl: 0 };
+        }
+
+        stats[pair].trades++;
+        stats[pair].pnl += pnl;
+
+        if (pnl > 0) stats[pair].wins++;
+        if (pnl < 0) stats[pair].losses++;
+      });
+
+      return Object.values(stats).map(s => ({
+        ...s,
+        winRate: s.trades ? (s.wins / s.trades) * 100 : 0
+      }));
+    }
+
+    function winRateFor(list) {
+      const closed = list.filter(t => ["SELL", "COVER"].includes(t.action));
+      if (!closed.length) return 0;
+      const wins = closed.filter(t => Number(t.pnl || 0) > 0).length;
+      return (wins / closed.length) * 100;
     }
 
     async function loadDashboard() {
       const portfolio = await fetchJson("./paper_portfolio.json", {});
       const trades = await fetchJson("./trade_log.json", []);
+      const runStatus = await fetchJson("./run_status.json", {});
+      const signalChanges = await fetchJson("./signal_changes.json", []);
+      const learning = await fetchJson("./learning_memory.json", {});
 
       const positions = portfolio.positions || {};
-
       const openPositionValue = Object.values(positions).reduce(
         (sum, pos) => sum + Number(pos.market_value || pos.notional || 0),
         0
@@ -170,72 +393,241 @@
       const totalPortfolioValue =
         Number(portfolio.cash || 0) + openPositionValue;
 
-      document.getElementById("value").innerText =
-        money(totalPortfolioValue);
+      document.getElementById("value").innerText = money(totalPortfolioValue);
+      document.getElementById("cash").innerText = money(portfolio.cash || 0);
+      document.getElementById("trades").innerText = trades.length;
 
-      document.getElementById("cash").innerText =
-        money(portfolio.cash || 0);
-
-      document.getElementById("trades").innerText =
-        trades.length;
-
-      const sells = trades.filter(t => t.action === "SELL");
-      const wins = sells.filter(t => Number(t.pnl || 0) > 0).length;
-      const winrate = sells.length ? ((wins / sells.length) * 100).toFixed(1) : "0.0";
+      const closed = closedTrades(trades);
+      const wins = closed.filter(t => Number(t.pnl || 0) > 0);
+      const losses = closed.filter(t => Number(t.pnl || 0) < 0);
+      const totalPnl = closed.reduce((s, t) => s + Number(t.pnl || 0), 0);
 
       document.getElementById("winrate").innerText =
-        winrate + "%";
+        closed.length ? pct((wins.length / closed.length) * 100) : "0.0%";
 
-      const totalPnl = sells.reduce((sum, t) => sum + Number(t.pnl || 0), 0);
       const pnlEl = document.getElementById("pnl");
-
       pnlEl.innerText = money(totalPnl);
-      pnlEl.className = "big " + (totalPnl >= 0 ? "green" : "red");
+      pnlEl.className = "big " + cls(totalPnl);
+
+      document.getElementById("lastRun").innerText =
+        formatTime(runStatus.last_run);
+
+      document.getElementById("botMode").innerText =
+        runStatus.mode || runStatus.status || "";
 
       const posBody = document.getElementById("positions");
       posBody.innerHTML = "";
 
-      const entries = Object.entries(positions);
-
-      if (!entries.length) {
-        posBody.innerHTML = "<tr><td colspan='7'>No open positions</td></tr>";
+      if (!Object.keys(positions).length) {
+        posBody.innerHTML = "<tr><td colspan='8'>No open positions</td></tr>";
       } else {
-        entries.forEach(([pair, pos]) => {
+        Object.entries(positions).forEach(([pair, pos]) => {
           const pnl = Number(pos.unrealized_pnl || 0);
-          const pnlPct = Number(pos.pnl_pct || 0);
-
           const row = document.createElement("tr");
+
           row.innerHTML = `
             <td>${pair}</td>
+            <td>${pos.side || "LONG"}</td>
             <td>${money(pos.entry_price)}</td>
             <td>${money(pos.current_price || pos.entry_price)}</td>
             <td>${Number(pos.quantity || 0).toFixed(6)}</td>
             <td>${money(pos.market_value || pos.notional)}</td>
-            <td>${pos.ai_confidence ?? 0}</td>
-            <td class="${pnl >= 0 ? "green" : "red"}">
-              ${money(pnl)} (${pnlPct.toFixed(2)}%)
-            </td>
+            <td>${pos.ai_confidence ?? pos.score ?? 0}</td>
+            <td class="${cls(pnl)}">${money(pnl)} (${pct(pos.pnl_pct || 0)})</td>
           `;
+
           posBody.appendChild(row);
         });
       }
 
+      const longClosed = closed.filter(t => (t.side || "LONG") === "LONG" || t.action === "SELL");
+      const shortClosed = closed.filter(t => t.side === "SHORT" || t.action === "COVER");
+
+      const longPnl = longClosed.reduce((s, t) => s + Number(t.pnl || 0), 0);
+      const shortPnl = shortClosed.reduce((s, t) => s + Number(t.pnl || 0), 0);
+
+      document.getElementById("longPnl").innerText = money(longPnl);
+      document.getElementById("longPnl").className = "big " + cls(longPnl);
+
+      document.getElementById("shortPnl").innerText = money(shortPnl);
+      document.getElementById("shortPnl").className = "big " + cls(shortPnl);
+
+      document.getElementById("longWinRate").innerText = pct(winRateFor(longClosed));
+      document.getElementById("shortWinRate").innerText = pct(winRateFor(shortClosed));
+
+      const avgWin = wins.length
+        ? wins.reduce((s, t) => s + Number(t.pnl || 0), 0) / wins.length
+        : 0;
+
+      const avgLoss = losses.length
+        ? losses.reduce((s, t) => s + Number(t.pnl || 0), 0) / losses.length
+        : 0;
+
+      const grossWin = wins.reduce((s, t) => s + Number(t.pnl || 0), 0);
+      const grossLoss = Math.abs(losses.reduce((s, t) => s + Number(t.pnl || 0), 0));
+      const profitFactor = grossLoss ? grossWin / grossLoss : grossWin ? 999 : 0;
+
+      document.getElementById("avgWin").innerText = money(avgWin);
+      document.getElementById("avgLoss").innerText = money(avgLoss);
+      document.getElementById("profitFactor").innerText =
+        profitFactor === 999 ? "∞" : profitFactor.toFixed(2);
+
+      const coinStats = buildCoinStats(trades);
+
+      const coinBody = document.getElementById("coinStats");
+      coinBody.innerHTML = "";
+
+      coinStats
+        .sort((a, b) => b.pnl - a.pnl)
+        .forEach(s => {
+          const row = document.createElement("tr");
+          row.innerHTML = `
+            <td>${s.pair}</td>
+            <td>${s.trades}</td>
+            <td>${s.wins}</td>
+            <td>${s.losses}</td>
+            <td>${pct(s.winRate)}</td>
+            <td class="${cls(s.pnl)}">${money(s.pnl)}</td>
+          `;
+          coinBody.appendChild(row);
+        });
+
+      const bestWorst = document.getElementById("bestWorst");
+      bestWorst.innerHTML = "";
+
+      const ranked = [...coinStats].sort((a, b) => b.pnl - a.pnl);
+      const displayRanked = [
+        ...ranked.slice(0, 5),
+        ...ranked.slice(-5).reverse()
+      ];
+
+      displayRanked.forEach((s, i) => {
+        const row = document.createElement("tr");
+        row.innerHTML = `
+          <td>${i + 1}</td>
+          <td>${s.pair}</td>
+          <td class="${cls(s.pnl)}">${money(s.pnl)}</td>
+          <td>${pct(s.winRate)}</td>
+          <td>${s.trades}</td>
+        `;
+        bestWorst.appendChild(row);
+      });
+
+      const topSignals = document.getElementById("topSignals");
+      topSignals.innerHTML = "";
+
+      (runStatus.top_signals || []).slice(0, 15).forEach(s => {
+        const row = document.createElement("tr");
+        row.innerHTML = `
+          <td>${s.pair}</td>
+          <td>${s.signal}</td>
+          <td>${s.score}</td>
+          <td>${s.long_score ?? ""}</td>
+          <td>${s.short_score ?? ""}</td>
+          <td>${money(s.price)}</td>
+          <td>${s.atr_pct ?? ""}</td>
+          <td>${s.reason || ""}</td>
+        `;
+        topSignals.appendChild(row);
+      });
+
+      const signalBody = document.getElementById("signalChanges");
+      signalBody.innerHTML = "";
+
+      signalChanges.slice().reverse().slice(0, 40).forEach(s => {
+        const row = document.createElement("tr");
+        row.innerHTML = `
+          <td>${formatTime(s.time)}</td>
+          <td>${s.pair}</td>
+          <td>${s.old_signal}</td>
+          <td>${s.new_signal}</td>
+        `;
+        signalBody.appendChild(row);
+      });
+
+      const today = new Date().toISOString().slice(0, 10);
+      const todaysTrades = trades.filter(t => String(t.time || "").startsWith(today));
+      const dailyPnl = todaysTrades
+        .filter(t => ["SELL", "COVER"].includes(t.action))
+        .reduce((s, t) => s + Number(t.pnl || 0), 0);
+
+      document.getElementById("dailyPnl").innerText = money(dailyPnl);
+      document.getElementById("dailyPnl").className = "big " + cls(dailyPnl);
+      document.getElementById("dailyTrades").innerText = todaysTrades.length;
+      document.getElementById("openExposure").innerText = money(openPositionValue);
+
+      const btc = runStatus.btc_trend || {};
+      const regime = btc.bullish ? "BULLISH" : btc.bearish ? "BEARISH" : "NEUTRAL";
+
+      document.getElementById("btcRegime").innerText = regime;
+      document.getElementById("btcRegime").className =
+        "big " + (regime === "BULLISH" ? "green" : regime === "BEARISH" ? "red" : "yellow");
+
+      document.getElementById("btcReason").innerText = btc.reason || "";
+
+      const blacklist = document.getElementById("blacklist");
+      blacklist.innerHTML = "";
+
+      coinStats
+        .filter(s => s.losses >= 2 && s.pnl < 0)
+        .sort((a, b) => a.pnl - b.pnl)
+        .forEach(s => {
+          const row = document.createElement("tr");
+          row.innerHTML = `
+            <td>${s.pair}</td>
+            <td>${s.losses}</td>
+            <td>${s.wins}</td>
+            <td class="${cls(s.pnl)}">${money(s.pnl)}</td>
+            <td>Repeated losses / negative total PnL</td>
+          `;
+          blacklist.appendChild(row);
+        });
+
       const tradeBody = document.getElementById("tradeRows");
       tradeBody.innerHTML = "";
 
-      trades.slice().reverse().slice(0, 25).forEach(trade => {
-        const pnl = Number(trade.pnl || 0);
-
+      trades.slice().reverse().slice(0, 50).forEach(t => {
+        const pnl = Number(t.pnl || 0);
         const row = document.createElement("tr");
+
         row.innerHTML = `
-          <td>${formatTime(trade.time)}</td>
-          <td>${trade.pair || ""}</td>
-          <td class="${trade.action === "BUY" ? "green" : "red"}">${trade.action || ""}</td>
-          <td>${money(trade.price)}</td>
-          <td>${money(trade.notional)}</td>
-          <td class="${pnl >= 0 ? "green" : "red"}">${money(pnl)}</td>
+          <td>${formatTime(t.time)}</td>
+          <td>${t.pair || ""}</td>
+          <td>${t.side || ""}</td>
+          <td class="${["BUY", "COVER"].includes(t.action) ? "green" : "red"}">${t.action || ""}</td>
+          <td>${money(t.price)}</td>
+          <td>${money(t.notional)}</td>
+          <td class="${cls(pnl)}">${money(pnl)}</td>
+          <td>${t.reason || ""}</td>
         `;
+
         tradeBody.appendChild(row);
+      });
+
+      const curve = document.getElementById("equityCurve");
+      curve.innerHTML = "";
+
+      let equity = Number(portfolio.starting_cash || 50);
+      const curvePoints = [];
+
+      closed.forEach(t => {
+        equity += Number(t.pnl || 0);
+        curvePoints.push(equity);
+      });
+
+      if (!curvePoints.length) curvePoints.push(equity);
+
+      const min = Math.min(...curvePoints);
+      const max = Math.max(...curvePoints);
+      const range = Math.max(0.01, max - min);
+
+      curvePoints.slice(-80).forEach(v => {
+        const h = 20 + ((v - min) / range) * 140;
+        const bar = document.createElement("div");
+        bar.className = "chart-bar";
+        bar.style.height = h + "px";
+        bar.title = money(v);
+        curve.appendChild(bar);
       });
     }
 
