@@ -533,5 +533,56 @@
     "notional": 3.83295089490592,
     "pnl": -0.1670491050940801,
     "peak_pnl": -0.1670491050940801
+  },
+  {
+    "time": "2026-05-26T18:31:05.247151",
+    "pair": "OP-USD",
+    "side": "LONG",
+    "action": "SELL",
+    "price": 0.129,
+    "quantity": 37.31343283582089,
+    "notional": 5.0,
+    "pnl": -0.18656716417910513,
+    "pnl_pct": -3.7313432835821025,
+    "reason": "LONG_STOP_LOSS"
+  },
+  {
+    "time": "2026-05-26T18:31:05.247528",
+    "pair": "BTC-USD",
+    "side": "SHORT",
+    "action": "SHORT",
+    "price": 76072.9,
+    "quantity": 3.943585692145298e-05,
+    "notional": 3.0,
+    "pnl": 0,
+    "score": 80,
+    "atr_pct": 0.37,
+    "reason": "price < EMA20; price < EMA50; bear EMA alignment; RSI weak; MACD negative; volume active; BTC bearish"
+  },
+  {
+    "time": "2026-05-26T18:31:05.247548",
+    "pair": "NEAR-USD",
+    "side": "SHORT",
+    "action": "SHORT",
+    "price": 2.662,
+    "quantity": 1.1269722013523666,
+    "notional": 3.0,
+    "pnl": 0,
+    "score": 80,
+    "atr_pct": 1.38,
+    "reason": "price < EMA20; price < EMA50; bear EMA alignment; RSI weak; MACD negative; BTC bearish"
+  },
+  {
+    "time": "2026-05-26T18:31:05.247564",
+    "pair": "ETH-USD",
+    "side": "SHORT",
+    "action": "SHORT",
+    "price": 2072.27,
+    "quantity": 0.0014476878013000237,
+    "notional": 3.0,
+    "pnl": 0,
+    "score": 72,
+    "atr_pct": 0.54,
+    "reason": "price < EMA20; price < EMA50; bear EMA alignment; RSI weak; MACD negative; BTC bearish"
   }
 ]
