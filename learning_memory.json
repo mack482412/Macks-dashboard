@@ -1,0 +1,77 @@
+{
+  "HBAR-USD": {
+    "score": -3,
+    "wins": 0,
+    "losses": 3
+  },
+  "XLM-USD": {
+    "score": 3,
+    "wins": 3,
+    "losses": 0
+  },
+  "SHIB-USD": {
+    "score": 3,
+    "wins": 3,
+    "losses": 0
+  },
+  "LINK-USD": {
+    "score": -3,
+    "wins": 0,
+    "losses": 6
+  },
+  "TAO-USD": {
+    "score": -3,
+    "wins": 0,
+    "losses": 3
+  },
+  "BTC-USD": {
+    "score": -3,
+    "wins": 0,
+    "losses": 6
+  },
+  "ETH-USD": {
+    "score": -3,
+    "wins": 0,
+    "losses": 6
+  },
+  "BNB-USD": {
+    "score": -3,
+    "wins": 0,
+    "losses": 6
+  },
+  "TON-USD": {
+    "score": -3,
+    "wins": 0,
+    "losses": 3
+  },
+  "LTC-USD": {
+    "score": -3,
+    "wins": 0,
+    "losses": 3
+  },
+  "XRP-USD": {
+    "score": 3,
+    "wins": 6,
+    "losses": 0
+  },
+  "ZEC-USD": {
+    "score": 0,
+    "wins": 3,
+    "losses": 3
+  },
+  "AVAX-USD": {
+    "score": 1,
+    "wins": 1,
+    "losses": 0
+  },
+  "DOT-USD": {
+    "score": 1,
+    "wins": 1,
+    "losses": 0
+  },
+  "ASTER-USD": {
+    "score": 1,
+    "wins": 1,
+    "losses": 0
+  }
+}
