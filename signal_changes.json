@@ -1,29 +1,5 @@
 [
   {
-    "time": "2026-05-20T05:18:33.592815",
-    "pair": "ETH-USD",
-    "previous_signal": "STRONG_BUY",
-    "current_signal": "BUY"
-  },
-  {
-    "time": "2026-05-20T05:18:33.592834",
-    "pair": "BNB-USD",
-    "previous_signal": "STRONG_BUY",
-    "current_signal": "BUY"
-  },
-  {
-    "time": "2026-05-20T05:18:33.592838",
-    "pair": "SOL-USD",
-    "previous_signal": "STRONG_BUY",
-    "current_signal": "BUY"
-  },
-  {
-    "time": "2026-05-20T05:18:33.592842",
-    "pair": "HYPE-USD",
-    "previous_signal": "STRONG_BUY",
-    "current_signal": "BUY"
-  },
-  {
     "time": "2026-05-20T05:18:33.592846",
     "pair": "ZEC-USD",
     "previous_signal": "SELL",
@@ -590,6 +566,36 @@
   {
     "time": "2026-05-26T19:35:38.640793",
     "pair": "AAVE-USD",
+    "old_signal": "SHORT",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-05-26T19:50:46.939457",
+    "pair": "GRT-USD",
+    "old_signal": "SHORT",
+    "new_signal": "STRONG_SHORT"
+  },
+  {
+    "time": "2026-05-26T19:50:46.939476",
+    "pair": "SOL-USD",
+    "old_signal": "SHORT",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-05-26T19:50:46.939480",
+    "pair": "BCH-USD",
+    "old_signal": "SHORT",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-05-26T19:50:46.939483",
+    "pair": "UNI-USD",
+    "old_signal": "SHORT",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-05-26T19:50:46.939486",
+    "pair": "ARB-USD",
     "old_signal": "SHORT",
     "new_signal": "HOLD"
   }
