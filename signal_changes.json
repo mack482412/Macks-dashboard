@@ -1,29 +1,5 @@
 [
   {
-    "time": "2026-05-20T06:10:47.187629",
-    "pair": "ASTER-USD",
-    "previous_signal": "STRONG_BUY",
-    "current_signal": "BUY"
-  },
-  {
-    "time": "2026-05-22T04:27:04.350665",
-    "pair": "SOL-USD",
-    "old_signal": "BUY",
-    "new_signal": "STRONG_BUY"
-  },
-  {
-    "time": "2026-05-22T04:27:04.350674",
-    "pair": "LTC-USD",
-    "old_signal": "NEUTRAL",
-    "new_signal": "BUY"
-  },
-  {
-    "time": "2026-05-22T04:27:04.350680",
-    "pair": "LINK-USD",
-    "old_signal": "STRONG_BUY",
-    "new_signal": "BUY"
-  },
-  {
     "time": "2026-05-22T04:27:04.350684",
     "pair": "SHIB-USD",
     "old_signal": "STRONG_BUY",
@@ -596,6 +572,30 @@
   {
     "time": "2026-05-26T22:22:09.844900",
     "pair": "OP-USD",
+    "old_signal": "SHORT",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-05-26T22:37:18.351557",
+    "pair": "LTC-USD",
+    "old_signal": "HOLD",
+    "new_signal": "SHORT"
+  },
+  {
+    "time": "2026-05-26T22:37:18.351569",
+    "pair": "ARB-USD",
+    "old_signal": "HOLD",
+    "new_signal": "SHORT"
+  },
+  {
+    "time": "2026-05-26T22:37:18.351585",
+    "pair": "ICP-USD",
+    "old_signal": "SHORT",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-05-26T22:37:18.351591",
+    "pair": "FIL-USD",
     "old_signal": "SHORT",
     "new_signal": "HOLD"
   }
