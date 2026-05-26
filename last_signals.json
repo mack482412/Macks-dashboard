@@ -1,4 +1,5 @@
 {
+  "INJ-USD": "STRONG_SHORT",
   "NEAR-USD": "SHORT",
   "ICP-USD": "SHORT",
   "GRT-USD": "SHORT",
@@ -21,12 +22,11 @@
   "ARB-USD": "SHORT",
   "OP-USD": "SHORT",
   "SUI-USD": "SHORT",
-  "INJ-USD": "SHORT",
+  "FET-USD": "SHORT",
   "SHIB-USD": "SHORT",
   "MATIC-USD": "HOLD",
-  "FIL-USD": "HOLD",
-  "FET-USD": "HOLD",
   "RNDR-USD": "HOLD",
   "ATOM-USD": "HOLD",
+  "FIL-USD": "HOLD",
   "SEI-USD": "HOLD"
 }
