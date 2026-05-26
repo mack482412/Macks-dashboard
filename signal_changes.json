@@ -514,5 +514,17 @@
     "pair": "FET-USD",
     "old_signal": "HOLD",
     "new_signal": "SHORT"
+  },
+  {
+    "time": "2026-05-26T18:50:12.719774",
+    "pair": "OP-USD",
+    "old_signal": "SHORT",
+    "new_signal": "STRONG_SHORT"
+  },
+  {
+    "time": "2026-05-26T18:50:12.719791",
+    "pair": "DOT-USD",
+    "old_signal": "STRONG_SHORT",
+    "new_signal": "SHORT"
   }
 ]
