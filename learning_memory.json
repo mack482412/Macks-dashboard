@@ -77,101 +77,106 @@
   "HBAR-USD:LONG": {
     "score": -3,
     "wins": 0,
-    "losses": 92
+    "losses": 93
   },
   "XLM-USD:LONG": {
     "score": 3,
-    "wins": 92,
+    "wins": 93,
     "losses": 0
   },
   "SHIB-USD:LONG": {
     "score": 3,
-    "wins": 92,
+    "wins": 93,
     "losses": 0
   },
   "LINK-USD:LONG": {
     "score": -3,
     "wins": 0,
-    "losses": 184
+    "losses": 186
   },
   "TAO-USD:LONG": {
     "score": -3,
     "wins": 0,
-    "losses": 92
+    "losses": 93
   },
   "BTC-USD:LONG": {
     "score": -3,
     "wins": 0,
-    "losses": 276
+    "losses": 279
   },
   "ETH-USD:LONG": {
     "score": -3,
     "wins": 0,
-    "losses": 184
+    "losses": 186
   },
   "BNB-USD:LONG": {
     "score": -3,
     "wins": 0,
-    "losses": 184
+    "losses": 186
   },
   "TON-USD:LONG": {
     "score": -3,
     "wins": 0,
-    "losses": 92
+    "losses": 93
   },
   "LTC-USD:LONG": {
     "score": -3,
     "wins": 0,
-    "losses": 92
+    "losses": 93
   },
   "XRP-USD:LONG": {
     "score": 3,
-    "wins": 184,
+    "wins": 186,
     "losses": 0
   },
   "ZEC-USD:LONG": {
     "score": 0,
-    "wins": 92,
-    "losses": 92
+    "wins": 93,
+    "losses": 93
   },
   "AVAX-USD:LONG": {
     "score": 3,
-    "wins": 92,
+    "wins": 93,
     "losses": 0
   },
   "DOT-USD:LONG": {
     "score": 3,
-    "wins": 92,
+    "wins": 93,
     "losses": 0
   },
   "ASTER-USD:LONG": {
     "score": 3,
-    "wins": 92,
+    "wins": 93,
     "losses": 0
   },
   "SOL-USD:LONG": {
     "score": -3,
     "wins": 0,
-    "losses": 92
+    "losses": 93
   },
   "OP-USD:LONG": {
     "score": -3,
     "wins": 0,
-    "losses": 91
+    "losses": 92
   },
   "NEAR-USD:SHORT": {
     "score": 3,
-    "wins": 199,
+    "wins": 202,
     "losses": 0
   },
   "FET-USD:SHORT": {
     "score": -3,
     "wins": 0,
-    "losses": 8
+    "losses": 9
   },
   "INJ-USD:SHORT": {
     "score": -3,
     "wins": 0,
-    "losses": 5
+    "losses": 6
+  },
+  "FIL-USD:LONG": {
+    "score": -1,
+    "wins": 0,
+    "losses": 1
   }
 }
