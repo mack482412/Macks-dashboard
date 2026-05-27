@@ -1,29 +1,5 @@
 [
   {
-    "time": "2026-05-27T03:40:13.022244",
-    "pair": "SHIB-USD",
-    "old_signal": "STRONG_SHORT",
-    "new_signal": "SHORT"
-  },
-  {
-    "time": "2026-05-27T03:40:13.022252",
-    "pair": "FIL-USD",
-    "old_signal": "BUY",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-05-27T03:40:13.022263",
-    "pair": "GRT-USD",
-    "old_signal": "SHORT",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-05-27T03:55:21.817522",
-    "pair": "BTC-USD",
-    "old_signal": "HOLD",
-    "new_signal": "STRONG_SHORT"
-  },
-  {
     "time": "2026-05-27T03:55:21.817532",
     "pair": "SOL-USD",
     "old_signal": "HOLD",
@@ -598,5 +574,29 @@
     "pair": "DOGE-USD",
     "old_signal": "BUY",
     "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-05-27T06:41:52.783718",
+    "pair": "DOGE-USD",
+    "old_signal": "HOLD",
+    "new_signal": "STRONG_BUY"
+  },
+  {
+    "time": "2026-05-27T06:41:52.783729",
+    "pair": "FIL-USD",
+    "old_signal": "BUY",
+    "new_signal": "STRONG_BUY"
+  },
+  {
+    "time": "2026-05-27T06:41:52.783733",
+    "pair": "DOT-USD",
+    "old_signal": "HOLD",
+    "new_signal": "BUY"
+  },
+  {
+    "time": "2026-05-27T06:41:52.783737",
+    "pair": "MATIC-USD",
+    "old_signal": "HOLD",
+    "new_signal": "BUY"
   }
 ]
