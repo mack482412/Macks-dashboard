@@ -734,5 +734,30 @@
     "score": 87.0,
     "atr_pct": 1.26,
     "reason": "price < EMA20; price < EMA50; bear EMA alignment; RSI weak; MACD negative; MACD weakening; BTC bearish"
+  },
+  {
+    "time": "2026-05-27T19:53:49.335374",
+    "pair": "FET-USD",
+    "side": "SHORT",
+    "action": "COVER",
+    "price": 0.2462,
+    "quantity": 16.771488469601678,
+    "notional": 4.0,
+    "pnl": -0.12914046121593312,
+    "pnl_pct": -3.228511530398328,
+    "reason": "SHORT_STOP_LOSS"
+  },
+  {
+    "time": "2026-05-27T19:53:49.335893",
+    "pair": "SHIB-USD",
+    "side": "SHORT",
+    "action": "SHORT",
+    "price": 5.48e-06,
+    "quantity": 912408.7591240876,
+    "notional": 5.0,
+    "pnl": 0,
+    "score": 90,
+    "atr_pct": 0.3,
+    "reason": "price < EMA20; price < EMA50; bear EMA alignment; RSI weak; MACD negative; MACD weakening; volume active; BTC bearish"
   }
 ]
