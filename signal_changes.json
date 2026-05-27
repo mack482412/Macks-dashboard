@@ -1,29 +1,5 @@
 [
   {
-    "time": "2026-05-27T03:55:21.817572",
-    "pair": "BCH-USD",
-    "old_signal": "HOLD",
-    "new_signal": "SHORT"
-  },
-  {
-    "time": "2026-05-27T03:55:21.817578",
-    "pair": "ICP-USD",
-    "old_signal": "BUY",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-05-27T04:10:30.725166",
-    "pair": "ETH-USD",
-    "old_signal": "SHORT",
-    "new_signal": "STRONG_SHORT"
-  },
-  {
-    "time": "2026-05-27T04:10:30.725175",
-    "pair": "XRP-USD",
-    "old_signal": "HOLD",
-    "new_signal": "STRONG_SHORT"
-  },
-  {
     "time": "2026-05-27T04:10:30.725179",
     "pair": "DOGE-USD",
     "old_signal": "HOLD",
@@ -598,5 +574,29 @@
     "pair": "UNI-USD",
     "old_signal": "BUY",
     "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-05-27T07:42:26.340613",
+    "pair": "DOT-USD",
+    "old_signal": "BUY",
+    "new_signal": "STRONG_BUY"
+  },
+  {
+    "time": "2026-05-27T07:42:26.340622",
+    "pair": "DOGE-USD",
+    "old_signal": "HOLD",
+    "new_signal": "STRONG_BUY"
+  },
+  {
+    "time": "2026-05-27T07:42:26.340629",
+    "pair": "UNI-USD",
+    "old_signal": "HOLD",
+    "new_signal": "BUY"
+  },
+  {
+    "time": "2026-05-27T07:42:26.340632",
+    "pair": "GRT-USD",
+    "old_signal": "HOLD",
+    "new_signal": "BUY"
   }
 ]
