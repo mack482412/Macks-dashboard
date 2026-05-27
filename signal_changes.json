@@ -1,23 +1,5 @@
 [
   {
-    "time": "2026-05-26T18:31:05.249735",
-    "pair": "AVAX-USD",
-    "old_signal": "STRONG_SELL",
-    "new_signal": "SHORT"
-  },
-  {
-    "time": "2026-05-26T18:31:05.249764",
-    "pair": "LINK-USD",
-    "old_signal": "STRONG_SELL",
-    "new_signal": "SHORT"
-  },
-  {
-    "time": "2026-05-26T18:31:05.249768",
-    "pair": "DOT-USD",
-    "old_signal": "STRONG_SELL",
-    "new_signal": "SHORT"
-  },
-  {
     "time": "2026-05-26T18:31:05.249772",
     "pair": "LTC-USD",
     "old_signal": "STRONG_SELL",
@@ -596,6 +578,24 @@
   {
     "time": "2026-05-27T00:08:08.125383",
     "pair": "OP-USD",
+    "old_signal": "SHORT",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-05-27T00:23:16.386971",
+    "pair": "FIL-USD",
+    "old_signal": "HOLD",
+    "new_signal": "BUY"
+  },
+  {
+    "time": "2026-05-27T00:23:16.386980",
+    "pair": "FET-USD",
+    "old_signal": "HOLD",
+    "new_signal": "BUY"
+  },
+  {
+    "time": "2026-05-27T00:23:16.386988",
+    "pair": "AAVE-USD",
     "old_signal": "SHORT",
     "new_signal": "HOLD"
   }
