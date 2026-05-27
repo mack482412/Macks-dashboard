@@ -16,64 +16,64 @@
       "atr_pct": 1.17,
       "reason": "price > EMA20; price > EMA50; RSI healthy; MACD positive; MACD improving; volume confirmation; ATR usable; BTC regime bullish",
       "opened_at": "2026-05-22T04:27:04.348688",
-      "updated_at": "2026-05-27T09:43:32.430594"
+      "updated_at": "2026-05-27T09:58:40.708591"
     },
     "BTC-USD": {
       "pair": "BTC-USD",
       "side": "SHORT",
       "entry_price": 76072.9,
-      "current_price": 75803.63,
+      "current_price": 75783.12,
       "quantity": 3.943585692145298e-05,
       "notional": 3.0,
-      "market_value": 3.0106188931932394,
-      "unrealized_pnl": 0.010618893193239227,
-      "pnl_pct": 0.35396310644130763,
+      "market_value": 3.0114277226186985,
+      "unrealized_pnl": 0.0114277226186986,
+      "pnl_pct": 0.3809240872899533,
       "peak_pnl_pct": 1.0986566832603974,
       "score": 80,
       "ai_confidence": 80,
       "atr_pct": 0.37,
       "reason": "price < EMA20; price < EMA50; bear EMA alignment; RSI weak; MACD negative; volume active; BTC bearish",
       "opened_at": "2026-05-26T18:31:05.247523",
-      "updated_at": "2026-05-27T09:43:32.430601"
+      "updated_at": "2026-05-27T09:58:40.708597"
     },
     "ETH-USD": {
       "pair": "ETH-USD",
       "side": "SHORT",
       "entry_price": 2072.27,
-      "current_price": 2082.74,
+      "current_price": 2080.9,
       "quantity": 0.0014476878013000237,
       "notional": 3.0,
-      "market_value": 2.984842708720389,
-      "unrealized_pnl": -0.01515729127961096,
-      "pnl_pct": -0.5052430426536987,
+      "market_value": 2.9875064542747807,
+      "unrealized_pnl": -0.012493545725219362,
+      "pnl_pct": -0.41645152417397874,
       "peak_pnl_pct": 0.6558025739889177,
       "score": 72,
       "ai_confidence": 72,
       "atr_pct": 0.54,
       "reason": "price < EMA20; price < EMA50; bear EMA alignment; RSI weak; MACD negative; BTC bearish",
       "opened_at": "2026-05-26T18:31:05.247561",
-      "updated_at": "2026-05-27T09:43:32.430606"
+      "updated_at": "2026-05-27T09:58:40.708603"
     },
     "FET-USD": {
       "pair": "FET-USD",
       "side": "SHORT",
       "entry_price": 0.2436,
-      "current_price": 0.2431,
+      "current_price": 0.2395,
       "quantity": 12.31527093596059,
       "notional": 3.0,
-      "market_value": 3.0061576354679804,
-      "unrealized_pnl": 0.006157635467980301,
-      "pnl_pct": 0.20525451559934338,
-      "peak_pnl_pct": 0.6157635467980301,
+      "market_value": 3.0504926108374386,
+      "unrealized_pnl": 0.050492610837438674,
+      "pnl_pct": 1.6830870279146224,
+      "peak_pnl_pct": 1.6830870279146224,
       "score": 80,
       "ai_confidence": 80,
       "atr_pct": 1.04,
       "reason": "price < EMA20; price < EMA50; bear EMA alignment; RSI weak; MACD negative; BTC bearish",
       "opened_at": "2026-05-27T05:26:12.091035",
-      "updated_at": "2026-05-27T09:43:32.430625"
+      "updated_at": "2026-05-27T09:58:40.708608"
     }
   },
   "starting_cash": 50.0,
-  "total_value": 49.57344018393598,
-  "updated_at": "2026-05-27T09:43:32.430628"
+  "total_value": 49.62124773428529,
+  "updated_at": "2026-05-27T09:58:40.708611"
 }
