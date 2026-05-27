@@ -1,47 +1,5 @@
 [
   {
-    "time": "2026-05-27T20:54:23.439037",
-    "pair": "ARB-USD",
-    "old_signal": "HOLD",
-    "new_signal": "BUY"
-  },
-  {
-    "time": "2026-05-27T20:54:23.439050",
-    "pair": "SHIB-USD",
-    "old_signal": "SHORT",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-05-27T21:09:31.787582",
-    "pair": "AVAX-USD",
-    "old_signal": "BUY",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-05-27T21:09:31.787591",
-    "pair": "ICP-USD",
-    "old_signal": "BUY",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-05-27T21:09:31.787596",
-    "pair": "NEAR-USD",
-    "old_signal": "BUY",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-05-27T21:24:40.751873",
-    "pair": "ATOM-USD",
-    "old_signal": "HOLD",
-    "new_signal": "SHORT"
-  },
-  {
-    "time": "2026-05-27T21:24:40.751882",
-    "pair": "APT-USD",
-    "old_signal": "HOLD",
-    "new_signal": "BUY"
-  },
-  {
     "time": "2026-05-27T21:24:40.751894",
     "pair": "ARB-USD",
     "old_signal": "BUY",
@@ -598,5 +556,47 @@
     "pair": "APT-USD",
     "old_signal": "SHORT",
     "new_signal": "STRONG_SHORT"
+  },
+  {
+    "time": "2026-05-27T23:40:56.131494",
+    "pair": "BCH-USD",
+    "old_signal": "SHORT",
+    "new_signal": "STRONG_SHORT"
+  },
+  {
+    "time": "2026-05-27T23:40:56.131502",
+    "pair": "ICP-USD",
+    "old_signal": "STRONG_SHORT",
+    "new_signal": "SHORT"
+  },
+  {
+    "time": "2026-05-27T23:40:56.131506",
+    "pair": "GRT-USD",
+    "old_signal": "STRONG_SHORT",
+    "new_signal": "SHORT"
+  },
+  {
+    "time": "2026-05-27T23:40:56.131511",
+    "pair": "XRP-USD",
+    "old_signal": "STRONG_SHORT",
+    "new_signal": "SHORT"
+  },
+  {
+    "time": "2026-05-27T23:40:56.131516",
+    "pair": "DOT-USD",
+    "old_signal": "STRONG_SHORT",
+    "new_signal": "SHORT"
+  },
+  {
+    "time": "2026-05-27T23:40:56.131520",
+    "pair": "AAVE-USD",
+    "old_signal": "STRONG_SHORT",
+    "new_signal": "SHORT"
+  },
+  {
+    "time": "2026-05-27T23:40:56.131525",
+    "pair": "APT-USD",
+    "old_signal": "STRONG_SHORT",
+    "new_signal": "SHORT"
   }
 ]
