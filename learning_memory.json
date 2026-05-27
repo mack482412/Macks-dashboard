@@ -77,106 +77,106 @@
   "HBAR-USD:LONG": {
     "score": -3,
     "wins": 0,
-    "losses": 96
+    "losses": 97
   },
   "XLM-USD:LONG": {
     "score": 3,
-    "wins": 96,
+    "wins": 97,
     "losses": 0
   },
   "SHIB-USD:LONG": {
     "score": 3,
-    "wins": 96,
+    "wins": 97,
     "losses": 0
   },
   "LINK-USD:LONG": {
     "score": -3,
     "wins": 0,
-    "losses": 192
+    "losses": 194
   },
   "TAO-USD:LONG": {
     "score": -3,
     "wins": 0,
-    "losses": 96
+    "losses": 97
   },
   "BTC-USD:LONG": {
     "score": -3,
     "wins": 0,
-    "losses": 288
+    "losses": 291
   },
   "ETH-USD:LONG": {
     "score": -3,
     "wins": 0,
-    "losses": 192
+    "losses": 194
   },
   "BNB-USD:LONG": {
     "score": -3,
     "wins": 0,
-    "losses": 192
+    "losses": 194
   },
   "TON-USD:LONG": {
     "score": -3,
     "wins": 0,
-    "losses": 96
+    "losses": 97
   },
   "LTC-USD:LONG": {
     "score": -3,
     "wins": 0,
-    "losses": 96
+    "losses": 97
   },
   "XRP-USD:LONG": {
     "score": 3,
-    "wins": 192,
+    "wins": 194,
     "losses": 0
   },
   "ZEC-USD:LONG": {
     "score": 0,
-    "wins": 96,
-    "losses": 96
+    "wins": 97,
+    "losses": 97
   },
   "AVAX-USD:LONG": {
     "score": 3,
-    "wins": 96,
+    "wins": 97,
     "losses": 0
   },
   "DOT-USD:LONG": {
     "score": 3,
-    "wins": 96,
+    "wins": 97,
     "losses": 0
   },
   "ASTER-USD:LONG": {
     "score": 3,
-    "wins": 96,
+    "wins": 97,
     "losses": 0
   },
   "SOL-USD:LONG": {
     "score": -3,
     "wins": 0,
-    "losses": 96
+    "losses": 97
   },
   "OP-USD:LONG": {
     "score": -3,
     "wins": 0,
-    "losses": 95
+    "losses": 96
   },
   "NEAR-USD:SHORT": {
     "score": 3,
-    "wins": 211,
+    "wins": 214,
     "losses": 0
   },
   "FET-USD:SHORT": {
     "score": -3,
     "wins": 0,
-    "losses": 12
+    "losses": 13
   },
   "INJ-USD:SHORT": {
     "score": -3,
     "wins": 0,
-    "losses": 9
+    "losses": 10
   },
   "FIL-USD:LONG": {
     "score": -3,
     "wins": 0,
-    "losses": 4
+    "losses": 5
   }
 }
