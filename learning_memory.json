@@ -77,91 +77,91 @@
   "HBAR-USD:LONG": {
     "score": -3,
     "wins": 0,
-    "losses": 50
+    "losses": 51
   },
   "XLM-USD:LONG": {
     "score": 3,
-    "wins": 50,
+    "wins": 51,
     "losses": 0
   },
   "SHIB-USD:LONG": {
     "score": 3,
-    "wins": 50,
+    "wins": 51,
     "losses": 0
   },
   "LINK-USD:LONG": {
     "score": -3,
     "wins": 0,
-    "losses": 100
+    "losses": 102
   },
   "TAO-USD:LONG": {
     "score": -3,
     "wins": 0,
-    "losses": 50
+    "losses": 51
   },
   "BTC-USD:LONG": {
     "score": -3,
     "wins": 0,
-    "losses": 150
+    "losses": 153
   },
   "ETH-USD:LONG": {
     "score": -3,
     "wins": 0,
-    "losses": 100
+    "losses": 102
   },
   "BNB-USD:LONG": {
     "score": -3,
     "wins": 0,
-    "losses": 100
+    "losses": 102
   },
   "TON-USD:LONG": {
     "score": -3,
     "wins": 0,
-    "losses": 50
+    "losses": 51
   },
   "LTC-USD:LONG": {
     "score": -3,
     "wins": 0,
-    "losses": 50
+    "losses": 51
   },
   "XRP-USD:LONG": {
     "score": 3,
-    "wins": 100,
+    "wins": 102,
     "losses": 0
   },
   "ZEC-USD:LONG": {
     "score": 0,
-    "wins": 50,
-    "losses": 50
+    "wins": 51,
+    "losses": 51
   },
   "AVAX-USD:LONG": {
     "score": 3,
-    "wins": 50,
+    "wins": 51,
     "losses": 0
   },
   "DOT-USD:LONG": {
     "score": 3,
-    "wins": 50,
+    "wins": 51,
     "losses": 0
   },
   "ASTER-USD:LONG": {
     "score": 3,
-    "wins": 50,
+    "wins": 51,
     "losses": 0
   },
   "SOL-USD:LONG": {
     "score": -3,
     "wins": 0,
-    "losses": 50
+    "losses": 51
   },
   "OP-USD:LONG": {
     "score": -3,
     "wins": 0,
-    "losses": 49
+    "losses": 50
   },
   "NEAR-USD:SHORT": {
     "score": 3,
-    "wins": 73,
+    "wins": 76,
     "losses": 0
   }
 }
