@@ -1,41 +1,5 @@
 [
   {
-    "time": "2026-05-27T10:59:13.518580",
-    "pair": "BCH-USD",
-    "old_signal": "SHORT",
-    "new_signal": "STRONG_SHORT"
-  },
-  {
-    "time": "2026-05-27T10:59:13.518591",
-    "pair": "NEAR-USD",
-    "old_signal": "STRONG_SHORT",
-    "new_signal": "SHORT"
-  },
-  {
-    "time": "2026-05-27T10:59:13.518596",
-    "pair": "AVAX-USD",
-    "old_signal": "HOLD",
-    "new_signal": "SHORT"
-  },
-  {
-    "time": "2026-05-27T10:59:13.518600",
-    "pair": "HBAR-USD",
-    "old_signal": "STRONG_SHORT",
-    "new_signal": "SHORT"
-  },
-  {
-    "time": "2026-05-27T10:59:13.518607",
-    "pair": "APT-USD",
-    "old_signal": "SHORT",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-05-27T10:59:13.518611",
-    "pair": "ARB-USD",
-    "old_signal": "SHORT",
-    "new_signal": "HOLD"
-  },
-  {
     "time": "2026-05-27T10:59:13.518616",
     "pair": "FET-USD",
     "old_signal": "STRONG_SHORT",
@@ -596,6 +560,42 @@
   {
     "time": "2026-05-27T13:04:42.890406",
     "pair": "DOGE-USD",
+    "old_signal": "BUY",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-05-27T13:19:54.154366",
+    "pair": "ICP-USD",
+    "old_signal": "HOLD",
+    "new_signal": "STRONG_BUY"
+  },
+  {
+    "time": "2026-05-27T13:19:54.154378",
+    "pair": "ETC-USD",
+    "old_signal": "HOLD",
+    "new_signal": "STRONG_SHORT"
+  },
+  {
+    "time": "2026-05-27T13:19:54.154382",
+    "pair": "INJ-USD",
+    "old_signal": "HOLD",
+    "new_signal": "SHORT"
+  },
+  {
+    "time": "2026-05-27T13:19:54.154386",
+    "pair": "GRT-USD",
+    "old_signal": "HOLD",
+    "new_signal": "BUY"
+  },
+  {
+    "time": "2026-05-27T13:19:54.154390",
+    "pair": "SEI-USD",
+    "old_signal": "HOLD",
+    "new_signal": "SHORT"
+  },
+  {
+    "time": "2026-05-27T13:19:54.154397",
+    "pair": "FIL-USD",
     "old_signal": "BUY",
     "new_signal": "HOLD"
   }
