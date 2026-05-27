@@ -1,35 +1,5 @@
 [
   {
-    "time": "2026-05-27T13:04:42.890385",
-    "pair": "LTC-USD",
-    "old_signal": "STRONG_BUY",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-05-27T13:04:42.890389",
-    "pair": "ICP-USD",
-    "old_signal": "BUY",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-05-27T13:04:42.890394",
-    "pair": "DOT-USD",
-    "old_signal": "STRONG_BUY",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-05-27T13:04:42.890398",
-    "pair": "INJ-USD",
-    "old_signal": "BUY",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-05-27T13:04:42.890402",
-    "pair": "ARB-USD",
-    "old_signal": "BUY",
-    "new_signal": "HOLD"
-  },
-  {
     "time": "2026-05-27T13:04:42.890406",
     "pair": "DOGE-USD",
     "old_signal": "BUY",
@@ -596,6 +566,36 @@
   {
     "time": "2026-05-27T15:05:56.601935",
     "pair": "DOGE-USD",
+    "old_signal": "SHORT",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-05-27T15:21:06.156532",
+    "pair": "DOGE-USD",
+    "old_signal": "HOLD",
+    "new_signal": "BUY"
+  },
+  {
+    "time": "2026-05-27T15:21:06.156540",
+    "pair": "UNI-USD",
+    "old_signal": "HOLD",
+    "new_signal": "BUY"
+  },
+  {
+    "time": "2026-05-27T15:21:06.156544",
+    "pair": "LTC-USD",
+    "old_signal": "HOLD",
+    "new_signal": "BUY"
+  },
+  {
+    "time": "2026-05-27T15:21:06.156550",
+    "pair": "ETH-USD",
+    "old_signal": "SHORT",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-05-27T15:21:06.156555",
+    "pair": "FET-USD",
     "old_signal": "SHORT",
     "new_signal": "HOLD"
   }
