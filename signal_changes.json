@@ -1,23 +1,5 @@
 [
   {
-    "time": "2026-05-27T14:05:21.948922",
-    "pair": "ICP-USD",
-    "old_signal": "HOLD",
-    "new_signal": "BUY"
-  },
-  {
-    "time": "2026-05-27T14:05:21.948926",
-    "pair": "BTC-USD",
-    "old_signal": "STRONG_SHORT",
-    "new_signal": "SHORT"
-  },
-  {
-    "time": "2026-05-27T14:05:21.948930",
-    "pair": "ETH-USD",
-    "old_signal": "STRONG_SHORT",
-    "new_signal": "SHORT"
-  },
-  {
     "time": "2026-05-27T14:05:21.948934",
     "pair": "XRP-USD",
     "old_signal": "STRONG_SHORT",
@@ -598,5 +580,23 @@
     "pair": "INJ-USD",
     "old_signal": "BUY",
     "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-05-27T16:36:53.854300",
+    "pair": "FET-USD",
+    "old_signal": "SHORT",
+    "new_signal": "STRONG_SHORT"
+  },
+  {
+    "time": "2026-05-27T16:36:53.854309",
+    "pair": "HBAR-USD",
+    "old_signal": "HOLD",
+    "new_signal": "STRONG_SHORT"
+  },
+  {
+    "time": "2026-05-27T16:36:53.854313",
+    "pair": "GRT-USD",
+    "old_signal": "HOLD",
+    "new_signal": "STRONG_SHORT"
   }
 ]
