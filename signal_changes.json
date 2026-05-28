@@ -1,17 +1,5 @@
 [
   {
-    "time": "2026-05-28T18:36:53.651688",
-    "pair": "SHIB-USD",
-    "old_signal": "BUY",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-05-28T18:36:53.651698",
-    "pair": "FET-USD",
-    "old_signal": "BUY",
-    "new_signal": "HOLD"
-  },
-  {
     "time": "2026-05-28T18:36:53.651703",
     "pair": "XRP-USD",
     "old_signal": "BUY",
@@ -596,6 +584,18 @@
   {
     "time": "2026-05-28T23:09:29.240454",
     "pair": "NEAR-USD",
+    "old_signal": "BUY",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-05-28T23:39:46.742810",
+    "pair": "ATOM-USD",
+    "old_signal": "STRONG_BUY",
+    "new_signal": "BUY"
+  },
+  {
+    "time": "2026-05-28T23:39:46.742821",
+    "pair": "GRT-USD",
     "old_signal": "BUY",
     "new_signal": "HOLD"
   }
