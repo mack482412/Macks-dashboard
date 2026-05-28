@@ -77,111 +77,111 @@
   "HBAR-USD:LONG": {
     "score": -3,
     "wins": 0,
-    "losses": 134
+    "losses": 135
   },
   "XLM-USD:LONG": {
     "score": 3,
-    "wins": 134,
+    "wins": 135,
     "losses": 0
   },
   "SHIB-USD:LONG": {
     "score": 3,
-    "wins": 134,
+    "wins": 135,
     "losses": 0
   },
   "LINK-USD:LONG": {
     "score": -3,
     "wins": 0,
-    "losses": 268
+    "losses": 270
   },
   "TAO-USD:LONG": {
     "score": -3,
     "wins": 0,
-    "losses": 134
+    "losses": 135
   },
   "BTC-USD:LONG": {
     "score": -3,
     "wins": 0,
-    "losses": 402
+    "losses": 405
   },
   "ETH-USD:LONG": {
     "score": -3,
     "wins": 0,
-    "losses": 268
+    "losses": 270
   },
   "BNB-USD:LONG": {
     "score": -3,
     "wins": 0,
-    "losses": 268
+    "losses": 270
   },
   "TON-USD:LONG": {
     "score": -3,
     "wins": 0,
-    "losses": 134
+    "losses": 135
   },
   "LTC-USD:LONG": {
     "score": -3,
     "wins": 0,
-    "losses": 134
+    "losses": 135
   },
   "XRP-USD:LONG": {
     "score": 3,
-    "wins": 268,
+    "wins": 270,
     "losses": 0
   },
   "ZEC-USD:LONG": {
     "score": 0,
-    "wins": 134,
-    "losses": 134
+    "wins": 135,
+    "losses": 135
   },
   "AVAX-USD:LONG": {
     "score": 3,
-    "wins": 134,
+    "wins": 135,
     "losses": 0
   },
   "DOT-USD:LONG": {
     "score": 3,
-    "wins": 134,
+    "wins": 135,
     "losses": 0
   },
   "ASTER-USD:LONG": {
     "score": 3,
-    "wins": 134,
+    "wins": 135,
     "losses": 0
   },
   "SOL-USD:LONG": {
     "score": -3,
     "wins": 0,
-    "losses": 134
+    "losses": 135
   },
   "OP-USD:LONG": {
     "score": -3,
     "wins": 0,
-    "losses": 133
+    "losses": 134
   },
   "NEAR-USD:SHORT": {
     "score": 3,
-    "wins": 325,
+    "wins": 328,
     "losses": 0
   },
   "FET-USD:SHORT": {
     "score": -3,
     "wins": 0,
-    "losses": 82
+    "losses": 84
   },
   "INJ-USD:SHORT": {
     "score": -3,
     "wins": 0,
-    "losses": 47
+    "losses": 48
   },
   "FIL-USD:LONG": {
     "score": -3,
     "wins": 0,
-    "losses": 42
+    "losses": 43
   },
   "ETH-USD:SHORT": {
-    "score": 1,
-    "wins": 1,
+    "score": 2,
+    "wins": 2,
     "losses": 0
   }
 }
