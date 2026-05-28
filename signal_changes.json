@@ -1,29 +1,5 @@
 [
   {
-    "time": "2026-05-28T04:43:50.614704",
-    "pair": "ADA-USD",
-    "old_signal": "STRONG_SHORT",
-    "new_signal": "SHORT"
-  },
-  {
-    "time": "2026-05-28T04:43:50.614708",
-    "pair": "AVAX-USD",
-    "old_signal": "STRONG_SHORT",
-    "new_signal": "SHORT"
-  },
-  {
-    "time": "2026-05-28T04:43:50.614712",
-    "pair": "LINK-USD",
-    "old_signal": "STRONG_SHORT",
-    "new_signal": "SHORT"
-  },
-  {
-    "time": "2026-05-28T04:43:50.614715",
-    "pair": "LTC-USD",
-    "old_signal": "STRONG_SHORT",
-    "new_signal": "SHORT"
-  },
-  {
     "time": "2026-05-28T04:43:50.614719",
     "pair": "BCH-USD",
     "old_signal": "STRONG_SHORT",
@@ -596,6 +572,30 @@
   {
     "time": "2026-05-28T08:46:03.928036",
     "pair": "NEAR-USD",
+    "old_signal": "SHORT",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-05-28T09:01:12.111776",
+    "pair": "NEAR-USD",
+    "old_signal": "HOLD",
+    "new_signal": "SHORT"
+  },
+  {
+    "time": "2026-05-28T09:01:12.111786",
+    "pair": "ATOM-USD",
+    "old_signal": "HOLD",
+    "new_signal": "SHORT"
+  },
+  {
+    "time": "2026-05-28T09:01:12.111789",
+    "pair": "ICP-USD",
+    "old_signal": "HOLD",
+    "new_signal": "SHORT"
+  },
+  {
+    "time": "2026-05-28T09:01:12.111800",
+    "pair": "BCH-USD",
     "old_signal": "SHORT",
     "new_signal": "HOLD"
   }
