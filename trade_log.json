@@ -934,5 +934,17 @@
     "score": 90,
     "atr_pct": 1.1,
     "reason": "price < EMA20; price < EMA50; bear EMA alignment; RSI weak; MACD negative; MACD weakening; volume active"
+  },
+  {
+    "time": "2026-05-28T16:35:31.160493",
+    "pair": "FIL-USD",
+    "side": "SHORT",
+    "action": "COVER",
+    "price": 0.954,
+    "quantity": 4.140786749482402,
+    "notional": 4.0,
+    "pnl": 0.04968944099378887,
+    "pnl_pct": 1.2422360248447217,
+    "reason": "SHORT_TRAILING_STOP"
   }
 ]
