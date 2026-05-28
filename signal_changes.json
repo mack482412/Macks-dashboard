@@ -1,11 +1,5 @@
 [
   {
-    "time": "2026-05-28T12:33:08.932640",
-    "pair": "ETC-USD",
-    "old_signal": "SHORT",
-    "new_signal": "HOLD"
-  },
-  {
     "time": "2026-05-28T12:33:08.932646",
     "pair": "AAVE-USD",
     "old_signal": "SHORT",
@@ -598,5 +592,11 @@
     "pair": "SEI-USD",
     "old_signal": "HOLD",
     "new_signal": "STRONG_BUY"
+  },
+  {
+    "time": "2026-05-28T17:05:49.344825",
+    "pair": "HBAR-USD",
+    "old_signal": "HOLD",
+    "new_signal": "BUY"
   }
 ]
