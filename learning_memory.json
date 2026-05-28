@@ -77,106 +77,106 @@
   "HBAR-USD:LONG": {
     "score": -3,
     "wins": 0,
-    "losses": 120
+    "losses": 121
   },
   "XLM-USD:LONG": {
     "score": 3,
-    "wins": 120,
+    "wins": 121,
     "losses": 0
   },
   "SHIB-USD:LONG": {
     "score": 3,
-    "wins": 120,
+    "wins": 121,
     "losses": 0
   },
   "LINK-USD:LONG": {
     "score": -3,
     "wins": 0,
-    "losses": 240
+    "losses": 242
   },
   "TAO-USD:LONG": {
     "score": -3,
     "wins": 0,
-    "losses": 120
+    "losses": 121
   },
   "BTC-USD:LONG": {
     "score": -3,
     "wins": 0,
-    "losses": 360
+    "losses": 363
   },
   "ETH-USD:LONG": {
     "score": -3,
     "wins": 0,
-    "losses": 240
+    "losses": 242
   },
   "BNB-USD:LONG": {
     "score": -3,
     "wins": 0,
-    "losses": 240
+    "losses": 242
   },
   "TON-USD:LONG": {
     "score": -3,
     "wins": 0,
-    "losses": 120
+    "losses": 121
   },
   "LTC-USD:LONG": {
     "score": -3,
     "wins": 0,
-    "losses": 120
+    "losses": 121
   },
   "XRP-USD:LONG": {
     "score": 3,
-    "wins": 240,
+    "wins": 242,
     "losses": 0
   },
   "ZEC-USD:LONG": {
     "score": 0,
-    "wins": 120,
-    "losses": 120
+    "wins": 121,
+    "losses": 121
   },
   "AVAX-USD:LONG": {
     "score": 3,
-    "wins": 120,
+    "wins": 121,
     "losses": 0
   },
   "DOT-USD:LONG": {
     "score": 3,
-    "wins": 120,
+    "wins": 121,
     "losses": 0
   },
   "ASTER-USD:LONG": {
     "score": 3,
-    "wins": 120,
+    "wins": 121,
     "losses": 0
   },
   "SOL-USD:LONG": {
     "score": -3,
     "wins": 0,
-    "losses": 120
+    "losses": 121
   },
   "OP-USD:LONG": {
     "score": -3,
     "wins": 0,
-    "losses": 119
+    "losses": 120
   },
   "NEAR-USD:SHORT": {
     "score": 3,
-    "wins": 283,
+    "wins": 286,
     "losses": 0
   },
   "FET-USD:SHORT": {
     "score": -3,
     "wins": 0,
-    "losses": 54
+    "losses": 56
   },
   "INJ-USD:SHORT": {
     "score": -3,
     "wins": 0,
-    "losses": 33
+    "losses": 34
   },
   "FIL-USD:LONG": {
     "score": -3,
     "wins": 0,
-    "losses": 28
+    "losses": 29
   }
 }
