@@ -16,46 +16,46 @@
       "atr_pct": 1.17,
       "reason": "price > EMA20; price > EMA50; RSI healthy; MACD positive; MACD improving; volume confirmation; ATR usable; BTC regime bullish",
       "opened_at": "2026-05-22T04:27:04.348688",
-      "updated_at": "2026-05-28T16:35:31.161098"
+      "updated_at": "2026-05-28T16:50:40.256360"
     },
     "DOGE-USD": {
       "pair": "DOGE-USD",
       "side": "SHORT",
       "entry_price": 0.09711,
-      "current_price": 0.09872,
+      "current_price": 0.09908,
       "quantity": 51.48800329523221,
       "notional": 5.0,
-      "market_value": 4.917104314694676,
-      "unrealized_pnl": -0.08289568530532387,
-      "pnl_pct": -1.6579137061064775,
+      "market_value": 4.8985686335083924,
+      "unrealized_pnl": -0.10143136649160743,
+      "pnl_pct": -2.0286273298321484,
       "peak_pnl_pct": 0.0,
       "score": 90,
       "ai_confidence": 90,
       "atr_pct": 0.68,
       "reason": "price < EMA20; price < EMA50; bear EMA alignment; RSI weak; MACD negative; MACD weakening; volume active; BTC bearish",
       "opened_at": "2026-05-28T05:29:16.250291",
-      "updated_at": "2026-05-28T16:35:31.161105"
+      "updated_at": "2026-05-28T16:50:40.256367"
     },
     "BCH-USD": {
       "pair": "BCH-USD",
       "side": "SHORT",
       "entry_price": 296.53,
-      "current_price": 298.2,
+      "current_price": 299.62,
       "quantity": 0.016861700333861668,
       "notional": 5.0,
-      "market_value": 4.971840960442451,
-      "unrealized_pnl": -0.028159039557549254,
-      "pnl_pct": -0.5631807911509851,
+      "market_value": 4.947897345968367,
+      "unrealized_pnl": -0.052102654031633104,
+      "pnl_pct": -1.042053080632662,
       "peak_pnl_pct": 1.0656594611000467,
       "score": 90,
       "ai_confidence": 90,
       "atr_pct": 1.1,
       "reason": "price < EMA20; price < EMA50; bear EMA alignment; RSI weak; MACD negative; MACD weakening; volume active",
       "opened_at": "2026-05-28T11:17:27.750147",
-      "updated_at": "2026-05-28T16:35:31.161111"
+      "updated_at": "2026-05-28T16:50:40.256372"
     }
   },
   "starting_cash": 50.0,
-  "total_value": 49.71690521548799,
-  "updated_at": "2026-05-28T16:35:31.161115"
+  "total_value": 49.67442591982762,
+  "updated_at": "2026-05-28T16:50:40.256376"
 }
