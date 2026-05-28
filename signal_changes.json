@@ -1,17 +1,5 @@
 [
   {
-    "time": "2026-05-28T04:43:50.614697",
-    "pair": "XRP-USD",
-    "old_signal": "STRONG_SHORT",
-    "new_signal": "SHORT"
-  },
-  {
-    "time": "2026-05-28T04:43:50.614700",
-    "pair": "DOGE-USD",
-    "old_signal": "STRONG_SHORT",
-    "new_signal": "SHORT"
-  },
-  {
     "time": "2026-05-28T04:43:50.614704",
     "pair": "ADA-USD",
     "old_signal": "STRONG_SHORT",
@@ -597,6 +585,18 @@
     "time": "2026-05-28T08:30:55.966370",
     "pair": "MATIC-USD",
     "old_signal": "BUY",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-05-28T08:46:03.928023",
+    "pair": "BCH-USD",
+    "old_signal": "STRONG_SHORT",
+    "new_signal": "SHORT"
+  },
+  {
+    "time": "2026-05-28T08:46:03.928036",
+    "pair": "NEAR-USD",
+    "old_signal": "SHORT",
     "new_signal": "HOLD"
   }
 ]
