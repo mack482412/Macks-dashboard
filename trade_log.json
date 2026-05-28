@@ -946,5 +946,17 @@
     "pnl": 0.04968944099378887,
     "pnl_pct": 1.2422360248447217,
     "reason": "SHORT_TRAILING_STOP"
+  },
+  {
+    "time": "2026-05-28T18:06:36.177887",
+    "pair": "DOGE-USD",
+    "side": "SHORT",
+    "action": "COVER",
+    "price": 0.10006,
+    "quantity": 51.48800329523221,
+    "notional": 5.0,
+    "pnl": -0.15188960972093474,
+    "pnl_pct": -3.0377921944186945,
+    "reason": "SHORT_STOP_LOSS"
   }
 ]
