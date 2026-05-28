@@ -1,17 +1,5 @@
 [
   {
-    "time": "2026-05-28T18:06:36.181313",
-    "pair": "HBAR-USD",
-    "old_signal": "BUY",
-    "new_signal": "STRONG_BUY"
-  },
-  {
-    "time": "2026-05-28T18:06:36.181321",
-    "pair": "ADA-USD",
-    "old_signal": "BUY",
-    "new_signal": "STRONG_BUY"
-  },
-  {
     "time": "2026-05-28T18:06:36.181327",
     "pair": "XRP-USD",
     "old_signal": "HOLD",
@@ -596,6 +584,18 @@
   {
     "time": "2026-05-28T22:08:56.163428",
     "pair": "AAVE-USD",
+    "old_signal": "BUY",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-05-28T22:24:04.547082",
+    "pair": "NEAR-USD",
+    "old_signal": "BUY",
+    "new_signal": "STRONG_BUY"
+  },
+  {
+    "time": "2026-05-28T22:24:04.547093",
+    "pair": "HBAR-USD",
     "old_signal": "BUY",
     "new_signal": "HOLD"
   }
