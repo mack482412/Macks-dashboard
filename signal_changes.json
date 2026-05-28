@@ -1,17 +1,5 @@
 [
   {
-    "time": "2026-05-28T18:06:36.181327",
-    "pair": "XRP-USD",
-    "old_signal": "HOLD",
-    "new_signal": "BUY"
-  },
-  {
-    "time": "2026-05-28T18:06:36.181331",
-    "pair": "DOT-USD",
-    "old_signal": "STRONG_BUY",
-    "new_signal": "BUY"
-  },
-  {
     "time": "2026-05-28T18:21:44.941345",
     "pair": "INJ-USD",
     "old_signal": "HOLD",
@@ -597,6 +585,18 @@
     "time": "2026-05-28T22:24:04.547093",
     "pair": "HBAR-USD",
     "old_signal": "BUY",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-05-28T22:39:12.977653",
+    "pair": "NEAR-USD",
+    "old_signal": "STRONG_BUY",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-05-28T22:39:12.977669",
+    "pair": "GRT-USD",
+    "old_signal": "STRONG_BUY",
     "new_signal": "HOLD"
   }
 ]
