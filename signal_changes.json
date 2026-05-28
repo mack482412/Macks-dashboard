@@ -1,11 +1,5 @@
 [
   {
-    "time": "2026-05-28T09:16:20.136295",
-    "pair": "UNI-USD",
-    "old_signal": "HOLD",
-    "new_signal": "SHORT"
-  },
-  {
     "time": "2026-05-28T09:16:20.136299",
     "pair": "FIL-USD",
     "old_signal": "HOLD",
@@ -598,5 +592,11 @@
     "pair": "ETH-USD",
     "old_signal": "SHORT",
     "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-05-28T13:03:26.844937",
+    "pair": "NEAR-USD",
+    "old_signal": "HOLD",
+    "new_signal": "SHORT"
   }
 ]
