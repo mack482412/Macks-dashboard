@@ -16,28 +16,28 @@
       "atr_pct": 1.17,
       "reason": "price > EMA20; price > EMA50; RSI healthy; MACD positive; MACD improving; volume confirmation; ATR usable; BTC regime bullish",
       "opened_at": "2026-05-22T04:27:04.348688",
-      "updated_at": "2026-05-28T19:37:30.233925"
+      "updated_at": "2026-05-28T19:52:38.458765"
     },
     "BCH-USD": {
       "pair": "BCH-USD",
       "side": "SHORT",
       "entry_price": 296.53,
-      "current_price": 301.14,
+      "current_price": 300.23,
       "quantity": 0.016861700333861668,
       "notional": 5.0,
-      "market_value": 4.922267561460897,
-      "unrealized_pnl": -0.07773243853910253,
-      "pnl_pct": -1.5546487707820504,
+      "market_value": 4.937611708764711,
+      "unrealized_pnl": -0.06238829123528894,
+      "pnl_pct": -1.2477658247057788,
       "peak_pnl_pct": 1.0656594611000467,
       "score": 90,
       "ai_confidence": 90,
       "atr_pct": 1.1,
       "reason": "price < EMA20; price < EMA50; bear EMA alignment; RSI weak; MACD negative; MACD weakening; volume active",
       "opened_at": "2026-05-28T11:17:27.750147",
-      "updated_at": "2026-05-28T19:37:30.233932"
+      "updated_at": "2026-05-28T19:52:38.458772"
     }
   },
   "starting_cash": 50.0,
-  "total_value": 49.59833789209083,
-  "updated_at": "2026-05-28T19:37:30.233935"
+  "total_value": 49.61368203939465,
+  "updated_at": "2026-05-28T19:52:38.458775"
 }
