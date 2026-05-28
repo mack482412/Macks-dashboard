@@ -1,17 +1,5 @@
 [
   {
-    "time": "2026-05-27T21:39:48.649186",
-    "pair": "AAVE-USD",
-    "old_signal": "HOLD",
-    "new_signal": "SHORT"
-  },
-  {
-    "time": "2026-05-27T21:39:48.649190",
-    "pair": "ETC-USD",
-    "old_signal": "HOLD",
-    "new_signal": "SHORT"
-  },
-  {
     "time": "2026-05-27T21:39:48.649194",
     "pair": "APT-USD",
     "old_signal": "BUY",
@@ -596,6 +584,18 @@
   {
     "time": "2026-05-28T00:11:13.938869",
     "pair": "INJ-USD",
+    "old_signal": "SHORT",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-05-28T00:26:22.241800",
+    "pair": "SHIB-USD",
+    "old_signal": "SHORT",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-05-28T00:26:22.241808",
+    "pair": "HBAR-USD",
     "old_signal": "SHORT",
     "new_signal": "HOLD"
   }
