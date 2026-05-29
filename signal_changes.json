@@ -1,47 +1,5 @@
 [
   {
-    "time": "2026-05-28T20:53:13.239000",
-    "pair": "AAVE-USD",
-    "old_signal": "BUY",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-05-28T21:08:21.772223",
-    "pair": "DOGE-USD",
-    "old_signal": "HOLD",
-    "new_signal": "BUY"
-  },
-  {
-    "time": "2026-05-28T21:08:21.772236",
-    "pair": "AAVE-USD",
-    "old_signal": "HOLD",
-    "new_signal": "BUY"
-  },
-  {
-    "time": "2026-05-28T21:08:21.772241",
-    "pair": "BTC-USD",
-    "old_signal": "BUY",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-05-28T21:08:21.772245",
-    "pair": "NEAR-USD",
-    "old_signal": "BUY",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-05-28T21:08:21.772249",
-    "pair": "ARB-USD",
-    "old_signal": "STRONG_BUY",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-05-28T21:08:21.772253",
-    "pair": "INJ-USD",
-    "old_signal": "STRONG_BUY",
-    "new_signal": "HOLD"
-  },
-  {
     "time": "2026-05-28T21:08:21.772257",
     "pair": "FET-USD",
     "old_signal": "BUY",
@@ -597,6 +555,48 @@
     "time": "2026-05-29T01:40:56.859535",
     "pair": "APT-USD",
     "old_signal": "BUY",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-05-29T01:56:05.279238",
+    "pair": "FET-USD",
+    "old_signal": "HOLD",
+    "new_signal": "STRONG_BUY"
+  },
+  {
+    "time": "2026-05-29T01:56:05.279246",
+    "pair": "MATIC-USD",
+    "old_signal": "HOLD",
+    "new_signal": "BUY"
+  },
+  {
+    "time": "2026-05-29T01:56:05.279250",
+    "pair": "NEAR-USD",
+    "old_signal": "HOLD",
+    "new_signal": "BUY"
+  },
+  {
+    "time": "2026-05-29T01:56:05.279253",
+    "pair": "INJ-USD",
+    "old_signal": "HOLD",
+    "new_signal": "BUY"
+  },
+  {
+    "time": "2026-05-29T01:56:05.279257",
+    "pair": "ATOM-USD",
+    "old_signal": "HOLD",
+    "new_signal": "BUY"
+  },
+  {
+    "time": "2026-05-29T01:56:05.279261",
+    "pair": "APT-USD",
+    "old_signal": "HOLD",
+    "new_signal": "BUY"
+  },
+  {
+    "time": "2026-05-29T01:56:05.279265",
+    "pair": "SEI-USD",
+    "old_signal": "SHORT",
     "new_signal": "HOLD"
   }
 ]
