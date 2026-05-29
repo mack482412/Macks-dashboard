@@ -1,11 +1,5 @@
 [
   {
-    "time": "2026-05-28T21:23:30.035776",
-    "pair": "AAVE-USD",
-    "old_signal": "BUY",
-    "new_signal": "HOLD"
-  },
-  {
     "time": "2026-05-28T21:38:38.341236",
     "pair": "UNI-USD",
     "old_signal": "HOLD",
@@ -598,5 +592,11 @@
     "pair": "ICP-USD",
     "old_signal": "STRONG_BUY",
     "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-05-29T02:41:31.688678",
+    "pair": "OP-USD",
+    "old_signal": "HOLD",
+    "new_signal": "STRONG_SHORT"
   }
 ]
