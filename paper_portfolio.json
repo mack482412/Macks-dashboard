@@ -16,7 +16,7 @@
       "atr_pct": 1.17,
       "reason": "price > EMA20; price > EMA50; RSI healthy; MACD positive; MACD improving; volume confirmation; ATR usable; BTC regime bullish",
       "opened_at": "2026-05-22T04:27:04.348688",
-      "updated_at": "2026-05-29T18:20:26.061063"
+      "updated_at": "2026-05-29T18:35:34.636703"
     },
     "XRP-USD": {
       "pair": "XRP-USD",
@@ -34,10 +34,10 @@
       "atr_pct": 0.38,
       "reason": "price < EMA20; price < EMA50; bear EMA alignment; RSI weak; MACD negative; MACD weakening; volume active; BTC bearish",
       "opened_at": "2026-05-29T14:33:04.139558",
-      "updated_at": "2026-05-29T18:20:26.061070"
+      "updated_at": "2026-05-29T18:35:34.636709"
     }
   },
   "starting_cash": 50.0,
   "total_value": 48.956390875921585,
-  "updated_at": "2026-05-29T18:20:26.061073"
+  "updated_at": "2026-05-29T18:35:34.636712"
 }
