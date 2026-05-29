@@ -77,151 +77,151 @@
   "HBAR-USD:LONG": {
     "score": -3,
     "wins": 0,
-    "losses": 257
+    "losses": 258
   },
   "XLM-USD:LONG": {
     "score": 3,
-    "wins": 257,
+    "wins": 258,
     "losses": 0
   },
   "SHIB-USD:LONG": {
     "score": 3,
-    "wins": 257,
+    "wins": 258,
     "losses": 0
   },
   "LINK-USD:LONG": {
     "score": -3,
     "wins": 0,
-    "losses": 514
+    "losses": 516
   },
   "TAO-USD:LONG": {
     "score": -3,
     "wins": 0,
-    "losses": 257
+    "losses": 258
   },
   "BTC-USD:LONG": {
     "score": -3,
     "wins": 0,
-    "losses": 771
+    "losses": 774
   },
   "ETH-USD:LONG": {
     "score": -3,
     "wins": 0,
-    "losses": 514
+    "losses": 516
   },
   "BNB-USD:LONG": {
     "score": -3,
     "wins": 0,
-    "losses": 514
+    "losses": 516
   },
   "TON-USD:LONG": {
     "score": -3,
     "wins": 0,
-    "losses": 257
+    "losses": 258
   },
   "LTC-USD:LONG": {
     "score": -3,
     "wins": 0,
-    "losses": 257
+    "losses": 258
   },
   "XRP-USD:LONG": {
     "score": 3,
-    "wins": 514,
+    "wins": 516,
     "losses": 0
   },
   "ZEC-USD:LONG": {
     "score": 0,
-    "wins": 257,
-    "losses": 257
+    "wins": 258,
+    "losses": 258
   },
   "AVAX-USD:LONG": {
     "score": 3,
-    "wins": 257,
+    "wins": 258,
     "losses": 0
   },
   "DOT-USD:LONG": {
     "score": 3,
-    "wins": 257,
+    "wins": 258,
     "losses": 0
   },
   "ASTER-USD:LONG": {
     "score": 3,
-    "wins": 257,
+    "wins": 258,
     "losses": 0
   },
   "SOL-USD:LONG": {
     "score": -3,
     "wins": 0,
-    "losses": 257
+    "losses": 258
   },
   "OP-USD:LONG": {
     "score": -3,
     "wins": 0,
-    "losses": 256
+    "losses": 257
   },
   "NEAR-USD:SHORT": {
     "score": 3,
-    "wins": 694,
+    "wins": 697,
     "losses": 0
   },
   "FET-USD:SHORT": {
     "score": -3,
     "wins": 0,
-    "losses": 328
+    "losses": 330
   },
   "INJ-USD:SHORT": {
     "score": -3,
     "wins": 0,
-    "losses": 280
+    "losses": 282
   },
   "FIL-USD:LONG": {
     "score": -3,
     "wins": 0,
-    "losses": 165
+    "losses": 166
   },
   "ETH-USD:SHORT": {
     "score": 3,
-    "wins": 124,
+    "wins": 125,
     "losses": 0
   },
   "BTC-USD:SHORT": {
     "score": 3,
-    "wins": 121,
+    "wins": 122,
     "losses": 0
   },
   "SHIB-USD:SHORT": {
     "score": 3,
-    "wins": 121,
+    "wins": 122,
     "losses": 0
   },
   "FIL-USD:SHORT": {
     "score": 3,
-    "wins": 190,
+    "wins": 192,
     "losses": 0
   },
   "SEI-USD:SHORT": {
     "score": -3,
     "wins": 0,
-    "losses": 109
+    "losses": 110
   },
   "BCH-USD:SHORT": {
     "score": 2,
-    "wins": 94,
-    "losses": 23
+    "wins": 95,
+    "losses": 24
   },
   "DOGE-USD:SHORT": {
     "score": -3,
     "wins": 0,
-    "losses": 67
+    "losses": 68
   },
   "GRT-USD:LONG": {
     "score": -3,
     "wins": 0,
-    "losses": 31
+    "losses": 32
   },
   "INJ-USD:LONG": {
     "score": 3,
-    "wins": 18,
+    "wins": 19,
     "losses": 0
   }
 }
