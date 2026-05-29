@@ -1,35 +1,5 @@
 [
   {
-    "time": "2026-05-29T17:50:05.794695",
-    "pair": "HBAR-USD",
-    "old_signal": "BUY",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-05-29T17:50:05.794699",
-    "pair": "OP-USD",
-    "old_signal": "BUY",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-05-29T18:05:16.853598",
-    "pair": "NEAR-USD",
-    "old_signal": "BUY",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-05-29T18:05:16.853610",
-    "pair": "AVAX-USD",
-    "old_signal": "BUY",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-05-29T18:05:16.853616",
-    "pair": "ADA-USD",
-    "old_signal": "BUY",
-    "new_signal": "HOLD"
-  },
-  {
     "time": "2026-05-29T18:05:16.853620",
     "pair": "BCH-USD",
     "old_signal": "BUY",
@@ -596,6 +566,36 @@
   {
     "time": "2026-05-29T20:51:53.851270",
     "pair": "NEAR-USD",
+    "old_signal": "BUY",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-05-29T21:07:02.551962",
+    "pair": "AVAX-USD",
+    "old_signal": "HOLD",
+    "new_signal": "SHORT"
+  },
+  {
+    "time": "2026-05-29T21:07:02.551972",
+    "pair": "GRT-USD",
+    "old_signal": "HOLD",
+    "new_signal": "SHORT"
+  },
+  {
+    "time": "2026-05-29T21:07:02.551978",
+    "pair": "XRP-USD",
+    "old_signal": "BUY",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-05-29T21:07:02.551982",
+    "pair": "SHIB-USD",
+    "old_signal": "BUY",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-05-29T21:07:02.551998",
+    "pair": "ATOM-USD",
     "old_signal": "BUY",
     "new_signal": "HOLD"
   }
