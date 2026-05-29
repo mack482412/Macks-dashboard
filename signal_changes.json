@@ -1,17 +1,5 @@
 [
   {
-    "time": "2026-05-29T02:11:13.822586",
-    "pair": "AVAX-USD",
-    "old_signal": "HOLD",
-    "new_signal": "STRONG_BUY"
-  },
-  {
-    "time": "2026-05-29T02:11:13.822597",
-    "pair": "ICP-USD",
-    "old_signal": "HOLD",
-    "new_signal": "STRONG_BUY"
-  },
-  {
     "time": "2026-05-29T02:11:13.822603",
     "pair": "DOT-USD",
     "old_signal": "HOLD",
@@ -597,6 +585,18 @@
     "time": "2026-05-29T05:12:59.828139",
     "pair": "SUI-USD",
     "old_signal": "SHORT",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-05-29T05:28:08.837233",
+    "pair": "LINK-USD",
+    "old_signal": "HOLD",
+    "new_signal": "SHORT"
+  },
+  {
+    "time": "2026-05-29T05:28:08.837249",
+    "pair": "NEAR-USD",
+    "old_signal": "BUY",
     "new_signal": "HOLD"
   }
 ]
