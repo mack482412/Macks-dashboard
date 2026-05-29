@@ -1,47 +1,5 @@
 [
   {
-    "time": "2026-05-29T20:06:27.953723",
-    "pair": "INJ-USD",
-    "old_signal": "BUY",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-05-29T20:06:27.953727",
-    "pair": "MATIC-USD",
-    "old_signal": "BUY",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-05-29T20:06:27.953731",
-    "pair": "HBAR-USD",
-    "old_signal": "BUY",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-05-29T20:06:27.953734",
-    "pair": "NEAR-USD",
-    "old_signal": "BUY",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-05-29T20:06:27.953742",
-    "pair": "SHIB-USD",
-    "old_signal": "BUY",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-05-29T20:06:27.953746",
-    "pair": "XRP-USD",
-    "old_signal": "BUY",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-05-29T20:21:36.272557",
-    "pair": "GRT-USD",
-    "old_signal": "HOLD",
-    "new_signal": "STRONG_SHORT"
-  },
-  {
     "time": "2026-05-29T20:21:36.272567",
     "pair": "NEAR-USD",
     "old_signal": "HOLD",
@@ -597,6 +555,48 @@
     "time": "2026-05-29T23:38:30.051350",
     "pair": "ICP-USD",
     "old_signal": "SHORT",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-05-29T23:53:37.948448",
+    "pair": "BTC-USD",
+    "old_signal": "STRONG_SHORT",
+    "new_signal": "SHORT"
+  },
+  {
+    "time": "2026-05-29T23:53:37.948456",
+    "pair": "ETH-USD",
+    "old_signal": "STRONG_SHORT",
+    "new_signal": "SHORT"
+  },
+  {
+    "time": "2026-05-29T23:53:37.948460",
+    "pair": "FIL-USD",
+    "old_signal": "STRONG_SHORT",
+    "new_signal": "SHORT"
+  },
+  {
+    "time": "2026-05-29T23:53:37.948467",
+    "pair": "AVAX-USD",
+    "old_signal": "STRONG_SHORT",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-05-29T23:53:37.948472",
+    "pair": "ARB-USD",
+    "old_signal": "SHORT",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-05-29T23:53:37.948480",
+    "pair": "DOT-USD",
+    "old_signal": "SHORT",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-05-29T23:53:37.948485",
+    "pair": "ADA-USD",
+    "old_signal": "STRONG_SHORT",
     "new_signal": "HOLD"
   }
 ]
