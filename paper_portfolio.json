@@ -1,43 +1,4 @@
 {
-  "cash": 40.05812497996783,
-  "positions": {
-    "MATIC-USD": {
-      "pair": "MATIC-USD",
-      "entry_price": 0.1995,
-      "current_price": 0.1995,
-      "quantity": 20.050125313283207,
-      "notional": 4.0,
-      "market_value": 4.0,
-      "unrealized_pnl": 0.0,
-      "pnl_pct": 0.0,
-      "peak_pnl_pct": 0.0,
-      "score": 82,
-      "ai_confidence": 82,
-      "atr_pct": 1.17,
-      "reason": "price > EMA20; price > EMA50; RSI healthy; MACD positive; MACD improving; volume confirmation; ATR usable; BTC regime bullish",
-      "opened_at": "2026-05-22T04:27:04.348688",
-      "updated_at": "2026-05-29T19:51:19.170493"
-    },
-    "XRP-USD": {
-      "pair": "XRP-USD",
-      "side": "SHORT",
-      "entry_price": 1.2975,
-      "current_price": 1.3204,
-      "quantity": 3.8535645472061653,
-      "notional": 5.0,
-      "market_value": 4.911753371868979,
-      "unrealized_pnl": -0.08824662813102088,
-      "pnl_pct": -1.7649325626204175,
-      "peak_pnl_pct": 0.0,
-      "score": 90,
-      "ai_confidence": 90,
-      "atr_pct": 0.38,
-      "reason": "price < EMA20; price < EMA50; bear EMA alignment; RSI weak; MACD negative; MACD weakening; volume active; BTC bearish",
-      "opened_at": "2026-05-29T14:33:04.139558",
-      "updated_at": "2026-05-29T19:51:19.170500"
-    }
-  },
-  "starting_cash": 50.0,
-  "total_value": 48.96987835183681,
-  "updated_at": "2026-05-29T19:51:19.170503"
+  "cash": 49.123617469815066,
+  "positions": {}
 }
