@@ -1034,5 +1034,30 @@
     "score": 98,
     "atr_pct": 1.48,
     "reason": "price > EMA20; price > EMA50; bull EMA alignment; RSI healthy; MACD positive; MACD improving; volume active; BTC bullish"
+  },
+  {
+    "time": "2026-05-29T06:28:42.741782",
+    "pair": "INJ-USD",
+    "side": "LONG",
+    "action": "SELL",
+    "price": 6.037,
+    "quantity": 0.8620689655172414,
+    "notional": 5.0,
+    "pnl": 0.20431034482758648,
+    "pnl_pct": 4.0862068965517295,
+    "reason": "LONG_TAKE_PROFIT"
+  },
+  {
+    "time": "2026-05-29T06:28:42.742426",
+    "pair": "ICP-USD",
+    "side": "LONG",
+    "action": "BUY",
+    "price": 2.787,
+    "quantity": 1.794043774668102,
+    "notional": 5.0,
+    "pnl": 0,
+    "score": 98,
+    "atr_pct": 1.01,
+    "reason": "price > EMA20; price > EMA50; bull EMA alignment; RSI healthy; MACD positive; MACD improving; volume active; BTC bullish"
   }
 ]
