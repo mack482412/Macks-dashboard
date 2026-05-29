@@ -1059,5 +1059,30 @@
     "score": 98,
     "atr_pct": 1.01,
     "reason": "price > EMA20; price > EMA50; bull EMA alignment; RSI healthy; MACD positive; MACD improving; volume active; BTC bullish"
+  },
+  {
+    "time": "2026-05-29T12:16:51.519275",
+    "pair": "ICP-USD",
+    "side": "LONG",
+    "action": "SELL",
+    "price": 2.701,
+    "quantity": 1.794043774668102,
+    "notional": 5.0,
+    "pnl": -0.15428776462145688,
+    "pnl_pct": -3.0857552924291376,
+    "reason": "LONG_STOP_LOSS"
+  },
+  {
+    "time": "2026-05-29T12:16:51.519953",
+    "pair": "FIL-USD",
+    "side": "SHORT",
+    "action": "SHORT",
+    "price": 0.94,
+    "quantity": 5.319148936170213,
+    "notional": 5.0,
+    "pnl": 0,
+    "score": 93.0,
+    "atr_pct": 0.54,
+    "reason": "price < EMA20; price < EMA50; bear EMA alignment; RSI weak; MACD negative; MACD weakening; volume active; BTC bearish"
   }
 ]
