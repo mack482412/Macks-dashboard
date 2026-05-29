@@ -1,17 +1,5 @@
 [
   {
-    "time": "2026-05-28T18:36:53.651706",
-    "pair": "AVAX-USD",
-    "old_signal": "BUY",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-05-28T18:36:53.651710",
-    "pair": "DOT-USD",
-    "old_signal": "BUY",
-    "new_signal": "HOLD"
-  },
-  {
     "time": "2026-05-28T18:52:02.655794",
     "pair": "SEI-USD",
     "old_signal": "HOLD",
@@ -598,5 +586,17 @@
     "pair": "GRT-USD",
     "old_signal": "HOLD",
     "new_signal": "STRONG_BUY"
+  },
+  {
+    "time": "2026-05-29T00:10:04.143927",
+    "pair": "UNI-USD",
+    "old_signal": "HOLD",
+    "new_signal": "BUY"
+  },
+  {
+    "time": "2026-05-29T00:10:04.143935",
+    "pair": "SHIB-USD",
+    "old_signal": "HOLD",
+    "new_signal": "BUY"
   }
 ]
