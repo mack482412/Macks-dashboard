@@ -984,5 +984,30 @@
     "score": 78,
     "atr_pct": 0.42,
     "reason": "price > EMA20; price > EMA50; bull EMA alignment; RSI healthy; MACD improving; volume active; BTC bullish"
+  },
+  {
+    "time": "2026-05-29T03:11:49.909542",
+    "pair": "GRT-USD",
+    "side": "LONG",
+    "action": "SELL",
+    "price": 0.0266,
+    "quantity": 149.812734082397,
+    "notional": 4.0,
+    "pnl": -0.014981273408240181,
+    "pnl_pct": -0.3745318352060045,
+    "reason": "LONG_TRAILING_STOP"
+  },
+  {
+    "time": "2026-05-29T03:11:49.910151",
+    "pair": "OP-USD",
+    "side": "SHORT",
+    "action": "SHORT",
+    "price": 0.117,
+    "quantity": 42.73504273504273,
+    "notional": 5.0,
+    "pnl": 0,
+    "score": 90,
+    "atr_pct": 0.43,
+    "reason": "price < EMA20; price < EMA50; bear EMA alignment; RSI weak; MACD negative; MACD weakening; volume active; BTC bearish"
   }
 ]
