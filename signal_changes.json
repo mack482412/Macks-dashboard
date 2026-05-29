@@ -1,53 +1,5 @@
 [
   {
-    "time": "2026-05-29T06:58:58.452344",
-    "pair": "HBAR-USD",
-    "old_signal": "STRONG_BUY",
-    "new_signal": "BUY"
-  },
-  {
-    "time": "2026-05-29T06:58:58.452349",
-    "pair": "DOT-USD",
-    "old_signal": "HOLD",
-    "new_signal": "BUY"
-  },
-  {
-    "time": "2026-05-29T06:58:58.452354",
-    "pair": "BCH-USD",
-    "old_signal": "STRONG_BUY",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-05-29T06:58:58.452358",
-    "pair": "NEAR-USD",
-    "old_signal": "BUY",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-05-29T06:58:58.452364",
-    "pair": "SHIB-USD",
-    "old_signal": "BUY",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-05-29T06:58:58.452368",
-    "pair": "ADA-USD",
-    "old_signal": "BUY",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-05-29T07:14:08.433439",
-    "pair": "DOT-USD",
-    "old_signal": "BUY",
-    "new_signal": "STRONG_BUY"
-  },
-  {
-    "time": "2026-05-29T07:14:08.433452",
-    "pair": "INJ-USD",
-    "old_signal": "STRONG_BUY",
-    "new_signal": "BUY"
-  },
-  {
     "time": "2026-05-29T07:14:08.433458",
     "pair": "NEAR-USD",
     "old_signal": "HOLD",
@@ -598,5 +550,53 @@
     "pair": "FET-USD",
     "old_signal": "HOLD",
     "new_signal": "BUY"
+  },
+  {
+    "time": "2026-05-29T09:45:30.553737",
+    "pair": "BTC-USD",
+    "old_signal": "BUY",
+    "new_signal": "STRONG_BUY"
+  },
+  {
+    "time": "2026-05-29T09:45:30.553749",
+    "pair": "INJ-USD",
+    "old_signal": "HOLD",
+    "new_signal": "BUY"
+  },
+  {
+    "time": "2026-05-29T09:45:30.553754",
+    "pair": "ETH-USD",
+    "old_signal": "HOLD",
+    "new_signal": "BUY"
+  },
+  {
+    "time": "2026-05-29T09:45:30.554597",
+    "pair": "HBAR-USD",
+    "old_signal": "HOLD",
+    "new_signal": "BUY"
+  },
+  {
+    "time": "2026-05-29T09:45:30.554603",
+    "pair": "ARB-USD",
+    "old_signal": "STRONG_BUY",
+    "new_signal": "BUY"
+  },
+  {
+    "time": "2026-05-29T09:45:30.554606",
+    "pair": "SOL-USD",
+    "old_signal": "BUY",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-05-29T09:45:30.554610",
+    "pair": "LTC-USD",
+    "old_signal": "BUY",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-05-29T09:45:30.554618",
+    "pair": "FET-USD",
+    "old_signal": "BUY",
+    "new_signal": "HOLD"
   }
 ]
