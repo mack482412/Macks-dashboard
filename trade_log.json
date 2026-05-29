@@ -1084,5 +1084,30 @@
     "score": 93.0,
     "atr_pct": 0.54,
     "reason": "price < EMA20; price < EMA50; bear EMA alignment; RSI weak; MACD negative; MACD weakening; volume active; BTC bearish"
+  },
+  {
+    "time": "2026-05-29T14:33:04.138901",
+    "pair": "UNI-USD",
+    "side": "LONG",
+    "action": "SELL",
+    "price": 2.962,
+    "quantity": 0.981675392670157,
+    "notional": 3.0,
+    "pnl": -0.0922774869109948,
+    "pnl_pct": -3.0759162303664933,
+    "reason": "LONG_STOP_LOSS"
+  },
+  {
+    "time": "2026-05-29T14:33:04.139563",
+    "pair": "XRP-USD",
+    "side": "SHORT",
+    "action": "SHORT",
+    "price": 1.2975,
+    "quantity": 3.8535645472061653,
+    "notional": 5.0,
+    "pnl": 0,
+    "score": 90,
+    "atr_pct": 0.38,
+    "reason": "price < EMA20; price < EMA50; bear EMA alignment; RSI weak; MACD negative; MACD weakening; volume active; BTC bearish"
   }
 ]
