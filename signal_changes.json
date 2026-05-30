@@ -1,29 +1,5 @@
 [
   {
-    "time": "2026-05-30T06:27:21.539249",
-    "pair": "MATIC-USD",
-    "old_signal": "HOLD",
-    "new_signal": "BUY"
-  },
-  {
-    "time": "2026-05-30T06:27:21.539261",
-    "pair": "DOT-USD",
-    "old_signal": "STRONG_SHORT",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-05-30T06:27:21.539265",
-    "pair": "ATOM-USD",
-    "old_signal": "STRONG_SHORT",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-05-30T06:27:21.539269",
-    "pair": "SUI-USD",
-    "old_signal": "SHORT",
-    "new_signal": "HOLD"
-  },
-  {
     "time": "2026-05-30T06:27:21.539272",
     "pair": "GRT-USD",
     "old_signal": "SHORT",
@@ -597,6 +573,30 @@
     "time": "2026-05-30T12:00:22.125894",
     "pair": "SUI-USD",
     "old_signal": "SHORT",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-05-30T12:15:29.887422",
+    "pair": "ICP-USD",
+    "old_signal": "HOLD",
+    "new_signal": "BUY"
+  },
+  {
+    "time": "2026-05-30T12:15:29.887432",
+    "pair": "BCH-USD",
+    "old_signal": "STRONG_BUY",
+    "new_signal": "BUY"
+  },
+  {
+    "time": "2026-05-30T12:15:29.887436",
+    "pair": "AAVE-USD",
+    "old_signal": "BUY",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-05-30T12:15:29.887440",
+    "pair": "HBAR-USD",
+    "old_signal": "BUY",
     "new_signal": "HOLD"
   }
 ]
