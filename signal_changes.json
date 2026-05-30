@@ -1,23 +1,5 @@
 [
   {
-    "time": "2026-05-29T23:08:12.666053",
-    "pair": "AVAX-USD",
-    "old_signal": "HOLD",
-    "new_signal": "SHORT"
-  },
-  {
-    "time": "2026-05-29T23:08:12.666058",
-    "pair": "DOT-USD",
-    "old_signal": "HOLD",
-    "new_signal": "SHORT"
-  },
-  {
-    "time": "2026-05-29T23:08:12.666063",
-    "pair": "ARB-USD",
-    "old_signal": "HOLD",
-    "new_signal": "SHORT"
-  },
-  {
     "time": "2026-05-29T23:23:20.647217",
     "pair": "BTC-USD",
     "old_signal": "SHORT",
@@ -598,5 +580,23 @@
     "pair": "DOT-USD",
     "old_signal": "BUY",
     "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-05-30T03:10:31.277658",
+    "pair": "AVAX-USD",
+    "old_signal": "HOLD",
+    "new_signal": "BUY"
+  },
+  {
+    "time": "2026-05-30T03:10:31.277666",
+    "pair": "SEI-USD",
+    "old_signal": "STRONG_BUY",
+    "new_signal": "BUY"
+  },
+  {
+    "time": "2026-05-30T03:10:31.277671",
+    "pair": "OP-USD",
+    "old_signal": "STRONG_BUY",
+    "new_signal": "BUY"
   }
 ]
