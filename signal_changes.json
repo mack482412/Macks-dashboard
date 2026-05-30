@@ -1,47 +1,5 @@
 [
   {
-    "time": "2026-05-30T15:17:07.474074",
-    "pair": "UNI-USD",
-    "old_signal": "BUY",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-05-30T15:17:07.474078",
-    "pair": "FET-USD",
-    "old_signal": "STRONG_BUY",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-05-30T15:32:15.264943",
-    "pair": "SHIB-USD",
-    "old_signal": "BUY",
-    "new_signal": "STRONG_BUY"
-  },
-  {
-    "time": "2026-05-30T15:32:15.264955",
-    "pair": "OP-USD",
-    "old_signal": "STRONG_BUY",
-    "new_signal": "BUY"
-  },
-  {
-    "time": "2026-05-30T15:32:15.264959",
-    "pair": "FET-USD",
-    "old_signal": "HOLD",
-    "new_signal": "BUY"
-  },
-  {
-    "time": "2026-05-30T15:32:15.264962",
-    "pair": "DOGE-USD",
-    "old_signal": "HOLD",
-    "new_signal": "BUY"
-  },
-  {
-    "time": "2026-05-30T15:32:15.264966",
-    "pair": "ADA-USD",
-    "old_signal": "STRONG_BUY",
-    "new_signal": "BUY"
-  },
-  {
     "time": "2026-05-30T15:32:15.264970",
     "pair": "AAVE-USD",
     "old_signal": "STRONG_BUY",
@@ -597,6 +555,48 @@
     "time": "2026-05-30T18:18:48.827238",
     "pair": "APT-USD",
     "old_signal": "STRONG_BUY",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-05-30T18:33:56.960266",
+    "pair": "ADA-USD",
+    "old_signal": "BUY",
+    "new_signal": "STRONG_BUY"
+  },
+  {
+    "time": "2026-05-30T18:33:56.960275",
+    "pair": "AAVE-USD",
+    "old_signal": "BUY",
+    "new_signal": "STRONG_BUY"
+  },
+  {
+    "time": "2026-05-30T18:33:56.960279",
+    "pair": "APT-USD",
+    "old_signal": "HOLD",
+    "new_signal": "STRONG_BUY"
+  },
+  {
+    "time": "2026-05-30T18:33:56.960282",
+    "pair": "SEI-USD",
+    "old_signal": "HOLD",
+    "new_signal": "STRONG_BUY"
+  },
+  {
+    "time": "2026-05-30T18:33:56.960291",
+    "pair": "FET-USD",
+    "old_signal": "BUY",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-05-30T18:33:56.960295",
+    "pair": "ETC-USD",
+    "old_signal": "BUY",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-05-30T18:33:56.960304",
+    "pair": "DOGE-USD",
+    "old_signal": "BUY",
     "new_signal": "HOLD"
   }
 ]
