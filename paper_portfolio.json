@@ -16,7 +16,7 @@
       "atr_pct": 1.17,
       "reason": "price > EMA20; price > EMA50; RSI healthy; MACD positive; MACD improving; volume confirmation; ATR usable; BTC regime bullish",
       "opened_at": "2026-05-22T04:27:04.348688",
-      "updated_at": "2026-05-30T05:41:57.041981"
+      "updated_at": "2026-05-30T05:57:05.103958"
     },
     "GRT-USD": {
       "pair": "GRT-USD",
@@ -34,46 +34,46 @@
       "atr_pct": 0.55,
       "reason": "price < EMA20; price < EMA50; bear EMA alignment; RSI weak; MACD negative; MACD weakening; BTC bearish",
       "opened_at": "2026-05-30T00:08:46.143263",
-      "updated_at": "2026-05-30T05:41:57.041989"
+      "updated_at": "2026-05-30T05:57:05.103966"
     },
     "SHIB-USD": {
       "pair": "SHIB-USD",
       "side": "LONG",
       "entry_price": 5.44e-06,
-      "current_price": 5.47e-06,
+      "current_price": 5.49e-06,
       "quantity": 551470.5882352942,
       "notional": 3.0,
-      "market_value": 3.0165441176470593,
-      "unrealized_pnl": 0.01654411764705932,
-      "pnl_pct": 0.5514705882353106,
+      "market_value": 3.0275735294117654,
+      "unrealized_pnl": 0.027573529411765385,
+      "pnl_pct": 0.9191176470588461,
       "peak_pnl_pct": 1.8382352941176776,
       "score": 77.0,
       "ai_confidence": 77.0,
       "atr_pct": 0.37,
       "reason": "price > EMA20; price > EMA50; bull EMA alignment; RSI healthy; MACD positive; MACD improving",
       "opened_at": "2026-05-30T00:54:12.940889",
-      "updated_at": "2026-05-30T05:41:57.041994"
+      "updated_at": "2026-05-30T05:57:05.103972"
     },
     "NEAR-USD": {
       "pair": "NEAR-USD",
       "side": "SHORT",
       "entry_price": 2.33,
-      "current_price": 2.337,
+      "current_price": 2.348,
       "quantity": 1.7167381974248928,
       "notional": 4.0,
-      "market_value": 3.9879828326180253,
-      "unrealized_pnl": -0.012017167381974449,
-      "pnl_pct": -0.30042918454936124,
+      "market_value": 3.9690987124463524,
+      "unrealized_pnl": -0.030901287553647717,
+      "pnl_pct": -0.7725321888411929,
       "peak_pnl_pct": 0.0,
       "score": 83.0,
       "ai_confidence": 83.0,
       "atr_pct": 1.13,
       "reason": "price < EMA20; price < EMA50; bear EMA alignment; RSI weak; MACD negative; BTC bearish",
       "opened_at": "2026-05-30T05:26:48.521135",
-      "updated_at": "2026-05-30T05:41:57.042000"
+      "updated_at": "2026-05-30T05:57:05.103977"
     }
   },
   "starting_cash": 50.0,
-  "total_value": 48.94046004896884,
-  "updated_at": "2026-05-30T05:41:57.042003"
+  "total_value": 48.93260534056188,
+  "updated_at": "2026-05-30T05:57:05.103980"
 }
