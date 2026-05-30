@@ -1,47 +1,5 @@
 [
   {
-    "time": "2026-05-30T14:46:51.022425",
-    "pair": "LINK-USD",
-    "old_signal": "HOLD",
-    "new_signal": "BUY"
-  },
-  {
-    "time": "2026-05-30T14:46:51.022428",
-    "pair": "UNI-USD",
-    "old_signal": "HOLD",
-    "new_signal": "BUY"
-  },
-  {
-    "time": "2026-05-30T14:46:51.022432",
-    "pair": "GRT-USD",
-    "old_signal": "HOLD",
-    "new_signal": "BUY"
-  },
-  {
-    "time": "2026-05-30T14:46:51.022436",
-    "pair": "SUI-USD",
-    "old_signal": "HOLD",
-    "new_signal": "BUY"
-  },
-  {
-    "time": "2026-05-30T14:46:51.022439",
-    "pair": "INJ-USD",
-    "old_signal": "STRONG_BUY",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-05-30T14:46:51.022443",
-    "pair": "ICP-USD",
-    "old_signal": "STRONG_BUY",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-05-30T14:46:51.022447",
-    "pair": "FET-USD",
-    "old_signal": "BUY",
-    "new_signal": "HOLD"
-  },
-  {
     "time": "2026-05-30T15:01:58.944807",
     "pair": "FET-USD",
     "old_signal": "HOLD",
@@ -596,6 +554,48 @@
   {
     "time": "2026-05-30T17:33:23.329542",
     "pair": "SUI-USD",
+    "old_signal": "BUY",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-05-30T17:48:31.233107",
+    "pair": "ICP-USD",
+    "old_signal": "HOLD",
+    "new_signal": "SHORT"
+  },
+  {
+    "time": "2026-05-30T17:48:31.233118",
+    "pair": "NEAR-USD",
+    "old_signal": "SHORT",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-05-30T17:48:31.233122",
+    "pair": "ADA-USD",
+    "old_signal": "BUY",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-05-30T17:48:31.233130",
+    "pair": "BTC-USD",
+    "old_signal": "BUY",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-05-30T17:48:31.233134",
+    "pair": "INJ-USD",
+    "old_signal": "BUY",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-05-30T17:48:31.233139",
+    "pair": "AAVE-USD",
+    "old_signal": "STRONG_BUY",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-05-30T17:48:31.233145",
+    "pair": "APT-USD",
     "old_signal": "BUY",
     "new_signal": "HOLD"
   }
