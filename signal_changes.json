@@ -1,17 +1,5 @@
 [
   {
-    "time": "2026-05-30T17:03:05.754744",
-    "pair": "DOGE-USD",
-    "old_signal": "BUY",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-05-30T17:18:15.640007",
-    "pair": "SHIB-USD",
-    "old_signal": "HOLD",
-    "new_signal": "STRONG_BUY"
-  },
-  {
     "time": "2026-05-30T17:18:15.640017",
     "pair": "INJ-USD",
     "old_signal": "HOLD",
@@ -597,6 +585,18 @@
     "time": "2026-05-30T20:35:04.822579",
     "pair": "ETC-USD",
     "old_signal": "STRONG_BUY",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-05-30T20:50:12.946292",
+    "pair": "FIL-USD",
+    "old_signal": "HOLD",
+    "new_signal": "STRONG_BUY"
+  },
+  {
+    "time": "2026-05-30T20:50:12.946304",
+    "pair": "SHIB-USD",
+    "old_signal": "BUY",
     "new_signal": "HOLD"
   }
 ]
