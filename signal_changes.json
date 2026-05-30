@@ -1,23 +1,5 @@
 [
   {
-    "time": "2026-05-29T23:38:30.051324",
-    "pair": "FIL-USD",
-    "old_signal": "HOLD",
-    "new_signal": "STRONG_SHORT"
-  },
-  {
-    "time": "2026-05-29T23:38:30.051328",
-    "pair": "ADA-USD",
-    "old_signal": "HOLD",
-    "new_signal": "STRONG_SHORT"
-  },
-  {
-    "time": "2026-05-29T23:38:30.051331",
-    "pair": "AVAX-USD",
-    "old_signal": "HOLD",
-    "new_signal": "STRONG_SHORT"
-  },
-  {
     "time": "2026-05-29T23:38:30.051336",
     "pair": "SOL-USD",
     "old_signal": "HOLD",
@@ -596,6 +578,24 @@
   {
     "time": "2026-05-30T03:40:49.066949",
     "pair": "AAVE-USD",
+    "old_signal": "BUY",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-05-30T03:55:59.554250",
+    "pair": "INJ-USD",
+    "old_signal": "STRONG_BUY",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-05-30T03:55:59.554264",
+    "pair": "ETC-USD",
+    "old_signal": "BUY",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-05-30T03:55:59.554274",
+    "pair": "FIL-USD",
     "old_signal": "BUY",
     "new_signal": "HOLD"
   }
