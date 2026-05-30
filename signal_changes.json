@@ -1,29 +1,5 @@
 [
   {
-    "time": "2026-05-29T23:23:20.647217",
-    "pair": "BTC-USD",
-    "old_signal": "SHORT",
-    "new_signal": "STRONG_SHORT"
-  },
-  {
-    "time": "2026-05-29T23:23:20.647228",
-    "pair": "ETH-USD",
-    "old_signal": "HOLD",
-    "new_signal": "SHORT"
-  },
-  {
-    "time": "2026-05-29T23:23:20.647232",
-    "pair": "BCH-USD",
-    "old_signal": "HOLD",
-    "new_signal": "SHORT"
-  },
-  {
-    "time": "2026-05-29T23:23:20.647240",
-    "pair": "SOL-USD",
-    "old_signal": "SHORT",
-    "new_signal": "HOLD"
-  },
-  {
     "time": "2026-05-29T23:23:20.647244",
     "pair": "AVAX-USD",
     "old_signal": "SHORT",
@@ -598,5 +574,29 @@
     "pair": "OP-USD",
     "old_signal": "STRONG_BUY",
     "new_signal": "BUY"
+  },
+  {
+    "time": "2026-05-30T03:25:39.849193",
+    "pair": "AAVE-USD",
+    "old_signal": "HOLD",
+    "new_signal": "BUY"
+  },
+  {
+    "time": "2026-05-30T03:25:39.849206",
+    "pair": "SEI-USD",
+    "old_signal": "BUY",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-05-30T03:25:39.849210",
+    "pair": "OP-USD",
+    "old_signal": "BUY",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-05-30T03:25:39.849215",
+    "pair": "AVAX-USD",
+    "old_signal": "BUY",
+    "new_signal": "HOLD"
   }
 ]
