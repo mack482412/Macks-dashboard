@@ -16,43 +16,43 @@
       "atr_pct": 1.17,
       "reason": "price > EMA20; price > EMA50; RSI healthy; MACD positive; MACD improving; volume confirmation; ATR usable; BTC regime bullish",
       "opened_at": "2026-05-22T04:27:04.348688",
-      "updated_at": "2026-05-30T02:40:14.352091"
+      "updated_at": "2026-05-30T02:55:22.643784"
     },
     "NEAR-USD": {
       "pair": "NEAR-USD",
       "side": "SHORT",
       "entry_price": 2.385,
-      "current_price": 2.384,
+      "current_price": 2.386,
       "quantity": 1.6771488469601679,
       "notional": 4.0,
-      "market_value": 4.00167714884696,
-      "unrealized_pnl": 0.0016771488469599833,
-      "pnl_pct": 0.04192872117399958,
+      "market_value": 3.998322851153039,
+      "unrealized_pnl": -0.001677148846960728,
+      "pnl_pct": -0.0419287211740182,
       "peak_pnl_pct": 0.9643605870020835,
       "score": 82.0,
       "ai_confidence": 82.0,
       "atr_pct": 1.4,
       "reason": "price < EMA20; price < EMA50; bear EMA alignment; RSI weak; MACD negative; BTC bearish",
       "opened_at": "2026-05-30T00:08:46.143236",
-      "updated_at": "2026-05-30T02:40:14.352098"
+      "updated_at": "2026-05-30T02:55:22.643791"
     },
     "GRT-USD": {
       "pair": "GRT-USD",
       "side": "SHORT",
       "entry_price": 0.0258,
-      "current_price": 0.0264,
+      "current_price": 0.0265,
       "quantity": 155.03875968992247,
       "notional": 4.0,
-      "market_value": 3.9069767441860463,
-      "unrealized_pnl": -0.09302325581395346,
-      "pnl_pct": -2.3255813953488365,
+      "market_value": 3.8914728682170545,
+      "unrealized_pnl": -0.10852713178294562,
+      "pnl_pct": -2.7131782945736407,
       "peak_pnl_pct": 0.0,
       "score": 82,
       "ai_confidence": 82,
       "atr_pct": 0.55,
       "reason": "price < EMA20; price < EMA50; bear EMA alignment; RSI weak; MACD negative; MACD weakening; BTC bearish",
       "opened_at": "2026-05-30T00:08:46.143263",
-      "updated_at": "2026-05-30T02:40:14.352104"
+      "updated_at": "2026-05-30T02:55:22.643796"
     },
     "SHIB-USD": {
       "pair": "SHIB-USD",
@@ -70,10 +70,10 @@
       "atr_pct": 0.37,
       "reason": "price > EMA20; price > EMA50; bull EMA alignment; RSI healthy; MACD positive; MACD improving",
       "opened_at": "2026-05-30T00:54:12.940889",
-      "updated_at": "2026-05-30T02:40:14.352109"
+      "updated_at": "2026-05-30T02:55:22.643802"
     }
   },
   "starting_cash": 50.0,
-  "total_value": 48.849432165531724,
-  "updated_at": "2026-05-30T02:40:14.352113"
+  "total_value": 48.83057399186882,
+  "updated_at": "2026-05-30T02:55:22.643805"
 }
