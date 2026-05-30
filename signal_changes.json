@@ -1,11 +1,5 @@
 [
   {
-    "time": "2026-05-30T02:40:14.356334",
-    "pair": "FET-USD",
-    "old_signal": "SHORT",
-    "new_signal": "HOLD"
-  },
-  {
     "time": "2026-05-30T02:55:22.647372",
     "pair": "SEI-USD",
     "old_signal": "HOLD",
@@ -596,6 +590,12 @@
   {
     "time": "2026-05-30T08:13:19.539236",
     "pair": "SUI-USD",
+    "old_signal": "SHORT",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-05-30T08:28:28.015922",
+    "pair": "BTC-USD",
     "old_signal": "SHORT",
     "new_signal": "HOLD"
   }
