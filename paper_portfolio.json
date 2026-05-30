@@ -16,64 +16,64 @@
       "atr_pct": 1.17,
       "reason": "price > EMA20; price > EMA50; RSI healthy; MACD positive; MACD improving; volume confirmation; ATR usable; BTC regime bullish",
       "opened_at": "2026-05-22T04:27:04.348688",
-      "updated_at": "2026-05-30T03:55:59.550696"
+      "updated_at": "2026-05-30T04:11:07.863267"
     },
     "NEAR-USD": {
       "pair": "NEAR-USD",
       "side": "SHORT",
       "entry_price": 2.385,
-      "current_price": 2.363,
+      "current_price": 2.337,
       "quantity": 1.6771488469601679,
       "notional": 4.0,
-      "market_value": 4.036897274633123,
-      "unrealized_pnl": 0.03689727463312335,
-      "pnl_pct": 0.9224318658280838,
-      "peak_pnl_pct": 0.9643605870020835,
+      "market_value": 4.080503144654087,
+      "unrealized_pnl": 0.08050314465408738,
+      "pnl_pct": 2.0125786163521844,
+      "peak_pnl_pct": 2.0125786163521844,
       "score": 82.0,
       "ai_confidence": 82.0,
       "atr_pct": 1.4,
       "reason": "price < EMA20; price < EMA50; bear EMA alignment; RSI weak; MACD negative; BTC bearish",
       "opened_at": "2026-05-30T00:08:46.143236",
-      "updated_at": "2026-05-30T03:55:59.550703"
+      "updated_at": "2026-05-30T04:11:07.863274"
     },
     "GRT-USD": {
       "pair": "GRT-USD",
       "side": "SHORT",
       "entry_price": 0.0258,
-      "current_price": 0.0262,
+      "current_price": 0.026,
       "quantity": 155.03875968992247,
       "notional": 4.0,
-      "market_value": 3.937984496124031,
-      "unrealized_pnl": -0.06201550387596916,
-      "pnl_pct": -1.550387596899229,
+      "market_value": 3.968992248062016,
+      "unrealized_pnl": -0.03100775193798431,
+      "pnl_pct": -0.7751937984496077,
       "peak_pnl_pct": 0.0,
       "score": 82,
       "ai_confidence": 82,
       "atr_pct": 0.55,
       "reason": "price < EMA20; price < EMA50; bear EMA alignment; RSI weak; MACD negative; MACD weakening; BTC bearish",
       "opened_at": "2026-05-30T00:08:46.143263",
-      "updated_at": "2026-05-30T03:55:59.550709"
+      "updated_at": "2026-05-30T04:11:07.863279"
     },
     "SHIB-USD": {
       "pair": "SHIB-USD",
       "side": "LONG",
       "entry_price": 5.44e-06,
-      "current_price": 5.5e-06,
+      "current_price": 5.49e-06,
       "quantity": 551470.5882352942,
       "notional": 3.0,
-      "market_value": 3.033088235294118,
-      "unrealized_pnl": 0.033088235294118196,
-      "pnl_pct": 1.1029411764706065,
+      "market_value": 3.0275735294117654,
+      "unrealized_pnl": 0.027573529411765385,
+      "pnl_pct": 0.9191176470588461,
       "peak_pnl_pct": 1.8382352941176776,
       "score": 77.0,
       "ai_confidence": 77.0,
       "atr_pct": 0.37,
       "reason": "price > EMA20; price > EMA50; bull EMA alignment; RSI healthy; MACD positive; MACD improving",
       "opened_at": "2026-05-30T00:54:12.940889",
-      "updated_at": "2026-05-30T03:55:59.550714"
+      "updated_at": "2026-05-30T04:11:07.863285"
     }
   },
   "starting_cash": 50.0,
-  "total_value": 48.90463063149116,
-  "updated_at": "2026-05-30T03:55:59.550717"
+  "total_value": 48.973729547567764,
+  "updated_at": "2026-05-30T04:11:07.863288"
 }
