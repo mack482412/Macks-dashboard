@@ -1209,5 +1209,30 @@
     "score": 77.0,
     "atr_pct": 0.37,
     "reason": "price > EMA20; price > EMA50; bull EMA alignment; RSI healthy; MACD positive; MACD improving"
+  },
+  {
+    "time": "2026-05-30T04:41:23.674957",
+    "pair": "NEAR-USD",
+    "side": "SHORT",
+    "action": "COVER",
+    "price": 2.26,
+    "quantity": 1.6771488469601679,
+    "notional": 4.0,
+    "pnl": 0.20964360587002098,
+    "pnl_pct": 5.241090146750524,
+    "reason": "SHORT_TAKE_PROFIT"
+  },
+  {
+    "time": "2026-05-30T04:41:23.675675",
+    "pair": "NEAR-USD",
+    "side": "SHORT",
+    "action": "SHORT",
+    "price": 2.26,
+    "quantity": 2.212389380530974,
+    "notional": 5.0,
+    "pnl": 0,
+    "score": 100.0,
+    "atr_pct": 1.12,
+    "reason": "price < EMA20; price < EMA50; bear EMA alignment; RSI weak; MACD negative; MACD weakening; volume active; BTC bearish"
   }
 ]
