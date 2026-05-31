@@ -1,17 +1,5 @@
 [
   {
-    "time": "2026-05-31T17:01:31.151557",
-    "pair": "DOGE-USD",
-    "old_signal": "STRONG_SHORT",
-    "new_signal": "SHORT"
-  },
-  {
-    "time": "2026-05-31T17:01:31.151561",
-    "pair": "BTC-USD",
-    "old_signal": "STRONG_SHORT",
-    "new_signal": "SHORT"
-  },
-  {
     "time": "2026-05-31T17:01:31.151565",
     "pair": "FIL-USD",
     "old_signal": "STRONG_SHORT",
@@ -598,5 +586,17 @@
     "pair": "MATIC-USD",
     "old_signal": "BUY",
     "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-05-31T21:49:07.976936",
+    "pair": "MATIC-USD",
+    "old_signal": "HOLD",
+    "new_signal": "BUY"
+  },
+  {
+    "time": "2026-05-31T21:49:07.976944",
+    "pair": "NEAR-USD",
+    "old_signal": "HOLD",
+    "new_signal": "BUY"
   }
 ]
