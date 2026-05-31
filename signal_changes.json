@@ -1,17 +1,5 @@
 [
   {
-    "time": "2026-05-30T23:21:33.812595",
-    "pair": "SHIB-USD",
-    "old_signal": "HOLD",
-    "new_signal": "SHORT"
-  },
-  {
-    "time": "2026-05-30T23:21:33.812599",
-    "pair": "BCH-USD",
-    "old_signal": "HOLD",
-    "new_signal": "SHORT"
-  },
-  {
     "time": "2026-05-30T23:21:33.812602",
     "pair": "FIL-USD",
     "old_signal": "HOLD",
@@ -597,6 +585,18 @@
     "time": "2026-05-31T03:08:38.835734",
     "pair": "ADA-USD",
     "old_signal": "BUY",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-05-31T03:23:46.814898",
+    "pair": "UNI-USD",
+    "old_signal": "HOLD",
+    "new_signal": "BUY"
+  },
+  {
+    "time": "2026-05-31T03:23:46.814922",
+    "pair": "INJ-USD",
+    "old_signal": "SHORT",
     "new_signal": "HOLD"
   }
 ]
