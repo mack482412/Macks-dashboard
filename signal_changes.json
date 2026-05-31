@@ -1,11 +1,5 @@
 [
   {
-    "time": "2026-05-31T17:01:31.151572",
-    "pair": "DOT-USD",
-    "old_signal": "STRONG_SHORT",
-    "new_signal": "SHORT"
-  },
-  {
     "time": "2026-05-31T17:01:31.151576",
     "pair": "ETC-USD",
     "old_signal": "STRONG_SHORT",
@@ -596,6 +590,12 @@
   {
     "time": "2026-05-31T22:04:16.445513",
     "pair": "NEAR-USD",
+    "old_signal": "BUY",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-05-31T22:34:33.184177",
+    "pair": "FET-USD",
     "old_signal": "BUY",
     "new_signal": "HOLD"
   }
