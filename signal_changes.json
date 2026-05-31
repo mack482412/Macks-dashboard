@@ -1,23 +1,5 @@
 [
   {
-    "time": "2026-05-31T10:43:04.816431",
-    "pair": "AAVE-USD",
-    "old_signal": "STRONG_SHORT",
-    "new_signal": "SHORT"
-  },
-  {
-    "time": "2026-05-31T10:43:04.816434",
-    "pair": "ICP-USD",
-    "old_signal": "STRONG_SHORT",
-    "new_signal": "SHORT"
-  },
-  {
-    "time": "2026-05-31T10:43:04.816438",
-    "pair": "LINK-USD",
-    "old_signal": "STRONG_SHORT",
-    "new_signal": "HOLD"
-  },
-  {
     "time": "2026-05-31T10:43:04.816444",
     "pair": "SHIB-USD",
     "old_signal": "STRONG_SHORT",
@@ -598,5 +580,23 @@
     "pair": "INJ-USD",
     "old_signal": "STRONG_BUY",
     "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-05-31T13:59:50.450178",
+    "pair": "ETC-USD",
+    "old_signal": "HOLD",
+    "new_signal": "STRONG_SHORT"
+  },
+  {
+    "time": "2026-05-31T13:59:50.450188",
+    "pair": "ATOM-USD",
+    "old_signal": "SHORT",
+    "new_signal": "STRONG_SHORT"
+  },
+  {
+    "time": "2026-05-31T13:59:50.450192",
+    "pair": "APT-USD",
+    "old_signal": "HOLD",
+    "new_signal": "SHORT"
   }
 ]
