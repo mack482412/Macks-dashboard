@@ -16,7 +16,7 @@
       "atr_pct": 1.17,
       "reason": "price > EMA20; price > EMA50; RSI healthy; MACD positive; MACD improving; volume confirmation; ATR usable; BTC regime bullish",
       "opened_at": "2026-05-22T04:27:04.348688",
-      "updated_at": "2026-05-31T12:59:17.463631"
+      "updated_at": "2026-05-31T13:14:25.541930"
     },
     "SHIB-USD": {
       "pair": "SHIB-USD",
@@ -34,7 +34,7 @@
       "atr_pct": 0.37,
       "reason": "price > EMA20; price > EMA50; bull EMA alignment; RSI healthy; MACD positive; MACD improving",
       "opened_at": "2026-05-30T00:54:12.940889",
-      "updated_at": "2026-05-31T12:59:17.463638"
+      "updated_at": "2026-05-31T13:14:25.541936"
     },
     "DOT-USD": {
       "pair": "DOT-USD",
@@ -52,28 +52,28 @@
       "atr_pct": 0.28,
       "reason": "price < EMA20; price < EMA50; bear EMA alignment; RSI weak; MACD negative; MACD weakening; BTC bearish",
       "opened_at": "2026-05-30T08:58:43.915151",
-      "updated_at": "2026-05-31T12:59:17.463644"
+      "updated_at": "2026-05-31T13:14:25.541942"
     },
     "XRP-USD": {
       "pair": "XRP-USD",
       "side": "LONG",
       "entry_price": 1.3426,
-      "current_price": 1.3394,
+      "current_price": 1.3423,
       "quantity": 3.7241173841799493,
       "notional": 5.0,
-      "market_value": 4.988082824370624,
-      "unrealized_pnl": -0.011917175629376331,
-      "pnl_pct": -0.23834351258752662,
+      "market_value": 4.998882764784746,
+      "unrealized_pnl": -0.0011172352152541976,
+      "pnl_pct": -0.02234470430508395,
       "peak_pnl_pct": 0.6777893639207377,
       "score": 93.0,
       "ai_confidence": 93.0,
       "atr_pct": 0.24,
       "reason": "price > EMA20; price > EMA50; bull EMA alignment; RSI healthy; MACD positive; MACD improving; volume active; BTC bullish",
       "opened_at": "2026-05-30T14:46:51.017453",
-      "updated_at": "2026-05-31T12:59:17.463650"
+      "updated_at": "2026-05-31T13:14:25.541947"
     }
   },
   "starting_cash": 50.0,
-  "total_value": 48.72376953775289,
-  "updated_at": "2026-05-31T12:59:17.463653"
+  "total_value": 48.73456947816701,
+  "updated_at": "2026-05-31T13:14:25.541950"
 }
