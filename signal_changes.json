@@ -1,17 +1,5 @@
 [
   {
-    "time": "2026-05-31T04:24:21.147832",
-    "pair": "LTC-USD",
-    "old_signal": "HOLD",
-    "new_signal": "BUY"
-  },
-  {
-    "time": "2026-05-31T04:24:21.147838",
-    "pair": "AAVE-USD",
-    "old_signal": "HOLD",
-    "new_signal": "BUY"
-  },
-  {
     "time": "2026-05-31T04:24:21.147844",
     "pair": "UNI-USD",
     "old_signal": "BUY",
@@ -596,6 +584,18 @@
   {
     "time": "2026-05-31T08:26:50.166052",
     "pair": "LINK-USD",
+    "old_signal": "SHORT",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-05-31T08:41:57.988442",
+    "pair": "BTC-USD",
+    "old_signal": "HOLD",
+    "new_signal": "SHORT"
+  },
+  {
+    "time": "2026-05-31T08:41:57.988464",
+    "pair": "INJ-USD",
     "old_signal": "SHORT",
     "new_signal": "HOLD"
   }

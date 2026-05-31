@@ -1,7 +1,7 @@
 {
   "ATOM-USD": "SHORT",
-  "INJ-USD": "SHORT",
   "FET-USD": "SHORT",
+  "BTC-USD": "SHORT",
   "SHIB-USD": "SHORT",
   "FIL-USD": "SHORT",
   "SOL-USD": "SHORT",
@@ -15,18 +15,18 @@
   "SUI-USD": "SHORT",
   "XRP-USD": "HOLD",
   "DOGE-USD": "HOLD",
+  "SEI-USD": "HOLD",
   "GRT-USD": "HOLD",
   "OP-USD": "HOLD",
   "MATIC-USD": "HOLD",
   "NEAR-USD": "HOLD",
+  "HBAR-USD": "HOLD",
   "ICP-USD": "HOLD",
   "RNDR-USD": "HOLD",
-  "BTC-USD": "HOLD",
-  "ETH-USD": "HOLD",
   "BCH-USD": "HOLD",
-  "SEI-USD": "HOLD",
-  "HBAR-USD": "HOLD",
+  "ETH-USD": "HOLD",
   "ADA-USD": "HOLD",
-  "AVAX-USD": "HOLD",
-  "LINK-USD": "HOLD"
+  "LINK-USD": "HOLD",
+  "INJ-USD": "HOLD",
+  "AVAX-USD": "HOLD"
 }
