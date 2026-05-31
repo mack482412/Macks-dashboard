@@ -1,17 +1,5 @@
 [
   {
-    "time": "2026-05-31T02:23:13.646471",
-    "pair": "LINK-USD",
-    "old_signal": "HOLD",
-    "new_signal": "BUY"
-  },
-  {
-    "time": "2026-05-31T02:23:13.646476",
-    "pair": "SHIB-USD",
-    "old_signal": "STRONG_BUY",
-    "new_signal": "BUY"
-  },
-  {
     "time": "2026-05-31T02:23:13.646480",
     "pair": "DOGE-USD",
     "old_signal": "HOLD",
@@ -596,6 +584,18 @@
   {
     "time": "2026-05-31T06:25:44.445480",
     "pair": "SUI-USD",
+    "old_signal": "SHORT",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-05-31T06:40:52.399456",
+    "pair": "ARB-USD",
+    "old_signal": "HOLD",
+    "new_signal": "SHORT"
+  },
+  {
+    "time": "2026-05-31T06:40:52.399477",
+    "pair": "OP-USD",
     "old_signal": "SHORT",
     "new_signal": "HOLD"
   }
