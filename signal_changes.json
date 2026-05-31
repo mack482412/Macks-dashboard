@@ -1,11 +1,5 @@
 [
   {
-    "time": "2026-05-31T17:01:31.151553",
-    "pair": "AVAX-USD",
-    "old_signal": "STRONG_SHORT",
-    "new_signal": "SHORT"
-  },
-  {
     "time": "2026-05-31T17:01:31.151557",
     "pair": "DOGE-USD",
     "old_signal": "STRONG_SHORT",
@@ -596,6 +590,12 @@
   {
     "time": "2026-05-31T21:03:42.827600",
     "pair": "FET-USD",
+    "old_signal": "BUY",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-05-31T21:33:58.613336",
+    "pair": "MATIC-USD",
     "old_signal": "BUY",
     "new_signal": "HOLD"
   }
