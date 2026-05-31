@@ -1,53 +1,5 @@
 [
   {
-    "time": "2026-05-31T10:43:04.816444",
-    "pair": "SHIB-USD",
-    "old_signal": "STRONG_SHORT",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-05-31T10:43:04.816448",
-    "pair": "XRP-USD",
-    "old_signal": "SHORT",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-05-31T10:43:04.816453",
-    "pair": "FET-USD",
-    "old_signal": "SHORT",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-05-31T10:58:12.934916",
-    "pair": "GRT-USD",
-    "old_signal": "STRONG_SHORT",
-    "new_signal": "SHORT"
-  },
-  {
-    "time": "2026-05-31T10:58:12.934925",
-    "pair": "ETH-USD",
-    "old_signal": "STRONG_SHORT",
-    "new_signal": "SHORT"
-  },
-  {
-    "time": "2026-05-31T10:58:12.934929",
-    "pair": "SHIB-USD",
-    "old_signal": "HOLD",
-    "new_signal": "SHORT"
-  },
-  {
-    "time": "2026-05-31T10:58:12.934933",
-    "pair": "UNI-USD",
-    "old_signal": "STRONG_SHORT",
-    "new_signal": "SHORT"
-  },
-  {
-    "time": "2026-05-31T10:58:12.934937",
-    "pair": "APT-USD",
-    "old_signal": "STRONG_SHORT",
-    "new_signal": "SHORT"
-  },
-  {
     "time": "2026-05-31T10:58:12.934940",
     "pair": "ARB-USD",
     "old_signal": "STRONG_SHORT",
@@ -596,6 +548,54 @@
   {
     "time": "2026-05-31T13:59:50.450192",
     "pair": "APT-USD",
+    "old_signal": "HOLD",
+    "new_signal": "SHORT"
+  },
+  {
+    "time": "2026-05-31T14:14:58.193241",
+    "pair": "FIL-USD",
+    "old_signal": "HOLD",
+    "new_signal": "STRONG_SHORT"
+  },
+  {
+    "time": "2026-05-31T14:14:58.193251",
+    "pair": "AAVE-USD",
+    "old_signal": "HOLD",
+    "new_signal": "STRONG_SHORT"
+  },
+  {
+    "time": "2026-05-31T14:14:58.193256",
+    "pair": "BTC-USD",
+    "old_signal": "HOLD",
+    "new_signal": "SHORT"
+  },
+  {
+    "time": "2026-05-31T14:14:58.193259",
+    "pair": "SOL-USD",
+    "old_signal": "HOLD",
+    "new_signal": "SHORT"
+  },
+  {
+    "time": "2026-05-31T14:14:58.193263",
+    "pair": "LINK-USD",
+    "old_signal": "HOLD",
+    "new_signal": "SHORT"
+  },
+  {
+    "time": "2026-05-31T14:14:58.193267",
+    "pair": "UNI-USD",
+    "old_signal": "HOLD",
+    "new_signal": "SHORT"
+  },
+  {
+    "time": "2026-05-31T14:14:58.193271",
+    "pair": "ARB-USD",
+    "old_signal": "HOLD",
+    "new_signal": "SHORT"
+  },
+  {
+    "time": "2026-05-31T14:14:58.193275",
+    "pair": "INJ-USD",
     "old_signal": "HOLD",
     "new_signal": "SHORT"
   }
