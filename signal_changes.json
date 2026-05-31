@@ -1,17 +1,5 @@
 [
   {
-    "time": "2026-05-30T23:21:33.812627",
-    "pair": "MATIC-USD",
-    "old_signal": "BUY",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-05-30T23:21:33.812631",
-    "pair": "FET-USD",
-    "old_signal": "BUY",
-    "new_signal": "HOLD"
-  },
-  {
     "time": "2026-05-30T23:36:42.217779",
     "pair": "DOT-USD",
     "old_signal": "SHORT",
@@ -596,6 +584,18 @@
   {
     "time": "2026-05-31T03:38:54.942647",
     "pair": "APT-USD",
+    "old_signal": "BUY",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-05-31T03:54:04.319353",
+    "pair": "AAVE-USD",
+    "old_signal": "BUY",
+    "new_signal": "STRONG_BUY"
+  },
+  {
+    "time": "2026-05-31T03:54:04.319366",
+    "pair": "BTC-USD",
     "old_signal": "BUY",
     "new_signal": "HOLD"
   }
