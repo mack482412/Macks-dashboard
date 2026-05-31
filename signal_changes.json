@@ -1,11 +1,5 @@
 [
   {
-    "time": "2026-05-31T02:23:13.646480",
-    "pair": "DOGE-USD",
-    "old_signal": "HOLD",
-    "new_signal": "BUY"
-  },
-  {
     "time": "2026-05-31T02:23:13.646484",
     "pair": "AAVE-USD",
     "old_signal": "HOLD",
@@ -598,5 +592,11 @@
     "pair": "OP-USD",
     "old_signal": "SHORT",
     "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-05-31T06:56:01.264442",
+    "pair": "DOT-USD",
+    "old_signal": "HOLD",
+    "new_signal": "SHORT"
   }
 ]
