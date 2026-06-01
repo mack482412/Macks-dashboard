@@ -1,17 +1,5 @@
 [
   {
-    "time": "2026-05-31T18:32:19.619738",
-    "pair": "FET-USD",
-    "old_signal": "SHORT",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-05-31T18:32:19.619745",
-    "pair": "LINK-USD",
-    "old_signal": "SHORT",
-    "new_signal": "HOLD"
-  },
-  {
     "time": "2026-05-31T18:47:28.340093",
     "pair": "FET-USD",
     "old_signal": "HOLD",
@@ -598,5 +586,17 @@
     "pair": "HBAR-USD",
     "old_signal": "STRONG_SHORT",
     "new_signal": "SHORT"
+  },
+  {
+    "time": "2026-06-01T01:51:18.936669",
+    "pair": "LINK-USD",
+    "old_signal": "HOLD",
+    "new_signal": "STRONG_SHORT"
+  },
+  {
+    "time": "2026-06-01T01:51:18.936680",
+    "pair": "LTC-USD",
+    "old_signal": "HOLD",
+    "new_signal": "STRONG_SHORT"
   }
 ]
