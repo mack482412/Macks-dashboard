@@ -1359,5 +1359,30 @@
     "score": 80,
     "atr_pct": 1.03,
     "reason": "price > EMA20; price > EMA50; bull EMA alignment; RSI healthy; MACD positive; BTC bullish"
+  },
+  {
+    "time": "2026-06-01T07:54:36.818975",
+    "pair": "SEI-USD",
+    "side": "LONG",
+    "action": "SELL",
+    "price": 0.0662,
+    "quantity": 43.93673110720563,
+    "notional": 3.0,
+    "pnl": -0.09138840070298748,
+    "pnl_pct": -3.0462800234329164,
+    "reason": "LONG_STOP_LOSS"
+  },
+  {
+    "time": "2026-06-01T07:54:36.819772",
+    "pair": "ETH-USD",
+    "side": "SHORT",
+    "action": "SHORT",
+    "price": 1974.14,
+    "quantity": 0.002532748437294214,
+    "notional": 5.0,
+    "pnl": 0,
+    "score": 93.0,
+    "atr_pct": 0.34,
+    "reason": "price < EMA20; price < EMA50; bear EMA alignment; RSI weak; MACD negative; MACD weakening; volume active; BTC bearish"
   }
 ]
