@@ -16,64 +16,64 @@
       "atr_pct": 1.17,
       "reason": "price > EMA20; price > EMA50; RSI healthy; MACD positive; MACD improving; volume confirmation; ATR usable; BTC regime bullish",
       "opened_at": "2026-05-22T04:27:04.348688",
-      "updated_at": "2026-06-01T04:52:57.021634"
+      "updated_at": "2026-06-01T05:08:05.537445"
     },
     "SHIB-USD": {
       "pair": "SHIB-USD",
       "side": "LONG",
       "entry_price": 5.44e-06,
-      "current_price": 5.47e-06,
+      "current_price": 5.48e-06,
       "quantity": 551470.5882352942,
       "notional": 3.0,
-      "market_value": 3.0165441176470593,
-      "unrealized_pnl": 0.01654411764705932,
-      "pnl_pct": 0.5514705882353106,
+      "market_value": 3.022058823529412,
+      "unrealized_pnl": 0.02205882352941213,
+      "pnl_pct": 0.7352941176470711,
       "peak_pnl_pct": 1.8382352941176776,
       "score": 77.0,
       "ai_confidence": 77.0,
       "atr_pct": 0.37,
       "reason": "price > EMA20; price > EMA50; bull EMA alignment; RSI healthy; MACD positive; MACD improving",
       "opened_at": "2026-05-30T00:54:12.940889",
-      "updated_at": "2026-06-01T04:52:57.021640"
+      "updated_at": "2026-06-01T05:08:05.537452"
     },
     "XRP-USD": {
       "pair": "XRP-USD",
       "side": "LONG",
       "entry_price": 1.3426,
-      "current_price": 1.3174,
+      "current_price": 1.3194,
       "quantity": 3.7241173841799493,
       "notional": 5.0,
-      "market_value": 4.906152241918665,
-      "unrealized_pnl": -0.09384775808133483,
-      "pnl_pct": -1.8769551616266966,
+      "market_value": 4.913600476687025,
+      "unrealized_pnl": -0.08639952331297529,
+      "pnl_pct": -1.7279904662595058,
       "peak_pnl_pct": 0.6777893639207377,
       "score": 93.0,
       "ai_confidence": 93.0,
       "atr_pct": 0.24,
       "reason": "price > EMA20; price > EMA50; bull EMA alignment; RSI healthy; MACD positive; MACD improving; volume active; BTC bullish",
       "opened_at": "2026-05-30T14:46:51.017453",
-      "updated_at": "2026-06-01T04:52:57.021645"
+      "updated_at": "2026-06-01T05:08:05.537457"
     },
     "SEI-USD": {
       "pair": "SEI-USD",
       "side": "LONG",
       "entry_price": 0.06828,
-      "current_price": 0.06719,
+      "current_price": 0.06726,
       "quantity": 43.93673110720563,
       "notional": 3.0,
-      "market_value": 2.9521089630931465,
-      "unrealized_pnl": -0.04789103690685348,
-      "pnl_pct": -1.596367896895116,
+      "market_value": 2.955184534270651,
+      "unrealized_pnl": -0.044815465729349135,
+      "pnl_pct": -1.4938488576449713,
       "peak_pnl_pct": 0.8055067369654593,
       "score": 80,
       "ai_confidence": 80,
       "atr_pct": 1.03,
       "reason": "price > EMA20; price > EMA50; bull EMA alignment; RSI healthy; MACD positive; BTC bullish",
       "opened_at": "2026-06-01T00:20:30.046696",
-      "updated_at": "2026-06-01T04:52:57.021650"
+      "updated_at": "2026-06-01T05:08:05.537462"
     }
   },
   "starting_cash": 50.0,
-  "total_value": 48.59040212917295,
-  "updated_at": "2026-06-01T04:52:57.021654"
+  "total_value": 48.606440641001164,
+  "updated_at": "2026-06-01T05:08:05.537466"
 }

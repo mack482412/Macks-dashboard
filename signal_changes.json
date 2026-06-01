@@ -1,29 +1,5 @@
 [
   {
-    "time": "2026-06-01T02:21:34.934693",
-    "pair": "ETH-USD",
-    "old_signal": "STRONG_SHORT",
-    "new_signal": "SHORT"
-  },
-  {
-    "time": "2026-06-01T02:21:34.934697",
-    "pair": "BCH-USD",
-    "old_signal": "STRONG_SHORT",
-    "new_signal": "SHORT"
-  },
-  {
-    "time": "2026-06-01T02:21:34.934701",
-    "pair": "LINK-USD",
-    "old_signal": "STRONG_SHORT",
-    "new_signal": "SHORT"
-  },
-  {
-    "time": "2026-06-01T02:21:34.934705",
-    "pair": "LTC-USD",
-    "old_signal": "STRONG_SHORT",
-    "new_signal": "SHORT"
-  },
-  {
     "time": "2026-06-01T02:21:34.934708",
     "pair": "UNI-USD",
     "old_signal": "STRONG_SHORT",
@@ -598,5 +574,29 @@
     "pair": "BCH-USD",
     "old_signal": "HOLD",
     "new_signal": "SHORT"
+  },
+  {
+    "time": "2026-06-01T05:08:05.541555",
+    "pair": "LTC-USD",
+    "old_signal": "STRONG_SHORT",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-06-01T05:08:05.541565",
+    "pair": "ETC-USD",
+    "old_signal": "STRONG_SHORT",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-06-01T05:08:05.541570",
+    "pair": "ETH-USD",
+    "old_signal": "STRONG_SHORT",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-06-01T05:08:05.541574",
+    "pair": "BCH-USD",
+    "old_signal": "SHORT",
+    "new_signal": "HOLD"
   }
 ]
