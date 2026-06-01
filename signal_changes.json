@@ -1,11 +1,5 @@
 [
   {
-    "time": "2026-06-01T15:28:52.400007",
-    "pair": "SHIB-USD",
-    "old_signal": "SHORT",
-    "new_signal": "STRONG_SHORT"
-  },
-  {
     "time": "2026-06-01T15:28:52.400010",
     "pair": "FIL-USD",
     "old_signal": "SHORT",
@@ -598,5 +592,11 @@
     "pair": "FET-USD",
     "old_signal": "BUY",
     "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-06-01T19:31:15.433843",
+    "pair": "INJ-USD",
+    "old_signal": "HOLD",
+    "new_signal": "BUY"
   }
 ]
