@@ -1,29 +1,5 @@
 [
   {
-    "time": "2026-06-01T00:20:30.053517",
-    "pair": "ETC-USD",
-    "old_signal": "HOLD",
-    "new_signal": "BUY"
-  },
-  {
-    "time": "2026-06-01T00:20:30.053521",
-    "pair": "ARB-USD",
-    "old_signal": "HOLD",
-    "new_signal": "BUY"
-  },
-  {
-    "time": "2026-06-01T00:35:38.550028",
-    "pair": "INJ-USD",
-    "old_signal": "HOLD",
-    "new_signal": "STRONG_BUY"
-  },
-  {
-    "time": "2026-06-01T00:35:38.550037",
-    "pair": "AAVE-USD",
-    "old_signal": "HOLD",
-    "new_signal": "STRONG_BUY"
-  },
-  {
     "time": "2026-06-01T00:35:38.550042",
     "pair": "BTC-USD",
     "old_signal": "HOLD",
@@ -598,5 +574,29 @@
     "pair": "ICP-USD",
     "old_signal": "BUY",
     "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-06-01T03:22:09.037831",
+    "pair": "FIL-USD",
+    "old_signal": "BUY",
+    "new_signal": "STRONG_BUY"
+  },
+  {
+    "time": "2026-06-01T03:22:09.037847",
+    "pair": "SUI-USD",
+    "old_signal": "HOLD",
+    "new_signal": "STRONG_BUY"
+  },
+  {
+    "time": "2026-06-01T03:22:09.037884",
+    "pair": "GRT-USD",
+    "old_signal": "STRONG_BUY",
+    "new_signal": "BUY"
+  },
+  {
+    "time": "2026-06-01T03:22:09.037890",
+    "pair": "ICP-USD",
+    "old_signal": "HOLD",
+    "new_signal": "BUY"
   }
 ]
