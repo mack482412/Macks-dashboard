@@ -1409,5 +1409,30 @@
     "score": 90.0,
     "atr_pct": 0.56,
     "reason": "price < EMA20; price < EMA50; bear EMA alignment; RSI weak; MACD negative; MACD weakening; volume active; BTC bearish"
+  },
+  {
+    "time": "2026-06-01T16:59:44.867730",
+    "pair": "OP-USD",
+    "side": "SHORT",
+    "action": "COVER",
+    "price": 0.119,
+    "quantity": 43.47826086956522,
+    "notional": 5.0,
+    "pnl": -0.17391304347826042,
+    "pnl_pct": -3.4782608695652084,
+    "reason": "SHORT_STOP_LOSS"
+  },
+  {
+    "time": "2026-06-01T16:59:44.868566",
+    "pair": "AAVE-USD",
+    "side": "SHORT",
+    "action": "SHORT",
+    "price": 79.4,
+    "quantity": 0.03778337531486146,
+    "notional": 3.0,
+    "pnl": 0,
+    "score": 80,
+    "atr_pct": 0.81,
+    "reason": "price < EMA20; price < EMA50; bear EMA alignment; RSI weak; MACD negative; volume active; BTC bearish"
   }
 ]
