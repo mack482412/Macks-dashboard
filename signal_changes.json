@@ -1,17 +1,5 @@
 [
   {
-    "time": "2026-06-01T15:28:52.400014",
-    "pair": "LINK-USD",
-    "old_signal": "SHORT",
-    "new_signal": "STRONG_SHORT"
-  },
-  {
-    "time": "2026-06-01T15:28:52.400018",
-    "pair": "UNI-USD",
-    "old_signal": "SHORT",
-    "new_signal": "STRONG_SHORT"
-  },
-  {
     "time": "2026-06-01T15:28:52.400021",
     "pair": "HBAR-USD",
     "old_signal": "SHORT",
@@ -598,5 +586,17 @@
     "pair": "HBAR-USD",
     "old_signal": "HOLD",
     "new_signal": "SHORT"
+  },
+  {
+    "time": "2026-06-01T20:01:32.138811",
+    "pair": "INJ-USD",
+    "old_signal": "BUY",
+    "new_signal": "STRONG_BUY"
+  },
+  {
+    "time": "2026-06-01T20:01:32.138828",
+    "pair": "HBAR-USD",
+    "old_signal": "SHORT",
+    "new_signal": "HOLD"
   }
 ]
