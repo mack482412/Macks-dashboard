@@ -1,11 +1,5 @@
 [
   {
-    "time": "2026-05-31T19:48:01.643068",
-    "pair": "BTC-USD",
-    "old_signal": "SHORT",
-    "new_signal": "STRONG_SHORT"
-  },
-  {
     "time": "2026-05-31T19:48:01.643078",
     "pair": "ETH-USD",
     "old_signal": "STRONG_SHORT",
@@ -598,5 +592,11 @@
     "pair": "AAVE-USD",
     "old_signal": "STRONG_SHORT",
     "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-06-01T02:36:43.553904",
+    "pair": "FET-USD",
+    "old_signal": "HOLD",
+    "new_signal": "BUY"
   }
 ]
