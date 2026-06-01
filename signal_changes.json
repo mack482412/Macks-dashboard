@@ -1,11 +1,5 @@
 [
   {
-    "time": "2026-06-01T15:28:52.400010",
-    "pair": "FIL-USD",
-    "old_signal": "SHORT",
-    "new_signal": "STRONG_SHORT"
-  },
-  {
     "time": "2026-06-01T15:28:52.400014",
     "pair": "LINK-USD",
     "old_signal": "SHORT",
@@ -598,5 +592,11 @@
     "pair": "INJ-USD",
     "old_signal": "HOLD",
     "new_signal": "BUY"
+  },
+  {
+    "time": "2026-06-01T19:46:23.958377",
+    "pair": "HBAR-USD",
+    "old_signal": "HOLD",
+    "new_signal": "SHORT"
   }
 ]
