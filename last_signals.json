@@ -1,5 +1,6 @@
 {
-  "OP-USD": "STRONG_SHORT",
+  "HBAR-USD": "STRONG_SHORT",
+  "GRT-USD": "SHORT",
   "BTC-USD": "SHORT",
   "ETH-USD": "SHORT",
   "DOT-USD": "SHORT",
@@ -17,16 +18,15 @@
   "ETC-USD": "SHORT",
   "APT-USD": "SHORT",
   "ARB-USD": "SHORT",
+  "OP-USD": "SHORT",
   "SUI-USD": "SHORT",
   "XRP-USD": "HOLD",
   "DOGE-USD": "HOLD",
   "SEI-USD": "HOLD",
+  "INJ-USD": "HOLD",
   "MATIC-USD": "HOLD",
-  "FET-USD": "HOLD",
   "ICP-USD": "HOLD",
   "RNDR-USD": "HOLD",
-  "INJ-USD": "HOLD",
-  "GRT-USD": "HOLD",
-  "HBAR-USD": "HOLD",
+  "FET-USD": "HOLD",
   "NEAR-USD": "HOLD"
 }

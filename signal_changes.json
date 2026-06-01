@@ -1,23 +1,5 @@
 [
   {
-    "time": "2026-06-01T04:07:33.158088",
-    "pair": "APT-USD",
-    "old_signal": "BUY",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-06-01T04:07:33.158093",
-    "pair": "ARB-USD",
-    "old_signal": "BUY",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-06-01T04:07:33.158096",
-    "pair": "SUI-USD",
-    "old_signal": "STRONG_BUY",
-    "new_signal": "HOLD"
-  },
-  {
     "time": "2026-06-01T04:07:33.158100",
     "pair": "MATIC-USD",
     "old_signal": "BUY",
@@ -596,6 +578,24 @@
   {
     "time": "2026-06-01T07:09:12.138635",
     "pair": "SHIB-USD",
+    "old_signal": "STRONG_SHORT",
+    "new_signal": "SHORT"
+  },
+  {
+    "time": "2026-06-01T07:24:20.325520",
+    "pair": "HBAR-USD",
+    "old_signal": "HOLD",
+    "new_signal": "STRONG_SHORT"
+  },
+  {
+    "time": "2026-06-01T07:24:20.325532",
+    "pair": "GRT-USD",
+    "old_signal": "HOLD",
+    "new_signal": "SHORT"
+  },
+  {
+    "time": "2026-06-01T07:24:20.325545",
+    "pair": "OP-USD",
     "old_signal": "STRONG_SHORT",
     "new_signal": "SHORT"
   }
