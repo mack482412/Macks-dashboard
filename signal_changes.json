@@ -1,11 +1,5 @@
 [
   {
-    "time": "2026-06-01T15:28:52.399981",
-    "pair": "OP-USD",
-    "old_signal": "HOLD",
-    "new_signal": "STRONG_SHORT"
-  },
-  {
     "time": "2026-06-01T15:28:52.399984",
     "pair": "XRP-USD",
     "old_signal": "HOLD",
@@ -596,6 +590,12 @@
   {
     "time": "2026-06-01T17:30:01.890299",
     "pair": "NEAR-USD",
+    "old_signal": "BUY",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-06-01T17:45:11.552013",
+    "pair": "INJ-USD",
     "old_signal": "BUY",
     "new_signal": "HOLD"
   }
