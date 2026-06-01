@@ -1,11 +1,5 @@
 [
   {
-    "time": "2026-06-01T15:28:52.400004",
-    "pair": "FET-USD",
-    "old_signal": "SHORT",
-    "new_signal": "STRONG_SHORT"
-  },
-  {
     "time": "2026-06-01T15:28:52.400007",
     "pair": "SHIB-USD",
     "old_signal": "SHORT",
@@ -598,5 +592,11 @@
     "pair": "FET-USD",
     "old_signal": "HOLD",
     "new_signal": "BUY"
+  },
+  {
+    "time": "2026-06-01T19:00:58.552579",
+    "pair": "FET-USD",
+    "old_signal": "BUY",
+    "new_signal": "HOLD"
   }
 ]
