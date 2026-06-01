@@ -1346,5 +1346,18 @@
     "pnl": -0.011713665943601015,
     "pnl_pct": -0.3904555314533672,
     "reason": "LONG_TRAILING_STOP"
+  },
+  {
+    "time": "2026-06-01T00:20:30.046702",
+    "pair": "SEI-USD",
+    "side": "LONG",
+    "action": "BUY",
+    "price": 0.06828,
+    "quantity": 43.93673110720563,
+    "notional": 3.0,
+    "pnl": 0,
+    "score": 80,
+    "atr_pct": 1.03,
+    "reason": "price > EMA20; price > EMA50; bull EMA alignment; RSI healthy; MACD positive; BTC bullish"
   }
 ]
