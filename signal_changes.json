@@ -1,23 +1,5 @@
 [
   {
-    "time": "2026-06-02T00:34:03.786188",
-    "pair": "ICP-USD",
-    "old_signal": "HOLD",
-    "new_signal": "SHORT"
-  },
-  {
-    "time": "2026-06-02T00:34:03.786192",
-    "pair": "XRP-USD",
-    "old_signal": "SHORT",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-06-02T00:34:03.786196",
-    "pair": "BCH-USD",
-    "old_signal": "BUY",
-    "new_signal": "HOLD"
-  },
-  {
     "time": "2026-06-02T00:34:03.786201",
     "pair": "BTC-USD",
     "old_signal": "SHORT",
@@ -597,6 +579,24 @@
     "time": "2026-06-02T03:50:55.654831",
     "pair": "NEAR-USD",
     "old_signal": "BUY",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-06-02T04:06:05.353755",
+    "pair": "FET-USD",
+    "old_signal": "HOLD",
+    "new_signal": "BUY"
+  },
+  {
+    "time": "2026-06-02T04:06:05.353765",
+    "pair": "OP-USD",
+    "old_signal": "HOLD",
+    "new_signal": "BUY"
+  },
+  {
+    "time": "2026-06-02T04:06:05.353775",
+    "pair": "ADA-USD",
+    "old_signal": "SHORT",
     "new_signal": "HOLD"
   }
 ]
