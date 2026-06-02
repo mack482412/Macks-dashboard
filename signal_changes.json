@@ -1,17 +1,5 @@
 [
   {
-    "time": "2026-06-02T14:57:14.871905",
-    "pair": "DOGE-USD",
-    "old_signal": "SHORT",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-06-02T14:57:14.871909",
-    "pair": "INJ-USD",
-    "old_signal": "SHORT",
-    "new_signal": "HOLD"
-  },
-  {
     "time": "2026-06-02T14:57:14.871913",
     "pair": "SEI-USD",
     "old_signal": "STRONG_SHORT",
@@ -598,5 +586,17 @@
     "pair": "GRT-USD",
     "old_signal": "SHORT",
     "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-06-02T18:29:30.207939",
+    "pair": "INJ-USD",
+    "old_signal": "SHORT",
+    "new_signal": "STRONG_SHORT"
+  },
+  {
+    "time": "2026-06-02T18:29:30.207947",
+    "pair": "ETH-USD",
+    "old_signal": "HOLD",
+    "new_signal": "SHORT"
   }
 ]
