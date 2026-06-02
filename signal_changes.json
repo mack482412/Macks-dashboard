@@ -1,11 +1,5 @@
 [
   {
-    "time": "2026-06-02T00:34:03.786184",
-    "pair": "HBAR-USD",
-    "old_signal": "STRONG_SHORT",
-    "new_signal": "SHORT"
-  },
-  {
     "time": "2026-06-02T00:34:03.786188",
     "pair": "ICP-USD",
     "old_signal": "HOLD",
@@ -597,6 +591,12 @@
     "time": "2026-06-02T03:35:47.460270",
     "pair": "ARB-USD",
     "old_signal": "SHORT",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-06-02T03:50:55.654831",
+    "pair": "NEAR-USD",
+    "old_signal": "BUY",
     "new_signal": "HOLD"
   }
 ]
