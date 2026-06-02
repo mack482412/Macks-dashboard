@@ -16,64 +16,64 @@
       "atr_pct": 1.17,
       "reason": "price > EMA20; price > EMA50; RSI healthy; MACD positive; MACD improving; volume confirmation; ATR usable; BTC regime bullish",
       "opened_at": "2026-05-22T04:27:04.348688",
-      "updated_at": "2026-06-02T10:39:39.412519"
+      "updated_at": "2026-06-02T10:54:47.085594"
     },
     "ETH-USD": {
       "pair": "ETH-USD",
       "side": "SHORT",
       "entry_price": 1974.14,
-      "current_price": 1973.02,
+      "current_price": 1974.89,
       "quantity": 0.002532748437294214,
       "notional": 5.0,
-      "market_value": 5.0028366782497695,
-      "unrealized_pnl": 0.0028366782497698194,
-      "pnl_pct": 0.05673356499539639,
+      "market_value": 4.998100438672029,
+      "unrealized_pnl": -0.0018995613279706607,
+      "pnl_pct": -0.03799122655941321,
       "peak_pnl_pct": 0.8317545868074236,
       "score": 93.0,
       "ai_confidence": 93.0,
       "atr_pct": 0.34,
       "reason": "price < EMA20; price < EMA50; bear EMA alignment; RSI weak; MACD negative; MACD weakening; volume active; BTC bearish",
       "opened_at": "2026-06-01T07:54:36.819767",
-      "updated_at": "2026-06-02T10:39:39.412526"
+      "updated_at": "2026-06-02T10:54:47.085601"
     },
     "AAVE-USD": {
       "pair": "AAVE-USD",
       "side": "SHORT",
       "entry_price": 79.4,
-      "current_price": 77.74,
+      "current_price": 77.8,
       "quantity": 0.03778337531486146,
       "notional": 3.0,
-      "market_value": 3.0627204030226705,
-      "unrealized_pnl": 0.06272040302267043,
-      "pnl_pct": 2.090680100755681,
+      "market_value": 3.0604534005037785,
+      "unrealized_pnl": 0.06045340050377866,
+      "pnl_pct": 2.0151133501259553,
       "peak_pnl_pct": 2.670025188916882,
       "score": 80,
       "ai_confidence": 80,
       "atr_pct": 0.81,
       "reason": "price < EMA20; price < EMA50; bear EMA alignment; RSI weak; MACD negative; volume active; BTC bearish",
       "opened_at": "2026-06-01T16:59:44.868561",
-      "updated_at": "2026-06-02T10:39:39.412532"
+      "updated_at": "2026-06-02T10:54:47.085618"
     },
     "LTC-USD": {
       "pair": "LTC-USD",
       "side": "SHORT",
       "entry_price": 49.52,
-      "current_price": 49.46,
+      "current_price": 49.58,
       "quantity": 0.10096930533117932,
       "notional": 5.0,
-      "market_value": 5.006058158319871,
-      "unrealized_pnl": 0.006058158319870989,
-      "pnl_pct": 0.12116316639741978,
+      "market_value": 4.99394184168013,
+      "unrealized_pnl": -0.006058158319870271,
+      "pnl_pct": -0.12116316639740543,
       "peak_pnl_pct": 0.7471728594507361,
       "score": 90,
       "ai_confidence": 90,
       "atr_pct": 0.5,
       "reason": "price < EMA20; price < EMA50; bear EMA alignment; RSI weak; MACD negative; MACD weakening; volume active; BTC bearish",
       "opened_at": "2026-06-02T05:06:37.939479",
-      "updated_at": "2026-06-02T10:39:39.412537"
+      "updated_at": "2026-06-02T10:54:47.085624"
     }
   },
   "starting_cash": 50.0,
-  "total_value": 48.09677891585782,
-  "updated_at": "2026-06-02T10:39:39.412540"
+  "total_value": 48.07765935712143,
+  "updated_at": "2026-06-02T10:54:47.085627"
 }
