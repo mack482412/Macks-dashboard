@@ -1609,5 +1609,17 @@
     "score": 98,
     "atr_pct": 1.32,
     "reason": "price < EMA20; price < EMA50; bear EMA alignment; RSI weak; MACD negative; MACD weakening; volume active; BTC bearish"
+  },
+  {
+    "time": "2026-06-02T17:13:39.336149",
+    "pair": "NEAR-USD",
+    "side": "SHORT",
+    "action": "COVER",
+    "price": 2.565,
+    "quantity": 2.012072434607646,
+    "notional": 5.0,
+    "pnl": -0.16096579476861184,
+    "pnl_pct": -3.2193158953722363,
+    "reason": "SHORT_STOP_LOSS"
   }
 ]
