@@ -1,47 +1,5 @@
 [
   {
-    "time": "2026-06-02T09:08:50.526516",
-    "pair": "NEAR-USD",
-    "old_signal": "HOLD",
-    "new_signal": "BUY"
-  },
-  {
-    "time": "2026-06-02T09:08:50.526519",
-    "pair": "SHIB-USD",
-    "old_signal": "HOLD",
-    "new_signal": "SHORT"
-  },
-  {
-    "time": "2026-06-02T09:08:50.526524",
-    "pair": "SOL-USD",
-    "old_signal": "STRONG_SHORT",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-06-02T09:08:50.526532",
-    "pair": "AAVE-USD",
-    "old_signal": "SHORT",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-06-02T09:08:50.526536",
-    "pair": "HBAR-USD",
-    "old_signal": "SHORT",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-06-02T09:23:58.990942",
-    "pair": "SHIB-USD",
-    "old_signal": "SHORT",
-    "new_signal": "STRONG_SHORT"
-  },
-  {
-    "time": "2026-06-02T09:23:58.990951",
-    "pair": "SOL-USD",
-    "old_signal": "HOLD",
-    "new_signal": "STRONG_SHORT"
-  },
-  {
     "time": "2026-06-02T09:23:58.990955",
     "pair": "AVAX-USD",
     "old_signal": "HOLD",
@@ -597,6 +555,48 @@
     "time": "2026-06-02T12:25:38.257264",
     "pair": "NEAR-USD",
     "old_signal": "BUY",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-06-02T12:40:46.318164",
+    "pair": "ADA-USD",
+    "old_signal": "HOLD",
+    "new_signal": "STRONG_SHORT"
+  },
+  {
+    "time": "2026-06-02T12:40:46.318177",
+    "pair": "AAVE-USD",
+    "old_signal": "SHORT",
+    "new_signal": "STRONG_SHORT"
+  },
+  {
+    "time": "2026-06-02T12:40:46.318181",
+    "pair": "BTC-USD",
+    "old_signal": "HOLD",
+    "new_signal": "SHORT"
+  },
+  {
+    "time": "2026-06-02T12:40:46.318185",
+    "pair": "FET-USD",
+    "old_signal": "BUY",
+    "new_signal": "SHORT"
+  },
+  {
+    "time": "2026-06-02T12:40:46.318193",
+    "pair": "HBAR-USD",
+    "old_signal": "STRONG_SHORT",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-06-02T12:40:46.318199",
+    "pair": "ETC-USD",
+    "old_signal": "STRONG_SHORT",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-06-02T12:40:46.318206",
+    "pair": "BCH-USD",
+    "old_signal": "SHORT",
     "new_signal": "HOLD"
   }
 ]
