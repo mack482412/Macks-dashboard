@@ -1,17 +1,5 @@
 [
   {
-    "time": "2026-06-02T05:52:02.451348",
-    "pair": "XRP-USD",
-    "old_signal": "HOLD",
-    "new_signal": "SHORT"
-  },
-  {
-    "time": "2026-06-02T05:52:02.451351",
-    "pair": "GRT-USD",
-    "old_signal": "HOLD",
-    "new_signal": "SHORT"
-  },
-  {
     "time": "2026-06-02T05:52:02.451355",
     "pair": "ICP-USD",
     "old_signal": "HOLD",
@@ -596,6 +584,18 @@
   {
     "time": "2026-06-02T07:38:00.759066",
     "pair": "SHIB-USD",
+    "old_signal": "SHORT",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-06-02T07:53:09.522410",
+    "pair": "FET-USD",
+    "old_signal": "BUY",
+    "new_signal": "STRONG_BUY"
+  },
+  {
+    "time": "2026-06-02T07:53:09.522441",
+    "pair": "ADA-USD",
     "old_signal": "SHORT",
     "new_signal": "HOLD"
   }
