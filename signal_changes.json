@@ -1,23 +1,5 @@
 [
   {
-    "time": "2026-06-02T14:57:14.871881",
-    "pair": "SOL-USD",
-    "old_signal": "STRONG_SHORT",
-    "new_signal": "SHORT"
-  },
-  {
-    "time": "2026-06-02T14:57:14.871885",
-    "pair": "UNI-USD",
-    "old_signal": "STRONG_SHORT",
-    "new_signal": "SHORT"
-  },
-  {
-    "time": "2026-06-02T14:57:14.871888",
-    "pair": "ETC-USD",
-    "old_signal": "STRONG_SHORT",
-    "new_signal": "SHORT"
-  },
-  {
     "time": "2026-06-02T14:57:14.871892",
     "pair": "HBAR-USD",
     "old_signal": "STRONG_SHORT",
@@ -597,6 +579,24 @@
     "time": "2026-06-02T17:28:48.699826",
     "pair": "NEAR-USD",
     "old_signal": "SHORT",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-06-02T17:43:57.953689",
+    "pair": "FIL-USD",
+    "old_signal": "STRONG_SHORT",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-06-02T17:43:57.953700",
+    "pair": "ETH-USD",
+    "old_signal": "SHORT",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-06-02T17:43:57.953704",
+    "pair": "ICP-USD",
+    "old_signal": "BUY",
     "new_signal": "HOLD"
   }
 ]
