@@ -16,64 +16,64 @@
       "atr_pct": 1.17,
       "reason": "price > EMA20; price > EMA50; RSI healthy; MACD positive; MACD improving; volume confirmation; ATR usable; BTC regime bullish",
       "opened_at": "2026-05-22T04:27:04.348688",
-      "updated_at": "2026-06-02T15:57:53.737903"
+      "updated_at": "2026-06-02T16:13:03.932754"
     },
     "FIL-USD": {
       "pair": "FIL-USD",
       "side": "SHORT",
       "entry_price": 0.882,
-      "current_price": 0.884,
+      "current_price": 0.892,
       "quantity": 5.668934240362812,
       "notional": 5.0,
-      "market_value": 4.988662131519274,
-      "unrealized_pnl": -0.011337868480725632,
-      "pnl_pct": -0.22675736961451265,
+      "market_value": 4.9433106575963714,
+      "unrealized_pnl": -0.05668934240362817,
+      "pnl_pct": -1.1337868480725635,
       "peak_pnl_pct": 0.0,
       "score": 100.0,
       "ai_confidence": 100.0,
       "atr_pct": 1.3,
       "reason": "price < EMA20; price < EMA50; bear EMA alignment; RSI weak; MACD negative; MACD weakening; volume active; BTC bearish",
       "opened_at": "2026-06-02T15:42:43.207532",
-      "updated_at": "2026-06-02T15:57:53.737910"
+      "updated_at": "2026-06-02T16:13:03.932763"
     },
     "NEAR-USD": {
       "pair": "NEAR-USD",
       "side": "SHORT",
       "entry_price": 2.485,
-      "current_price": 2.463,
+      "current_price": 2.514,
       "quantity": 2.012072434607646,
       "notional": 5.0,
-      "market_value": 5.044265593561367,
-      "unrealized_pnl": 0.044265593561367805,
-      "pnl_pct": 0.8853118712273561,
+      "market_value": 4.941649899396379,
+      "unrealized_pnl": -0.05835010060362156,
+      "pnl_pct": -1.1670020120724311,
       "peak_pnl_pct": 0.8853118712273561,
       "score": 99.0,
       "ai_confidence": 99.0,
       "atr_pct": 2.14,
       "reason": "price < EMA20; price < EMA50; bear EMA alignment; RSI weak; MACD negative; MACD weakening; volume active; BTC bearish",
       "opened_at": "2026-06-02T15:42:43.207555",
-      "updated_at": "2026-06-02T15:57:53.737915"
+      "updated_at": "2026-06-02T16:13:03.932771"
     },
     "APT-USD": {
       "pair": "APT-USD",
       "side": "SHORT",
       "entry_price": 0.8476,
-      "current_price": 0.8492,
+      "current_price": 0.8632,
       "quantity": 5.8990089664936285,
       "notional": 5.0,
-      "market_value": 4.9905615856536105,
-      "unrealized_pnl": -0.009438414346389421,
-      "pnl_pct": -0.18876828692778844,
+      "market_value": 4.9079754601226995,
+      "unrealized_pnl": -0.0920245398773003,
+      "pnl_pct": -1.840490797546006,
       "peak_pnl_pct": 0.0,
       "score": 98,
       "ai_confidence": 98,
       "atr_pct": 1.32,
       "reason": "price < EMA20; price < EMA50; bear EMA alignment; RSI weak; MACD negative; MACD weakening; volume active; BTC bearish",
       "opened_at": "2026-06-02T15:42:43.207572",
-      "updated_at": "2026-06-02T15:57:53.737921"
+      "updated_at": "2026-06-02T16:13:03.932777"
     }
   },
   "starting_cash": 50.0,
-  "total_value": 48.80854585192996,
-  "updated_at": "2026-06-02T15:57:53.737924"
+  "total_value": 48.57799255831116,
+  "updated_at": "2026-06-02T16:13:03.932782"
 }
