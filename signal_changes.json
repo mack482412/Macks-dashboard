@@ -1,29 +1,5 @@
 [
   {
-    "time": "2026-06-02T14:26:56.443994",
-    "pair": "LTC-USD",
-    "old_signal": "HOLD",
-    "new_signal": "STRONG_SHORT"
-  },
-  {
-    "time": "2026-06-02T14:26:56.443998",
-    "pair": "UNI-USD",
-    "old_signal": "HOLD",
-    "new_signal": "STRONG_SHORT"
-  },
-  {
-    "time": "2026-06-02T14:26:56.444002",
-    "pair": "AAVE-USD",
-    "old_signal": "SHORT",
-    "new_signal": "STRONG_SHORT"
-  },
-  {
-    "time": "2026-06-02T14:26:56.444006",
-    "pair": "ATOM-USD",
-    "old_signal": "HOLD",
-    "new_signal": "STRONG_SHORT"
-  },
-  {
     "time": "2026-06-02T14:26:56.444010",
     "pair": "ETC-USD",
     "old_signal": "HOLD",
@@ -596,6 +572,30 @@
   {
     "time": "2026-06-02T16:43:21.757608",
     "pair": "SUI-USD",
+    "old_signal": "SHORT",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-06-02T16:58:30.662482",
+    "pair": "SEI-USD",
+    "old_signal": "SHORT",
+    "new_signal": "STRONG_SHORT"
+  },
+  {
+    "time": "2026-06-02T16:58:30.662494",
+    "pair": "HBAR-USD",
+    "old_signal": "SHORT",
+    "new_signal": "STRONG_SHORT"
+  },
+  {
+    "time": "2026-06-02T16:58:30.662499",
+    "pair": "BCH-USD",
+    "old_signal": "HOLD",
+    "new_signal": "SHORT"
+  },
+  {
+    "time": "2026-06-02T16:58:30.662514",
+    "pair": "UNI-USD",
     "old_signal": "SHORT",
     "new_signal": "HOLD"
   }
