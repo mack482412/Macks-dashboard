@@ -4,7 +4,7 @@
   "BTC-USD": "SHORT",
   "ETH-USD": "SHORT",
   "DOT-USD": "SHORT",
-  "SHIB-USD": "SHORT",
+  "BCH-USD": "SHORT",
   "FIL-USD": "SHORT",
   "ICP-USD": "BUY",
   "SOL-USD": "SHORT",
@@ -24,9 +24,9 @@
   "SEI-USD": "HOLD",
   "GRT-USD": "HOLD",
   "MATIC-USD": "HOLD",
-  "BCH-USD": "HOLD",
+  "OP-USD": "HOLD",
   "LTC-USD": "HOLD",
   "RNDR-USD": "HOLD",
-  "NEAR-USD": "HOLD",
-  "OP-USD": "HOLD"
+  "SHIB-USD": "HOLD",
+  "NEAR-USD": "HOLD"
 }
