@@ -1,17 +1,5 @@
 [
   {
-    "time": "2026-06-02T00:34:03.786201",
-    "pair": "BTC-USD",
-    "old_signal": "SHORT",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-06-02T00:49:11.856048",
-    "pair": "HBAR-USD",
-    "old_signal": "SHORT",
-    "new_signal": "STRONG_SHORT"
-  },
-  {
     "time": "2026-06-02T00:49:11.856058",
     "pair": "ETC-USD",
     "old_signal": "STRONG_SHORT",
@@ -597,6 +585,18 @@
     "time": "2026-06-02T04:06:05.353775",
     "pair": "ADA-USD",
     "old_signal": "SHORT",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-06-02T04:21:13.356490",
+    "pair": "ADA-USD",
+    "old_signal": "HOLD",
+    "new_signal": "SHORT"
+  },
+  {
+    "time": "2026-06-02T04:21:13.356501",
+    "pair": "OP-USD",
+    "old_signal": "BUY",
     "new_signal": "HOLD"
   }
 ]
