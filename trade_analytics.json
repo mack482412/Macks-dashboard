@@ -1,0 +1,21 @@
+{
+  "updated_at": "2026-06-03T18:11:17.022706",
+  "closed_trades": 66,
+  "wins": 24,
+  "losses": 41,
+  "win_rate": 36.36363636363637,
+  "gross_win": 3.4812115029949715,
+  "gross_loss": 4.8571207565678876,
+  "avg_win": 0.14505047929145715,
+  "avg_loss": -0.11846635991628994,
+  "profit_factor": 0.7167232764982451,
+  "expectancy": -0.02084710990261994,
+  "long_closed_trades": 34,
+  "short_closed_trades": 32,
+  "long_pnl": -1.145544148640277,
+  "short_pnl": -0.2303651049326388,
+  "recent_closed_count": 5,
+  "recent_closed_pnl": 0.5989270701615956,
+  "auto_pause_active": false,
+  "auto_pause_reason": ""
+}
