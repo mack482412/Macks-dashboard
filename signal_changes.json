@@ -1,11 +1,5 @@
 [
   {
-    "time": "2026-06-03T17:28:28.232886",
-    "pair": "AAVE-USD",
-    "old_signal": "STRONG_SHORT",
-    "new_signal": "SHORT"
-  },
-  {
     "time": "2026-06-03T17:28:28.232890",
     "pair": "LTC-USD",
     "old_signal": "STRONG_SHORT",
@@ -598,5 +592,11 @@
     "pair": "DOT-USD",
     "old_signal": "SHORT",
     "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-06-03T22:07:13.815044",
+    "pair": "NEAR-USD",
+    "old_signal": "HOLD",
+    "new_signal": "BUY"
   }
 ]
