@@ -16,7 +16,7 @@
       "atr_pct": 1.17,
       "reason": "price > EMA20; price > EMA50; RSI healthy; MACD positive; MACD improving; volume confirmation; ATR usable; BTC regime bullish",
       "opened_at": "2026-05-22T04:27:04.348688",
-      "updated_at": "2026-06-04T20:13:20.716890"
+      "updated_at": "2026-06-04T20:28:25.003735"
     },
     "FIL-USD": {
       "pair": "FIL-USD",
@@ -34,7 +34,7 @@
       "atr_pct": 1.3,
       "reason": "price < EMA20; price < EMA50; bear EMA alignment; RSI weak; MACD negative; MACD weakening; volume active; BTC bearish",
       "opened_at": "2026-06-02T15:42:43.207532",
-      "updated_at": "2026-06-04T20:13:20.716906"
+      "updated_at": "2026-06-04T20:28:25.003744"
     },
     "APT-USD": {
       "pair": "APT-USD",
@@ -52,10 +52,10 @@
       "atr_pct": 1.32,
       "reason": "price < EMA20; price < EMA50; bear EMA alignment; RSI weak; MACD negative; MACD weakening; volume active; BTC bearish",
       "opened_at": "2026-06-02T15:42:43.207572",
-      "updated_at": "2026-06-04T20:13:20.716913"
+      "updated_at": "2026-06-04T20:28:25.003750"
     }
   },
   "starting_cash": 50.0,
   "total_value": 48.394631336424304,
-  "updated_at": "2026-06-04T20:13:20.716916"
+  "updated_at": "2026-06-04T20:28:25.003753"
 }
