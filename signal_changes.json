@@ -1,17 +1,5 @@
 [
   {
-    "time": "2026-06-04T15:11:58.735113",
-    "pair": "INJ-USD",
-    "old_signal": "SHORT",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-06-04T16:27:21.325384",
-    "pair": "LTC-USD",
-    "old_signal": "HOLD",
-    "new_signal": "SHORT"
-  },
-  {
     "time": "2026-06-04T16:42:25.652066",
     "pair": "XRP-USD",
     "old_signal": "HOLD",
@@ -596,6 +584,18 @@
   {
     "time": "2026-06-04T22:59:07.334979",
     "pair": "BTC-USD",
+    "old_signal": "SHORT",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-06-04T23:14:11.504024",
+    "pair": "AVAX-USD",
+    "old_signal": "SHORT",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-06-04T23:14:11.504032",
+    "pair": "NEAR-USD",
     "old_signal": "SHORT",
     "new_signal": "HOLD"
   }
