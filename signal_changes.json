@@ -1,11 +1,5 @@
 [
   {
-    "time": "2026-06-04T05:39:21.124614",
-    "pair": "SOL-USD",
-    "old_signal": "SHORT",
-    "new_signal": "HOLD"
-  },
-  {
     "time": "2026-06-04T05:54:25.305327",
     "pair": "NEAR-USD",
     "old_signal": "SHORT",
@@ -598,5 +592,11 @@
     "pair": "INJ-USD",
     "old_signal": "SHORT",
     "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-06-04T16:27:21.325384",
+    "pair": "LTC-USD",
+    "old_signal": "HOLD",
+    "new_signal": "SHORT"
   }
 ]
