@@ -1,17 +1,5 @@
 [
   {
-    "time": "2026-06-04T09:55:36.496731",
-    "pair": "BTC-USD",
-    "old_signal": "STRONG_SHORT",
-    "new_signal": "SHORT"
-  },
-  {
-    "time": "2026-06-04T09:55:36.496735",
-    "pair": "DOT-USD",
-    "old_signal": "STRONG_SHORT",
-    "new_signal": "SHORT"
-  },
-  {
     "time": "2026-06-04T09:55:36.496738",
     "pair": "SOL-USD",
     "old_signal": "STRONG_SHORT",
@@ -596,6 +584,18 @@
   {
     "time": "2026-06-04T20:28:25.015622",
     "pair": "DOT-USD",
+    "old_signal": "SHORT",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-06-04T20:43:29.241054",
+    "pair": "SOL-USD",
+    "old_signal": "STRONG_SHORT",
+    "new_signal": "SHORT"
+  },
+  {
+    "time": "2026-06-04T20:43:29.241064",
+    "pair": "DOGE-USD",
     "old_signal": "SHORT",
     "new_signal": "HOLD"
   }
