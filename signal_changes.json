@@ -1,47 +1,5 @@
 [
   {
-    "time": "2026-06-03T19:51:35.195196",
-    "pair": "XRP-USD",
-    "old_signal": "STRONG_SHORT",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-06-03T19:51:35.195203",
-    "pair": "ETH-USD",
-    "old_signal": "STRONG_SHORT",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-06-03T19:51:35.195208",
-    "pair": "BTC-USD",
-    "old_signal": "STRONG_SHORT",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-06-03T20:06:39.420590",
-    "pair": "INJ-USD",
-    "old_signal": "HOLD",
-    "new_signal": "STRONG_SHORT"
-  },
-  {
-    "time": "2026-06-03T20:06:39.420606",
-    "pair": "ETH-USD",
-    "old_signal": "HOLD",
-    "new_signal": "STRONG_SHORT"
-  },
-  {
-    "time": "2026-06-03T20:06:39.420610",
-    "pair": "BTC-USD",
-    "old_signal": "HOLD",
-    "new_signal": "STRONG_SHORT"
-  },
-  {
-    "time": "2026-06-03T20:06:39.420614",
-    "pair": "AAVE-USD",
-    "old_signal": "HOLD",
-    "new_signal": "STRONG_SHORT"
-  },
-  {
     "time": "2026-06-03T20:06:39.420618",
     "pair": "DOT-USD",
     "old_signal": "HOLD",
@@ -598,5 +556,47 @@
     "pair": "DOGE-USD",
     "old_signal": "SHORT",
     "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-06-04T01:53:17.375024",
+    "pair": "AVAX-USD",
+    "old_signal": "SHORT",
+    "new_signal": "STRONG_SHORT"
+  },
+  {
+    "time": "2026-06-04T01:53:17.375035",
+    "pair": "BTC-USD",
+    "old_signal": "SHORT",
+    "new_signal": "STRONG_SHORT"
+  },
+  {
+    "time": "2026-06-04T01:53:17.375038",
+    "pair": "AAVE-USD",
+    "old_signal": "SHORT",
+    "new_signal": "STRONG_SHORT"
+  },
+  {
+    "time": "2026-06-04T01:53:17.375044",
+    "pair": "LINK-USD",
+    "old_signal": "SHORT",
+    "new_signal": "STRONG_SHORT"
+  },
+  {
+    "time": "2026-06-04T01:53:17.375047",
+    "pair": "NEAR-USD",
+    "old_signal": "SHORT",
+    "new_signal": "STRONG_SHORT"
+  },
+  {
+    "time": "2026-06-04T01:53:17.375051",
+    "pair": "INJ-USD",
+    "old_signal": "SHORT",
+    "new_signal": "STRONG_SHORT"
+  },
+  {
+    "time": "2026-06-04T01:53:17.375054",
+    "pair": "ETH-USD",
+    "old_signal": "SHORT",
+    "new_signal": "STRONG_SHORT"
   }
 ]
