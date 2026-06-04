@@ -1,5 +1,4 @@
 {
-  "XRP-USD": "STRONG_SHORT",
   "ETH-USD": "STRONG_SHORT",
   "AAVE-USD": "SHORT",
   "LTC-USD": "SHORT",
@@ -8,7 +7,8 @@
   "LINK-USD": "SHORT",
   "AVAX-USD": "SHORT",
   "NEAR-USD": "SHORT",
+  "XRP-USD": "SHORT",
   "DOGE-USD": "SHORT",
   "INJ-USD": "SHORT",
-  "BTC-USD": "SHORT"
+  "BTC-USD": "HOLD"
 }
