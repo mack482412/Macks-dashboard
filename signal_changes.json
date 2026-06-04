@@ -1,17 +1,5 @@
 [
   {
-    "time": "2026-06-03T21:06:56.821955",
-    "pair": "ETH-USD",
-    "old_signal": "STRONG_SHORT",
-    "new_signal": "SHORT"
-  },
-  {
-    "time": "2026-06-03T21:06:56.821959",
-    "pair": "BTC-USD",
-    "old_signal": "STRONG_SHORT",
-    "new_signal": "SHORT"
-  },
-  {
     "time": "2026-06-03T21:06:56.821963",
     "pair": "LTC-USD",
     "old_signal": "STRONG_SHORT",
@@ -596,6 +584,18 @@
   {
     "time": "2026-06-04T03:23:43.848310",
     "pair": "LINK-USD",
+    "old_signal": "SHORT",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-06-04T03:38:48.020252",
+    "pair": "AAVE-USD",
+    "old_signal": "SHORT",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-06-04T03:38:48.020262",
+    "pair": "DOT-USD",
     "old_signal": "SHORT",
     "new_signal": "HOLD"
   }
