@@ -1,17 +1,5 @@
 [
   {
-    "time": "2026-06-04T07:09:49.404425",
-    "pair": "ETH-USD",
-    "old_signal": "HOLD",
-    "new_signal": "STRONG_SHORT"
-  },
-  {
-    "time": "2026-06-04T07:09:49.404429",
-    "pair": "SOL-USD",
-    "old_signal": "HOLD",
-    "new_signal": "STRONG_SHORT"
-  },
-  {
     "time": "2026-06-04T07:09:49.404432",
     "pair": "LINK-USD",
     "old_signal": "HOLD",
@@ -598,5 +586,17 @@
     "pair": "XRP-USD",
     "old_signal": "SHORT",
     "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-06-04T17:12:34.027349",
+    "pair": "AAVE-USD",
+    "old_signal": "HOLD",
+    "new_signal": "BUY"
+  },
+  {
+    "time": "2026-06-04T17:12:34.027358",
+    "pair": "SOL-USD",
+    "old_signal": "HOLD",
+    "new_signal": "SHORT"
   }
 ]
