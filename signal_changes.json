@@ -1,17 +1,5 @@
 [
   {
-    "time": "2026-06-05T04:15:36.806799",
-    "pair": "INJ-USD",
-    "old_signal": "SHORT",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-06-05T04:15:36.806802",
-    "pair": "LTC-USD",
-    "old_signal": "SHORT",
-    "new_signal": "HOLD"
-  },
-  {
     "time": "2026-06-05T04:30:41.126915",
     "pair": "ETH-USD",
     "old_signal": "SHORT",
@@ -598,5 +586,17 @@
     "pair": "NEAR-USD",
     "old_signal": "STRONG_SHORT",
     "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-06-05T12:17:51.325122",
+    "pair": "INJ-USD",
+    "old_signal": "SHORT",
+    "new_signal": "STRONG_SHORT"
+  },
+  {
+    "time": "2026-06-05T12:17:51.325135",
+    "pair": "BTC-USD",
+    "old_signal": "STRONG_SHORT",
+    "new_signal": "SHORT"
   }
 ]
