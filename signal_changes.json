@@ -1,11 +1,5 @@
 [
   {
-    "time": "2026-06-04T18:27:55.750262",
-    "pair": "LINK-USD",
-    "old_signal": "STRONG_SHORT",
-    "new_signal": "HOLD"
-  },
-  {
     "time": "2026-06-04T18:27:55.750267",
     "pair": "ETH-USD",
     "old_signal": "STRONG_SHORT",
@@ -596,6 +590,12 @@
   {
     "time": "2026-06-05T01:44:54.023646",
     "pair": "LINK-USD",
+    "old_signal": "SHORT",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-06-05T01:59:58.442703",
+    "pair": "XRP-USD",
     "old_signal": "SHORT",
     "new_signal": "HOLD"
   }
