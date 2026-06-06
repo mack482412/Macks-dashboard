@@ -1,23 +1,5 @@
 [
   {
-    "time": "2026-06-06T04:52:31.151132",
-    "pair": "XRP-USD",
-    "old_signal": "SHORT",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-06-06T04:52:31.151135",
-    "pair": "DOGE-USD",
-    "old_signal": "STRONG_SHORT",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-06-06T05:07:35.623191",
-    "pair": "DOGE-USD",
-    "old_signal": "HOLD",
-    "new_signal": "STRONG_SHORT"
-  },
-  {
     "time": "2026-06-06T05:07:35.623204",
     "pair": "DOT-USD",
     "old_signal": "SHORT",
@@ -596,6 +578,24 @@
   {
     "time": "2026-06-06T16:25:25.476490",
     "pair": "ETH-USD",
+    "old_signal": "HOLD",
+    "new_signal": "SHORT"
+  },
+  {
+    "time": "2026-06-06T16:40:29.485493",
+    "pair": "AVAX-USD",
+    "old_signal": "HOLD",
+    "new_signal": "STRONG_SHORT"
+  },
+  {
+    "time": "2026-06-06T16:40:29.485502",
+    "pair": "DOT-USD",
+    "old_signal": "HOLD",
+    "new_signal": "SHORT"
+  },
+  {
+    "time": "2026-06-06T16:40:29.485506",
+    "pair": "LINK-USD",
     "old_signal": "HOLD",
     "new_signal": "SHORT"
   }
