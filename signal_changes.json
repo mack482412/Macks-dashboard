@@ -1,47 +1,5 @@
 [
   {
-    "time": "2026-06-05T20:20:13.457617",
-    "pair": "AAVE-USD",
-    "old_signal": "SHORT",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-06-05T20:20:13.457626",
-    "pair": "LTC-USD",
-    "old_signal": "SHORT",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-06-05T20:20:13.457630",
-    "pair": "DOT-USD",
-    "old_signal": "SHORT",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-06-05T20:20:13.457633",
-    "pair": "AVAX-USD",
-    "old_signal": "SHORT",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-06-05T20:20:13.457637",
-    "pair": "INJ-USD",
-    "old_signal": "SHORT",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-06-05T20:20:13.457641",
-    "pair": "SOL-USD",
-    "old_signal": "SHORT",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-06-05T20:20:13.457644",
-    "pair": "LINK-USD",
-    "old_signal": "SHORT",
-    "new_signal": "HOLD"
-  },
-  {
     "time": "2026-06-05T20:20:13.457648",
     "pair": "DOGE-USD",
     "old_signal": "SHORT",
@@ -598,5 +556,47 @@
     "pair": "NEAR-USD",
     "old_signal": "STRONG_SHORT",
     "new_signal": "SHORT"
+  },
+  {
+    "time": "2026-06-06T05:22:39.804343",
+    "pair": "LTC-USD",
+    "old_signal": "STRONG_SHORT",
+    "new_signal": "SHORT"
+  },
+  {
+    "time": "2026-06-06T05:22:39.804355",
+    "pair": "DOT-USD",
+    "old_signal": "STRONG_SHORT",
+    "new_signal": "SHORT"
+  },
+  {
+    "time": "2026-06-06T05:22:39.804359",
+    "pair": "SOL-USD",
+    "old_signal": "STRONG_SHORT",
+    "new_signal": "SHORT"
+  },
+  {
+    "time": "2026-06-06T05:22:39.804364",
+    "pair": "DOGE-USD",
+    "old_signal": "STRONG_SHORT",
+    "new_signal": "SHORT"
+  },
+  {
+    "time": "2026-06-06T05:22:39.804368",
+    "pair": "INJ-USD",
+    "old_signal": "STRONG_SHORT",
+    "new_signal": "SHORT"
+  },
+  {
+    "time": "2026-06-06T05:22:39.804371",
+    "pair": "ETH-USD",
+    "old_signal": "STRONG_SHORT",
+    "new_signal": "SHORT"
+  },
+  {
+    "time": "2026-06-06T05:22:39.804375",
+    "pair": "XRP-USD",
+    "old_signal": "SHORT",
+    "new_signal": "HOLD"
   }
 ]
