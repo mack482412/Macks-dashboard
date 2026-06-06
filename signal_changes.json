@@ -1,11 +1,5 @@
 [
   {
-    "time": "2026-06-06T03:37:10.392610",
-    "pair": "BTC-USD",
-    "old_signal": "SHORT",
-    "new_signal": "STRONG_SHORT"
-  },
-  {
     "time": "2026-06-06T03:37:10.392614",
     "pair": "DOT-USD",
     "old_signal": "HOLD",
@@ -598,5 +592,11 @@
     "pair": "DOT-USD",
     "old_signal": "STRONG_BUY",
     "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-06-06T14:24:55.220265",
+    "pair": "NEAR-USD",
+    "old_signal": "HOLD",
+    "new_signal": "SHORT"
   }
 ]
