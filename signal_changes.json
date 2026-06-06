@@ -1,47 +1,5 @@
 [
   {
-    "time": "2026-06-05T17:04:15.492457",
-    "pair": "DOGE-USD",
-    "old_signal": "SHORT",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-06-05T17:04:15.492460",
-    "pair": "SOL-USD",
-    "old_signal": "SHORT",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-06-05T17:04:15.492463",
-    "pair": "LINK-USD",
-    "old_signal": "SHORT",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-06-05T17:04:15.492468",
-    "pair": "DOT-USD",
-    "old_signal": "SHORT",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-06-05T17:04:15.492471",
-    "pair": "NEAR-USD",
-    "old_signal": "STRONG_SHORT",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-06-05T17:19:20.924175",
-    "pair": "SOL-USD",
-    "old_signal": "HOLD",
-    "new_signal": "SHORT"
-  },
-  {
-    "time": "2026-06-05T17:34:25.151813",
-    "pair": "XRP-USD",
-    "old_signal": "HOLD",
-    "new_signal": "SHORT"
-  },
-  {
     "time": "2026-06-05T17:34:25.151826",
     "pair": "INJ-USD",
     "old_signal": "HOLD",
@@ -598,5 +556,47 @@
     "pair": "LTC-USD",
     "old_signal": "HOLD",
     "new_signal": "STRONG_SHORT"
+  },
+  {
+    "time": "2026-06-06T02:36:54.143998",
+    "pair": "BTC-USD",
+    "old_signal": "STRONG_SHORT",
+    "new_signal": "SHORT"
+  },
+  {
+    "time": "2026-06-06T02:36:54.144012",
+    "pair": "AAVE-USD",
+    "old_signal": "STRONG_SHORT",
+    "new_signal": "SHORT"
+  },
+  {
+    "time": "2026-06-06T02:36:54.144016",
+    "pair": "LTC-USD",
+    "old_signal": "STRONG_SHORT",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-06-06T02:36:54.144019",
+    "pair": "AVAX-USD",
+    "old_signal": "STRONG_SHORT",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-06-06T02:36:54.144022",
+    "pair": "DOT-USD",
+    "old_signal": "STRONG_SHORT",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-06-06T02:36:54.144026",
+    "pair": "SOL-USD",
+    "old_signal": "STRONG_SHORT",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-06-06T02:36:54.144030",
+    "pair": "NEAR-USD",
+    "old_signal": "STRONG_SHORT",
+    "new_signal": "HOLD"
   }
 ]
