@@ -1,47 +1,5 @@
 [
   {
-    "time": "2026-06-05T16:49:10.732133",
-    "pair": "XRP-USD",
-    "old_signal": "HOLD",
-    "new_signal": "SHORT"
-  },
-  {
-    "time": "2026-06-05T16:49:10.732137",
-    "pair": "DOGE-USD",
-    "old_signal": "STRONG_SHORT",
-    "new_signal": "SHORT"
-  },
-  {
-    "time": "2026-06-05T16:49:10.732141",
-    "pair": "AAVE-USD",
-    "old_signal": "HOLD",
-    "new_signal": "SHORT"
-  },
-  {
-    "time": "2026-06-05T17:04:15.492430",
-    "pair": "ETH-USD",
-    "old_signal": "STRONG_SHORT",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-06-05T17:04:15.492439",
-    "pair": "LTC-USD",
-    "old_signal": "SHORT",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-06-05T17:04:15.492443",
-    "pair": "AVAX-USD",
-    "old_signal": "SHORT",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-06-05T17:04:15.492446",
-    "pair": "INJ-USD",
-    "old_signal": "SHORT",
-    "new_signal": "HOLD"
-  },
-  {
     "time": "2026-06-05T17:04:15.492450",
     "pair": "XRP-USD",
     "old_signal": "SHORT",
@@ -598,5 +556,47 @@
     "pair": "BTC-USD",
     "old_signal": "HOLD",
     "new_signal": "STRONG_SHORT"
+  },
+  {
+    "time": "2026-06-06T02:06:45.502346",
+    "pair": "ETH-USD",
+    "old_signal": "HOLD",
+    "new_signal": "STRONG_SHORT"
+  },
+  {
+    "time": "2026-06-06T02:06:45.502357",
+    "pair": "DOT-USD",
+    "old_signal": "HOLD",
+    "new_signal": "STRONG_SHORT"
+  },
+  {
+    "time": "2026-06-06T02:06:45.502361",
+    "pair": "SOL-USD",
+    "old_signal": "HOLD",
+    "new_signal": "STRONG_SHORT"
+  },
+  {
+    "time": "2026-06-06T02:06:45.502365",
+    "pair": "LINK-USD",
+    "old_signal": "HOLD",
+    "new_signal": "STRONG_SHORT"
+  },
+  {
+    "time": "2026-06-06T02:06:45.502368",
+    "pair": "AVAX-USD",
+    "old_signal": "HOLD",
+    "new_signal": "STRONG_SHORT"
+  },
+  {
+    "time": "2026-06-06T02:06:45.502372",
+    "pair": "XRP-USD",
+    "old_signal": "HOLD",
+    "new_signal": "SHORT"
+  },
+  {
+    "time": "2026-06-06T02:06:45.502375",
+    "pair": "DOGE-USD",
+    "old_signal": "HOLD",
+    "new_signal": "SHORT"
   }
 ]
