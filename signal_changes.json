@@ -1,11 +1,5 @@
 [
   {
-    "time": "2026-06-06T00:06:11.106892",
-    "pair": "DOGE-USD",
-    "old_signal": "SHORT",
-    "new_signal": "HOLD"
-  },
-  {
     "time": "2026-06-06T00:06:11.106897",
     "pair": "SOL-USD",
     "old_signal": "STRONG_SHORT",
@@ -598,5 +592,11 @@
     "pair": "INJ-USD",
     "old_signal": "HOLD",
     "new_signal": "BUY"
+  },
+  {
+    "time": "2026-06-06T10:08:48.705371",
+    "pair": "INJ-USD",
+    "old_signal": "BUY",
+    "new_signal": "HOLD"
   }
 ]
