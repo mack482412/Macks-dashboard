@@ -1,8 +1,8 @@
 {
+  "INJ-USD": "SHORT",
   "AVAX-USD": "SHORT",
-  "INJ-USD": "HOLD",
-  "NEAR-USD": "HOLD",
   "BTC-USD": "HOLD",
+  "NEAR-USD": "HOLD",
   "AAVE-USD": "HOLD",
   "LTC-USD": "HOLD",
   "DOT-USD": "HOLD",
