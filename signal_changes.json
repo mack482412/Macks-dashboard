@@ -1,17 +1,5 @@
 [
   {
-    "time": "2026-06-07T20:01:36.100663",
-    "pair": "LINK-USD",
-    "old_signal": "HOLD",
-    "new_signal": "SHORT"
-  },
-  {
-    "time": "2026-06-07T20:16:39.975795",
-    "pair": "BTC-USD",
-    "old_signal": "STRONG_SHORT",
-    "new_signal": "SHORT"
-  },
-  {
     "time": "2026-06-07T20:16:39.975806",
     "pair": "AVAX-USD",
     "old_signal": "STRONG_SHORT",
@@ -598,5 +586,17 @@
     "pair": "LINK-USD",
     "old_signal": "BUY",
     "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-06-08T20:21:54.149293",
+    "pair": "AVAX-USD",
+    "old_signal": "HOLD",
+    "new_signal": "SHORT"
+  },
+  {
+    "time": "2026-06-08T20:21:54.149303",
+    "pair": "NEAR-USD",
+    "old_signal": "HOLD",
+    "new_signal": "SHORT"
   }
 ]
