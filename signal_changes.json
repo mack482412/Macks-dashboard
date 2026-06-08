@@ -1,11 +1,5 @@
 [
   {
-    "time": "2026-06-06T22:27:05.552618",
-    "pair": "NEAR-USD",
-    "old_signal": "HOLD",
-    "new_signal": "STRONG_SHORT"
-  },
-  {
     "time": "2026-06-06T22:42:09.578976",
     "pair": "BTC-USD",
     "old_signal": "HOLD",
@@ -597,6 +591,12 @@
     "time": "2026-06-08T06:03:49.929302",
     "pair": "DOT-USD",
     "old_signal": "STRONG_SHORT",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-06-08T09:04:21.927486",
+    "pair": "AVAX-USD",
+    "old_signal": "SHORT",
     "new_signal": "HOLD"
   }
 ]
