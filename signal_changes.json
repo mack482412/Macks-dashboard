@@ -1,11 +1,5 @@
 [
   {
-    "time": "2026-06-07T20:16:39.975813",
-    "pair": "INJ-USD",
-    "old_signal": "SHORT",
-    "new_signal": "HOLD"
-  },
-  {
     "time": "2026-06-07T20:16:39.975818",
     "pair": "NEAR-USD",
     "old_signal": "SHORT",
@@ -598,5 +592,11 @@
     "pair": "AVAX-USD",
     "old_signal": "SHORT",
     "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-06-08T22:22:21.116961",
+    "pair": "NEAR-USD",
+    "old_signal": "HOLD",
+    "new_signal": "SHORT"
   }
 ]
