@@ -1,11 +1,5 @@
 [
   {
-    "time": "2026-06-07T15:30:43.328296",
-    "pair": "DOT-USD",
-    "old_signal": "BUY",
-    "new_signal": "HOLD"
-  },
-  {
     "time": "2026-06-07T19:16:23.993669",
     "pair": "LTC-USD",
     "old_signal": "HOLD",
@@ -598,5 +592,11 @@
     "pair": "DOT-USD",
     "old_signal": "BUY",
     "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-06-08T18:36:24.407397",
+    "pair": "XRP-USD",
+    "old_signal": "HOLD",
+    "new_signal": "BUY"
   }
 ]
