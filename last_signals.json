@@ -1,10 +1,10 @@
 {
-  "DOT-USD": "SHORT",
   "NEAR-USD": "SHORT",
   "ETH-USD": "SHORT",
   "BTC-USD": "SHORT",
   "AAVE-USD": "SHORT",
   "LTC-USD": "SHORT",
+  "DOT-USD": "SHORT",
   "SOL-USD": "SHORT",
   "LINK-USD": "SHORT",
   "AVAX-USD": "SHORT",
