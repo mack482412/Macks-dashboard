@@ -1,11 +1,5 @@
 [
   {
-    "time": "2026-06-09T12:11:18.019116",
-    "pair": "LTC-USD",
-    "old_signal": "SHORT",
-    "new_signal": "HOLD"
-  },
-  {
     "time": "2026-06-09T12:11:18.019120",
     "pair": "BTC-USD",
     "old_signal": "SHORT",
@@ -598,5 +592,11 @@
     "pair": "INJ-USD",
     "old_signal": "SHORT",
     "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-06-09T20:13:40.125486",
+    "pair": "NEAR-USD",
+    "old_signal": "HOLD",
+    "new_signal": "STRONG_BUY"
   }
 ]
