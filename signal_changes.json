@@ -1,11 +1,5 @@
 [
   {
-    "time": "2026-06-09T12:11:18.019120",
-    "pair": "BTC-USD",
-    "old_signal": "SHORT",
-    "new_signal": "HOLD"
-  },
-  {
     "time": "2026-06-09T12:11:18.019124",
     "pair": "AAVE-USD",
     "old_signal": "SHORT",
@@ -598,5 +592,11 @@
     "pair": "NEAR-USD",
     "old_signal": "HOLD",
     "new_signal": "STRONG_BUY"
+  },
+  {
+    "time": "2026-06-09T20:28:44.306252",
+    "pair": "NEAR-USD",
+    "old_signal": "STRONG_BUY",
+    "new_signal": "HOLD"
   }
 ]
