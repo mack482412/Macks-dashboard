@@ -1,35 +1,5 @@
 [
   {
-    "time": "2026-06-08T17:51:10.211171",
-    "pair": "INJ-USD",
-    "old_signal": "HOLD",
-    "new_signal": "STRONG_BUY"
-  },
-  {
-    "time": "2026-06-08T18:06:15.320835",
-    "pair": "DOT-USD",
-    "old_signal": "HOLD",
-    "new_signal": "BUY"
-  },
-  {
-    "time": "2026-06-08T18:06:15.320877",
-    "pair": "LTC-USD",
-    "old_signal": "HOLD",
-    "new_signal": "BUY"
-  },
-  {
-    "time": "2026-06-08T18:21:19.854041",
-    "pair": "AVAX-USD",
-    "old_signal": "HOLD",
-    "new_signal": "BUY"
-  },
-  {
-    "time": "2026-06-08T18:21:19.854051",
-    "pair": "DOT-USD",
-    "old_signal": "BUY",
-    "new_signal": "HOLD"
-  },
-  {
     "time": "2026-06-08T18:36:24.407397",
     "pair": "XRP-USD",
     "old_signal": "HOLD",
@@ -598,5 +568,35 @@
     "pair": "INJ-USD",
     "old_signal": "STRONG_BUY",
     "new_signal": "BUY"
+  },
+  {
+    "time": "2026-06-09T09:25:32.101515",
+    "pair": "ETH-USD",
+    "old_signal": "STRONG_SHORT",
+    "new_signal": "SHORT"
+  },
+  {
+    "time": "2026-06-09T09:25:32.101526",
+    "pair": "BTC-USD",
+    "old_signal": "STRONG_SHORT",
+    "new_signal": "SHORT"
+  },
+  {
+    "time": "2026-06-09T09:25:32.101530",
+    "pair": "LTC-USD",
+    "old_signal": "STRONG_SHORT",
+    "new_signal": "SHORT"
+  },
+  {
+    "time": "2026-06-09T09:25:32.101534",
+    "pair": "AVAX-USD",
+    "old_signal": "STRONG_SHORT",
+    "new_signal": "SHORT"
+  },
+  {
+    "time": "2026-06-09T09:25:32.101537",
+    "pair": "DOGE-USD",
+    "old_signal": "SHORT",
+    "new_signal": "HOLD"
   }
 ]
