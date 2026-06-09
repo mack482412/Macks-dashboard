@@ -1,11 +1,5 @@
 [
   {
-    "time": "2026-06-08T12:35:03.593772",
-    "pair": "AVAX-USD",
-    "old_signal": "HOLD",
-    "new_signal": "STRONG_BUY"
-  },
-  {
     "time": "2026-06-08T12:35:03.593781",
     "pair": "XRP-USD",
     "old_signal": "HOLD",
@@ -598,5 +592,11 @@
     "pair": "NEAR-USD",
     "old_signal": "SHORT",
     "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-06-09T05:39:23.921118",
+    "pair": "AAVE-USD",
+    "old_signal": "HOLD",
+    "new_signal": "BUY"
   }
 ]
