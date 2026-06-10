@@ -1,14 +1,14 @@
 {
+  "INJ-USD": "SHORT",
   "ETH-USD": "SHORT",
   "BTC-USD": "SHORT",
-  "DOT-USD": "SHORT",
   "SOL-USD": "SHORT",
-  "INJ-USD": "HOLD",
-  "NEAR-USD": "HOLD",
-  "LINK-USD": "HOLD",
+  "LINK-USD": "SHORT",
+  "NEAR-USD": "SHORT",
   "XRP-USD": "HOLD",
   "DOGE-USD": "HOLD",
   "AAVE-USD": "HOLD",
   "AVAX-USD": "HOLD",
-  "LTC-USD": "HOLD"
+  "LTC-USD": "HOLD",
+  "DOT-USD": "HOLD"
 }
