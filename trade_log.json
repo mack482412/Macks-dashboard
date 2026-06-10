@@ -1621,5 +1621,24 @@
     "pnl": -0.16096579476861184,
     "pnl_pct": -3.2193158953722363,
     "reason": "SHORT_STOP_LOSS"
+  },
+  {
+    "time": "2026-06-10T16:28:17.292531",
+    "pair": "AAVE-USD",
+    "side": "LONG",
+    "action": "BUY",
+    "price": 62.9,
+    "quantity": 0.04769475357710652,
+    "notional": 3.0,
+    "pnl": 0,
+    "score": 80,
+    "atr_pct": 1.06,
+    "reason": "price > EMA20; price > EMA50; bull EMA alignment; RSI healthy; MACD positive; BTC bullish",
+    "entry_signal": "BUY",
+    "long_score": 80,
+    "short_score": 21.0,
+    "rsi14": 65.07,
+    "macd_hist": 0.078582,
+    "volume_ok": false
   }
 ]
