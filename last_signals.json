@@ -1,14 +1,14 @@
 {
   "NEAR-USD": "STRONG_SHORT",
-  "BTC-USD": "STRONG_SHORT",
-  "AAVE-USD": "STRONG_SHORT",
-  "DOT-USD": "STRONG_SHORT",
-  "LINK-USD": "STRONG_SHORT",
-  "XRP-USD": "SHORT",
   "DOGE-USD": "SHORT",
-  "LTC-USD": "SHORT",
-  "ETH-USD": "SHORT",
-  "INJ-USD": "HOLD",
+  "DOT-USD": "SHORT",
+  "INJ-USD": "SHORT",
+  "AAVE-USD": "SHORT",
+  "LINK-USD": "SHORT",
+  "BTC-USD": "HOLD",
+  "XRP-USD": "HOLD",
+  "ETH-USD": "HOLD",
+  "LTC-USD": "HOLD",
   "SOL-USD": "HOLD",
   "AVAX-USD": "HOLD"
 }
