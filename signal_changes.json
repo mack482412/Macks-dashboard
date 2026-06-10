@@ -1,29 +1,5 @@
 [
   {
-    "time": "2026-06-10T06:16:33.041761",
-    "pair": "NEAR-USD",
-    "old_signal": "STRONG_SHORT",
-    "new_signal": "SHORT"
-  },
-  {
-    "time": "2026-06-10T06:16:33.041766",
-    "pair": "LTC-USD",
-    "old_signal": "HOLD",
-    "new_signal": "SHORT"
-  },
-  {
-    "time": "2026-06-10T06:16:33.041772",
-    "pair": "INJ-USD",
-    "old_signal": "SHORT",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-06-10T06:16:33.041776",
-    "pair": "BTC-USD",
-    "old_signal": "SHORT",
-    "new_signal": "HOLD"
-  },
-  {
     "time": "2026-06-10T06:31:37.307713",
     "pair": "AAVE-USD",
     "old_signal": "SHORT",
@@ -596,6 +572,30 @@
   {
     "time": "2026-06-10T12:18:13.502801",
     "pair": "LTC-USD",
+    "old_signal": "SHORT",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-06-10T12:33:18.084654",
+    "pair": "NEAR-USD",
+    "old_signal": "STRONG_SHORT",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-06-10T12:33:18.084666",
+    "pair": "AAVE-USD",
+    "old_signal": "SHORT",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-06-10T12:33:18.084670",
+    "pair": "LINK-USD",
+    "old_signal": "SHORT",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-06-10T12:33:18.084676",
+    "pair": "INJ-USD",
     "old_signal": "SHORT",
     "new_signal": "HOLD"
   }
