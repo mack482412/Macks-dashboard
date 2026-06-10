@@ -1,11 +1,5 @@
 [
   {
-    "time": "2026-06-10T01:45:16.426208",
-    "pair": "LINK-USD",
-    "old_signal": "HOLD",
-    "new_signal": "STRONG_SHORT"
-  },
-  {
     "time": "2026-06-10T01:45:16.426213",
     "pair": "DOGE-USD",
     "old_signal": "HOLD",
@@ -596,6 +590,12 @@
   {
     "time": "2026-06-10T07:16:49.912421",
     "pair": "AVAX-USD",
+    "old_signal": "SHORT",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-06-10T07:31:54.047849",
+    "pair": "NEAR-USD",
     "old_signal": "SHORT",
     "new_signal": "HOLD"
   }
