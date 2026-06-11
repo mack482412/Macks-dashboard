@@ -16,7 +16,7 @@
       "atr_pct": 1.17,
       "reason": "price > EMA20; price > EMA50; RSI healthy; MACD positive; MACD improving; volume confirmation; ATR usable; BTC regime bullish",
       "opened_at": "2026-05-22T04:27:04.348688",
-      "updated_at": "2026-06-11T16:21:17.821493"
+      "updated_at": "2026-06-11T16:36:22.113551"
     },
     "FIL-USD": {
       "pair": "FIL-USD",
@@ -34,7 +34,7 @@
       "atr_pct": 1.3,
       "reason": "price < EMA20; price < EMA50; bear EMA alignment; RSI weak; MACD negative; MACD weakening; volume active; BTC bearish",
       "opened_at": "2026-06-02T15:42:43.207532",
-      "updated_at": "2026-06-11T16:21:17.821501"
+      "updated_at": "2026-06-11T16:36:22.113560"
     },
     "APT-USD": {
       "pair": "APT-USD",
@@ -52,18 +52,18 @@
       "atr_pct": 1.32,
       "reason": "price < EMA20; price < EMA50; bear EMA alignment; RSI weak; MACD negative; MACD weakening; volume active; BTC bearish",
       "opened_at": "2026-06-02T15:42:43.207572",
-      "updated_at": "2026-06-11T16:21:17.821507"
+      "updated_at": "2026-06-11T16:36:22.113566"
     },
     "AAVE-USD": {
       "pair": "AAVE-USD",
       "side": "LONG",
       "entry_price": 62.9,
-      "current_price": 63.52,
+      "current_price": 63.46,
       "quantity": 0.04769475357710652,
       "notional": 3.0,
-      "market_value": 3.0295707472178064,
-      "unrealized_pnl": 0.029570747217806392,
-      "pnl_pct": 0.9856915739268798,
+      "market_value": 3.02670906200318,
+      "unrealized_pnl": 0.026709062003179795,
+      "pnl_pct": 0.8903020667726599,
       "peak_pnl_pct": 1.2241653418124145,
       "score": 80,
       "ai_confidence": 80,
@@ -85,10 +85,10 @@
         "btc_bear_score": null,
         "btc_reason": null
       },
-      "updated_at": "2026-06-11T16:21:17.821513"
+      "updated_at": "2026-06-11T16:36:22.113572"
     }
   },
   "starting_cash": 50.0,
-  "total_value": 48.42420208364211,
-  "updated_at": "2026-06-11T16:21:17.821516"
+  "total_value": 48.42134039842748,
+  "updated_at": "2026-06-11T16:36:22.113575"
 }
