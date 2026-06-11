@@ -1657,5 +1657,24 @@
     "peak_pnl_pct": 1.2241653418124145,
     "entry_score": 80,
     "entry_reason": "price > EMA20; price > EMA50; bull EMA alignment; RSI healthy; MACD positive; BTC bullish"
+  },
+  {
+    "time": "2026-06-11T17:36:39.031816",
+    "pair": "AVAX-USD",
+    "side": "LONG",
+    "action": "BUY",
+    "price": 6.62,
+    "quantity": 0.7552870090634441,
+    "notional": 5.0,
+    "pnl": 0,
+    "score": 91.0,
+    "atr_pct": 0.59,
+    "reason": "price > EMA20; price > EMA50; bull EMA alignment; RSI healthy; MACD positive; MACD improving; volume active; BTC bullish",
+    "entry_signal": "STRONG_BUY",
+    "long_score": 91.0,
+    "short_score": 10,
+    "rsi14": 65.63,
+    "macd_hist": 0.005182,
+    "volume_ok": true
   }
 ]
