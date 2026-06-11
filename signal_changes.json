@@ -1,11 +1,5 @@
 [
   {
-    "time": "2026-06-11T15:36:04.356138",
-    "pair": "LTC-USD",
-    "old_signal": "HOLD",
-    "new_signal": "SHORT"
-  },
-  {
     "time": "2026-06-11T15:36:04.356147",
     "pair": "AAVE-USD",
     "old_signal": "HOLD",
@@ -598,5 +592,11 @@
     "pair": "LTC-USD",
     "old_signal": "BUY",
     "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-06-11T22:23:00.477313",
+    "pair": "LTC-USD",
+    "old_signal": "HOLD",
+    "new_signal": "BUY"
   }
 ]
