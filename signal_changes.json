@@ -1,11 +1,5 @@
 [
   {
-    "time": "2026-06-10T12:03:09.190835",
-    "pair": "AVAX-USD",
-    "old_signal": "SHORT",
-    "new_signal": "HOLD"
-  },
-  {
     "time": "2026-06-10T12:18:13.502770",
     "pair": "DOT-USD",
     "old_signal": "STRONG_SHORT",
@@ -596,6 +590,12 @@
   {
     "time": "2026-06-11T19:07:04.621251",
     "pair": "NEAR-USD",
+    "old_signal": "STRONG_BUY",
+    "new_signal": "BUY"
+  },
+  {
+    "time": "2026-06-11T19:22:08.893452",
+    "pair": "INJ-USD",
     "old_signal": "STRONG_BUY",
     "new_signal": "BUY"
   }
