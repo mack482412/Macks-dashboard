@@ -1,17 +1,5 @@
 [
   {
-    "time": "2026-06-10T16:28:17.299040",
-    "pair": "DOT-USD",
-    "old_signal": "HOLD",
-    "new_signal": "BUY"
-  },
-  {
-    "time": "2026-06-10T16:28:17.299044",
-    "pair": "DOGE-USD",
-    "old_signal": "HOLD",
-    "new_signal": "BUY"
-  },
-  {
     "time": "2026-06-11T15:20:59.505349",
     "pair": "AAVE-USD",
     "old_signal": "BUY",
@@ -598,5 +586,17 @@
     "pair": "INJ-USD",
     "old_signal": "HOLD",
     "new_signal": "BUY"
+  },
+  {
+    "time": "2026-06-11T21:07:38.931776",
+    "pair": "INJ-USD",
+    "old_signal": "BUY",
+    "new_signal": "STRONG_BUY"
+  },
+  {
+    "time": "2026-06-11T21:07:38.931788",
+    "pair": "NEAR-USD",
+    "old_signal": "HOLD",
+    "new_signal": "STRONG_BUY"
   }
 ]
