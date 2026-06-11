@@ -16,7 +16,7 @@
       "atr_pct": 1.17,
       "reason": "price > EMA20; price > EMA50; RSI healthy; MACD positive; MACD improving; volume confirmation; ATR usable; BTC regime bullish",
       "opened_at": "2026-05-22T04:27:04.348688",
-      "updated_at": "2026-06-11T19:22:08.889100"
+      "updated_at": "2026-06-11T19:37:13.605439"
     },
     "FIL-USD": {
       "pair": "FIL-USD",
@@ -34,7 +34,7 @@
       "atr_pct": 1.3,
       "reason": "price < EMA20; price < EMA50; bear EMA alignment; RSI weak; MACD negative; MACD weakening; volume active; BTC bearish",
       "opened_at": "2026-06-02T15:42:43.207532",
-      "updated_at": "2026-06-11T19:22:08.889108"
+      "updated_at": "2026-06-11T19:37:13.605447"
     },
     "APT-USD": {
       "pair": "APT-USD",
@@ -52,19 +52,19 @@
       "atr_pct": 1.32,
       "reason": "price < EMA20; price < EMA50; bear EMA alignment; RSI weak; MACD negative; MACD weakening; volume active; BTC bearish",
       "opened_at": "2026-06-02T15:42:43.207572",
-      "updated_at": "2026-06-11T19:22:08.889113"
+      "updated_at": "2026-06-11T19:37:13.605453"
     },
     "AVAX-USD": {
       "pair": "AVAX-USD",
       "side": "LONG",
       "entry_price": 6.62,
-      "current_price": 6.65,
+      "current_price": 6.68,
       "quantity": 0.7552870090634441,
       "notional": 5.0,
-      "market_value": 5.022658610271904,
-      "unrealized_pnl": 0.022658610271903967,
-      "pnl_pct": 0.45317220543807935,
-      "peak_pnl_pct": 0.7552870090634478,
+      "market_value": 5.045317220543807,
+      "unrealized_pnl": 0.045317220543807046,
+      "pnl_pct": 0.906344410876141,
+      "peak_pnl_pct": 0.906344410876141,
       "score": 91.0,
       "ai_confidence": 91.0,
       "atr_pct": 0.59,
@@ -85,10 +85,10 @@
         "btc_bear_score": null,
         "btc_reason": null
       },
-      "updated_at": "2026-06-11T19:22:08.889119"
+      "updated_at": "2026-06-11T19:37:13.605459"
     }
   },
   "starting_cash": 50.0,
-  "total_value": 48.40965878612387,
-  "updated_at": "2026-06-11T19:22:08.889123"
+  "total_value": 48.432317396395774,
+  "updated_at": "2026-06-11T19:37:13.605462"
 }
