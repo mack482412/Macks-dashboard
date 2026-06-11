@@ -6,9 +6,9 @@
   "SOL-USD": "HOLD",
   "AAVE-USD": "HOLD",
   "LTC-USD": "HOLD",
-  "BTC-USD": "HOLD",
-  "LINK-USD": "HOLD",
   "XRP-USD": "HOLD",
   "DOGE-USD": "HOLD",
-  "ETH-USD": "HOLD"
+  "ETH-USD": "HOLD",
+  "LINK-USD": "HOLD",
+  "BTC-USD": "HOLD"
 }
