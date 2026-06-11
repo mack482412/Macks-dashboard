@@ -7,8 +7,8 @@
   "INJ-USD": "SHORT",
   "LTC-USD": "SHORT",
   "BTC-USD": "HOLD",
-  "DOT-USD": "HOLD",
-  "DOGE-USD": "HOLD",
   "AAVE-USD": "HOLD",
-  "SOL-USD": "HOLD"
+  "DOT-USD": "HOLD",
+  "SOL-USD": "HOLD",
+  "DOGE-USD": "HOLD"
 }
