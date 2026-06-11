@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/live/:path*", "destination": "http://161.153.96.231/:path*" }
+  ]
+}

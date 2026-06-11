@@ -378,11 +378,11 @@
     }
 
     async function loadDashboard() {
-      const portfolio = await fetchJson("http://161.153.96.231/paper_portfolio.json", {});
-      const trades = await fetchJson("http://161.153.96.231/trade_log.json", []);
-      const runStatus = await fetchJson("http://161.153.96.231/run_status.json", {});
-      const signalChanges = await fetchJson("http://161.153.96.231/signal_changes.json", []);
-      const learning = await fetchJson("http://161.153.96.231/learning_memory.json", {});
+      const portfolio = await fetchJson("/live/paper_portfolio.json", {});
+      const trades = await fetchJson("/live/trade_log.json", []);
+      const runStatus = await fetchJson("/live/run_status.json", {});
+      const signalChanges = await fetchJson("/live/signal_changes.json", []);
+      const learning = await fetchJson("/live/learning_memory.json", {});
 
       const positions = portfolio.positions || {};
       const openPositionValue = Object.values(positions).reduce(
