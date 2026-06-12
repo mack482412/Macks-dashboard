@@ -1,14 +1,14 @@
 {
+  "AVAX-USD": "STRONG_BUY",
+  "XRP-USD": "STRONG_BUY",
+  "DOT-USD": "STRONG_BUY",
   "DOGE-USD": "STRONG_BUY",
-  "AAVE-USD": "BUY",
-  "LTC-USD": "BUY",
-  "NEAR-USD": "BUY",
   "INJ-USD": "BUY",
-  "DOT-USD": "BUY",
-  "AVAX-USD": "HOLD",
-  "XRP-USD": "HOLD",
+  "LTC-USD": "BUY",
+  "ETH-USD": "BUY",
+  "LINK-USD": "BUY",
+  "NEAR-USD": "BUY",
+  "BTC-USD": "BUY",
   "SOL-USD": "HOLD",
-  "BTC-USD": "HOLD",
-  "ETH-USD": "HOLD",
-  "LINK-USD": "HOLD"
+  "AAVE-USD": "HOLD"
 }
