@@ -1,11 +1,5 @@
 [
   {
-    "time": "2026-06-11T15:51:08.921185",
-    "pair": "AAVE-USD",
-    "old_signal": "BUY",
-    "new_signal": "HOLD"
-  },
-  {
     "time": "2026-06-11T15:51:08.921189",
     "pair": "DOGE-USD",
     "old_signal": "BUY",
@@ -598,5 +592,11 @@
     "pair": "AAVE-USD",
     "old_signal": "BUY",
     "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-06-12T02:09:04.518021",
+    "pair": "INJ-USD",
+    "old_signal": "HOLD",
+    "new_signal": "BUY"
   }
 ]
