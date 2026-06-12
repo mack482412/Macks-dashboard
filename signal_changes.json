@@ -1,17 +1,5 @@
 [
   {
-    "time": "2026-06-11T18:21:51.701438",
-    "pair": "DOGE-USD",
-    "old_signal": "STRONG_BUY",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-06-11T18:21:51.701442",
-    "pair": "SOL-USD",
-    "old_signal": "STRONG_BUY",
-    "new_signal": "HOLD"
-  },
-  {
     "time": "2026-06-11T18:21:51.701446",
     "pair": "ETH-USD",
     "old_signal": "BUY",
@@ -596,6 +584,18 @@
   {
     "time": "2026-06-12T05:09:54.214413",
     "pair": "LINK-USD",
+    "old_signal": "BUY",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-06-12T05:40:02.510575",
+    "pair": "DOGE-USD",
+    "old_signal": "HOLD",
+    "new_signal": "STRONG_BUY"
+  },
+  {
+    "time": "2026-06-12T05:40:02.510590",
+    "pair": "DOT-USD",
     "old_signal": "BUY",
     "new_signal": "HOLD"
   }
