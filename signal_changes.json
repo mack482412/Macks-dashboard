@@ -1,11 +1,5 @@
 [
   {
-    "time": "2026-06-11T20:37:30.613873",
-    "pair": "INJ-USD",
-    "old_signal": "BUY",
-    "new_signal": "HOLD"
-  },
-  {
     "time": "2026-06-11T20:37:30.613884",
     "pair": "NEAR-USD",
     "old_signal": "BUY",
@@ -598,5 +592,11 @@
     "pair": "SOL-USD",
     "old_signal": "HOLD",
     "new_signal": "SHORT"
+  },
+  {
+    "time": "2026-06-12T07:55:38.570739",
+    "pair": "NEAR-USD",
+    "old_signal": "BUY",
+    "new_signal": "HOLD"
   }
 ]
