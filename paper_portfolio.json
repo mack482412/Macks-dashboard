@@ -16,7 +16,7 @@
       "atr_pct": 1.17,
       "reason": "price > EMA20; price > EMA50; RSI healthy; MACD positive; MACD improving; volume confirmation; ATR usable; BTC regime bullish",
       "opened_at": "2026-05-22T04:27:04.348688",
-      "updated_at": "2026-06-12T01:08:46.613002"
+      "updated_at": "2026-06-12T01:23:50.871686"
     },
     "FIL-USD": {
       "pair": "FIL-USD",
@@ -34,7 +34,7 @@
       "atr_pct": 1.3,
       "reason": "price < EMA20; price < EMA50; bear EMA alignment; RSI weak; MACD negative; MACD weakening; volume active; BTC bearish",
       "opened_at": "2026-06-02T15:42:43.207532",
-      "updated_at": "2026-06-12T01:08:46.613010"
+      "updated_at": "2026-06-12T01:23:50.871698"
     },
     "APT-USD": {
       "pair": "APT-USD",
@@ -52,7 +52,7 @@
       "atr_pct": 1.32,
       "reason": "price < EMA20; price < EMA50; bear EMA alignment; RSI weak; MACD negative; MACD weakening; volume active; BTC bearish",
       "opened_at": "2026-06-02T15:42:43.207572",
-      "updated_at": "2026-06-12T01:08:46.613016"
+      "updated_at": "2026-06-12T01:23:50.871708"
     },
     "AVAX-USD": {
       "pair": "AVAX-USD",
@@ -85,10 +85,10 @@
         "btc_bear_score": null,
         "btc_reason": null
       },
-      "updated_at": "2026-06-12T01:08:46.613023"
+      "updated_at": "2026-06-12T01:23:50.871717"
     }
   },
   "starting_cash": 50.0,
   "total_value": 48.387000175851966,
-  "updated_at": "2026-06-12T01:08:46.613026"
+  "updated_at": "2026-06-12T01:23:50.871721"
 }
