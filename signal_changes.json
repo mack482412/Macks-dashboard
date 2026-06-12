@@ -1,17 +1,5 @@
 [
   {
-    "time": "2026-06-12T03:24:25.778850",
-    "pair": "AVAX-USD",
-    "old_signal": "BUY",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-06-12T03:24:25.778873",
-    "pair": "ETH-USD",
-    "old_signal": "BUY",
-    "new_signal": "HOLD"
-  },
-  {
     "time": "2026-06-12T03:39:29.813992",
     "pair": "DOGE-USD",
     "old_signal": "HOLD",
@@ -596,6 +584,18 @@
   {
     "time": "2026-06-12T11:11:30.733581",
     "pair": "XRP-USD",
+    "old_signal": "HOLD",
+    "new_signal": "BUY"
+  },
+  {
+    "time": "2026-06-12T11:26:34.866345",
+    "pair": "SOL-USD",
+    "old_signal": "HOLD",
+    "new_signal": "BUY"
+  },
+  {
+    "time": "2026-06-12T11:26:34.866354",
+    "pair": "DOGE-USD",
     "old_signal": "HOLD",
     "new_signal": "BUY"
   }
