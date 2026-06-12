@@ -1,35 +1,5 @@
 [
   {
-    "time": "2026-06-12T07:55:38.570739",
-    "pair": "NEAR-USD",
-    "old_signal": "BUY",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-06-12T08:10:42.481738",
-    "pair": "NEAR-USD",
-    "old_signal": "HOLD",
-    "new_signal": "BUY"
-  },
-  {
-    "time": "2026-06-12T08:10:42.481747",
-    "pair": "ETH-USD",
-    "old_signal": "SHORT",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-06-12T08:10:42.481751",
-    "pair": "BTC-USD",
-    "old_signal": "SHORT",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-06-12T08:10:42.481755",
-    "pair": "AAVE-USD",
-    "old_signal": "SHORT",
-    "new_signal": "HOLD"
-  },
-  {
     "time": "2026-06-12T08:10:42.481758",
     "pair": "LINK-USD",
     "old_signal": "SHORT",
@@ -598,5 +568,35 @@
     "pair": "AVAX-USD",
     "old_signal": "HOLD",
     "new_signal": "BUY"
+  },
+  {
+    "time": "2026-06-12T15:12:36.408582",
+    "pair": "XRP-USD",
+    "old_signal": "BUY",
+    "new_signal": "STRONG_BUY"
+  },
+  {
+    "time": "2026-06-12T15:12:36.408592",
+    "pair": "ETH-USD",
+    "old_signal": "HOLD",
+    "new_signal": "STRONG_BUY"
+  },
+  {
+    "time": "2026-06-12T15:12:36.408598",
+    "pair": "AAVE-USD",
+    "old_signal": "STRONG_BUY",
+    "new_signal": "BUY"
+  },
+  {
+    "time": "2026-06-12T15:12:36.408601",
+    "pair": "LTC-USD",
+    "old_signal": "STRONG_BUY",
+    "new_signal": "BUY"
+  },
+  {
+    "time": "2026-06-12T15:12:36.408606",
+    "pair": "DOGE-USD",
+    "old_signal": "BUY",
+    "new_signal": "HOLD"
   }
 ]
