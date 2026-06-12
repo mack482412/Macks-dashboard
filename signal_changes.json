@@ -1,29 +1,5 @@
 [
   {
-    "time": "2026-06-12T10:56:26.729774",
-    "pair": "DOT-USD",
-    "old_signal": "BUY",
-    "new_signal": "HOLD"
-  },
-  {
-    "time": "2026-06-12T11:11:30.733581",
-    "pair": "XRP-USD",
-    "old_signal": "HOLD",
-    "new_signal": "BUY"
-  },
-  {
-    "time": "2026-06-12T11:26:34.866345",
-    "pair": "SOL-USD",
-    "old_signal": "HOLD",
-    "new_signal": "BUY"
-  },
-  {
-    "time": "2026-06-12T11:26:34.866354",
-    "pair": "DOGE-USD",
-    "old_signal": "HOLD",
-    "new_signal": "BUY"
-  },
-  {
     "time": "2026-06-12T11:41:38.827389",
     "pair": "LTC-USD",
     "old_signal": "HOLD",
@@ -597,6 +573,30 @@
     "time": "2026-06-12T16:43:01.707200",
     "pair": "INJ-USD",
     "old_signal": "SHORT",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-06-12T16:58:06.215730",
+    "pair": "DOGE-USD",
+    "old_signal": "HOLD",
+    "new_signal": "BUY"
+  },
+  {
+    "time": "2026-06-12T16:58:06.215738",
+    "pair": "SOL-USD",
+    "old_signal": "BUY",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-06-12T16:58:06.215741",
+    "pair": "BTC-USD",
+    "old_signal": "BUY",
+    "new_signal": "HOLD"
+  },
+  {
+    "time": "2026-06-12T16:58:06.215746",
+    "pair": "ETH-USD",
+    "old_signal": "BUY",
     "new_signal": "HOLD"
   }
 ]
