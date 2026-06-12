@@ -1,11 +1,5 @@
 [
   {
-    "time": "2026-06-11T23:53:25.392660",
-    "pair": "NEAR-USD",
-    "old_signal": "BUY",
-    "new_signal": "HOLD"
-  },
-  {
     "time": "2026-06-12T00:53:42.521594",
     "pair": "AAVE-USD",
     "old_signal": "HOLD",
@@ -598,5 +592,11 @@
     "pair": "SOL-USD",
     "old_signal": "HOLD",
     "new_signal": "BUY"
+  },
+  {
+    "time": "2026-06-12T09:10:58.261497",
+    "pair": "XRP-USD",
+    "old_signal": "HOLD",
+    "new_signal": "STRONG_BUY"
   }
 ]
