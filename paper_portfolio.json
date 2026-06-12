@@ -16,7 +16,7 @@
       "atr_pct": 1.17,
       "reason": "price > EMA20; price > EMA50; RSI healthy; MACD positive; MACD improving; volume confirmation; ATR usable; BTC regime bullish",
       "opened_at": "2026-05-22T04:27:04.348688",
-      "updated_at": "2026-06-12T14:27:23.710610"
+      "updated_at": "2026-06-12T14:42:27.892657"
     },
     "FIL-USD": {
       "pair": "FIL-USD",
@@ -34,7 +34,7 @@
       "atr_pct": 1.3,
       "reason": "price < EMA20; price < EMA50; bear EMA alignment; RSI weak; MACD negative; MACD weakening; volume active; BTC bearish",
       "opened_at": "2026-06-02T15:42:43.207532",
-      "updated_at": "2026-06-12T14:27:23.710619"
+      "updated_at": "2026-06-12T14:42:27.892665"
     },
     "APT-USD": {
       "pair": "APT-USD",
@@ -52,18 +52,18 @@
       "atr_pct": 1.32,
       "reason": "price < EMA20; price < EMA50; bear EMA alignment; RSI weak; MACD negative; MACD weakening; volume active; BTC bearish",
       "opened_at": "2026-06-02T15:42:43.207572",
-      "updated_at": "2026-06-12T14:27:23.710625"
+      "updated_at": "2026-06-12T14:42:27.892672"
     },
     "AVAX-USD": {
       "pair": "AVAX-USD",
       "side": "LONG",
       "entry_price": 6.62,
-      "current_price": 6.59,
+      "current_price": 6.61,
       "quantity": 0.7552870090634441,
       "notional": 5.0,
-      "market_value": 4.977341389728097,
-      "unrealized_pnl": -0.02265861027190308,
-      "pnl_pct": -0.4531722054380616,
+      "market_value": 4.992447129909366,
+      "unrealized_pnl": -0.007552870090633768,
+      "pnl_pct": -0.15105740181267535,
       "peak_pnl_pct": 0.906344410876141,
       "score": 91.0,
       "ai_confidence": 91.0,
@@ -85,10 +85,10 @@
         "btc_bear_score": null,
         "btc_reason": null
       },
-      "updated_at": "2026-06-12T14:27:23.710631"
+      "updated_at": "2026-06-12T14:42:27.892678"
     }
   },
   "starting_cash": 50.0,
-  "total_value": 48.36434156558006,
-  "updated_at": "2026-06-12T14:27:23.710633"
+  "total_value": 48.37944730576133,
+  "updated_at": "2026-06-12T14:42:27.892680"
 }
